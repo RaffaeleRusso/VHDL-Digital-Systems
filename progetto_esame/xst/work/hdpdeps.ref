@@ -1,0 +1,100 @@
+V3 59
+FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/cnt_10.vhd 2022/10/17.21:25:46 P.20131013
+EN work/cnt_10 1666046954 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/cnt_10.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/cnt_10/behavioural 1666046955 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/cnt_10.vhd EN work/cnt_10 1666046954
+FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/cnt_mod4.vhd 2022/10/17.21:52:25 P.20131013
+EN work/cnt4 1666046948 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/cnt_mod4.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/cnt4/behavioural 1666046949 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/cnt_mod4.vhd EN work/cnt4 1666046948
+FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/cont_mod4.vhd 2022/10/17.20:51:45 P.20131013
+EN work/cont16 1666046952 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/cont_mod4.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/cont16/behavioural 1666046953 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/cont_mod4.vhd \
+      EN work/cont16 1666046952
+FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/full_box.vhd 2022/10/17.22:32:33 P.20131013
+EN work/full_box 1666046974 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/full_box.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/full_box/Structural 1666046975 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/full_box.vhd \
+      EN work/full_box 1666046974 CP system CP Nodo_input
+FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/Nodo_A.vhd 2022/10/17.22:48:56 P.20131013
+EN work/Nodo_A 1666046966 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/Nodo_A.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Nodo_A/structural 1666046967 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/Nodo_A.vhd EN work/Nodo_A 1666046966 \
+      CP uc_A CP uo_A
+FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/Nodo_B.vhd 2022/10/17.21:20:12 P.20131013
+EN work/Nodo_B 1666046968 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/Nodo_B.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Nodo_B/Structural 1666046969 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/Nodo_B.vhd EN work/Nodo_B 1666046968 \
+      CP cnt_10 CP riconoscitore_sequenza
+FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/Nodo_input.vhd 2022/10/17.20:45:42 P.20131013
+EN work/Nodo_input 1666046972 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/Nodo_input.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Nodo_input/structural 1666046973 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/Nodo_input.vhd \
+      EN work/Nodo_input 1666046972 CP uc_input CP uo_input
+FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/riconoscitore_sequenza.vhd 2022/10/17.20:57:53 P.20131013
+EN work/riconoscitore_sequenza 1666046956 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/riconoscitore_sequenza.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/riconoscitore_sequenza/Behavioral 1666046957 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/riconoscitore_sequenza.vhd \
+      EN work/riconoscitore_sequenza 1666046956
+FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/ROM.vhd 2022/10/17.20:34:58 P.20131013
+EN work/ROM 1666046950 FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/ROM.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/ROM/behavioral 1666046951 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/ROM.vhd EN work/ROM 1666046950
+FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/sr_par.vhd 2022/10/17.22:14:10 P.20131013
+EN work/sr_par 1666046946 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/sr_par.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/sr_par/rtl 1666046947 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/sr_par.vhd EN work/sr_par 1666046946
+FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/system.vhd 2022/10/17.22:34:18 P.20131013
+EN work/system 1666046970 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/system.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/system/Structural 1666046971 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/system.vhd EN work/system 1666046970 \
+      CP Nodo_A CP Nodo_B
+FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/uc_A.vhd 2022/10/17.22:48:28 P.20131013
+EN work/uc_A 1666046958 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/uc_A.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/uc_A/structural 1666046959 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/uc_A.vhd EN work/uc_A 1666046958
+FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/uc_input.vhd 2022/10/17.22:14:11 P.20131013
+EN work/uc_input 1666046962 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/uc_input.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/uc_input/structural 1666046963 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/uc_input.vhd \
+      EN work/uc_input 1666046962
+FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/uo_A.vhd 2022/10/17.22:33:22 P.20131013
+EN work/uo_A 1666046960 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/uo_A.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/uo_A/Structural 1666046961 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/uo_A.vhd EN work/uo_A 1666046960 \
+      CP sr_par CP cnt4
+FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/uo_input.vhd 2022/10/17.20:24:39 P.20131013
+EN work/uo_input 1666046964 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/uo_input.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/uo_input/structural 1666046965 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/uo_input.vhd \
+      EN work/uo_input 1666046964 CP ROM CP cont16

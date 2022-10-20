@@ -1,0 +1,1417 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> 
+Reading design: Orologio_board.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Orologio_board.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Orologio_board"
+Output Format                      : NGC
+Target Device                      : xc3s1200e-5-fg320
+
+---- Source Options
+Top Module Name                    : Orologio_board
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/FFT.vhd" in Library work.
+Architecture behavioral of Entity fft is up to date.
+Compiling vhdl file "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Contatore_4.vhd" in Library work.
+Architecture behavioral of Entity counter_mod4 is up to date.
+Compiling vhdl file "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Divisore_freq.vhd" in Library work.
+Architecture behavioral of Entity divisore_freq is up to date.
+Compiling vhdl file "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Anodes_manager.vhd" in Library work.
+Architecture behavioral of Entity anodes_manager is up to date.
+Compiling vhdl file "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Cathodes_manager.vhd" in Library work.
+Architecture behavioral of Entity cathodes_manager is up to date.
+Compiling vhdl file "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Contatore_60.vhd" in Library work.
+Architecture structural of Entity contatore_60 is up to date.
+Compiling vhdl file "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Contatore_24.vhd" in Library work.
+Architecture structural of Entity contatore_24 is up to date.
+Compiling vhdl file "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/codificatore.vhd" in Library work.
+Architecture behavioral of Entity codificatore is up to date.
+Compiling vhdl file "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/ControlloreI.vhd" in Library work.
+Architecture behavioral of Entity controllorei is up to date.
+Compiling vhdl file "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/demux.vhd" in Library work.
+Architecture dataflow of Entity demux_1_4 is up to date.
+Compiling vhdl file "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_hh_mm_ss.vhd" in Library work.
+Architecture structural of Entity orologio_hh_mm_ss is up to date.
+Compiling vhdl file "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Seven_segments_display.vhd" in Library work.
+Architecture structural of Entity seven_segments_display is up to date.
+Compiling vhdl file "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.vhd" in Library work.
+Entity <orologio_board> compiled.
+Entity <orologio_board> (Architecture <structural>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Orologio_board> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <codificatore> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ControlloreI> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <DEMUX_1_4> in library <work> (architecture <dataflow>).
+
+Analyzing hierarchy for entity <Orologio_hh_mm_ss> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <Seven_segments_display> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <Divisore_freq> in library <work> (architecture <behavioral>) with generics.
+	freq_in = 50000000
+	freq_out = 1
+
+Analyzing hierarchy for entity <Contatore_60> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <Contatore_24> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <counter_mod4> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Divisore_freq> in library <work> (architecture <behavioral>) with generics.
+	freq_in = 50000000
+	freq_out = 500
+
+Analyzing hierarchy for entity <Anodes_manager> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Cathodes_manager> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <FFT> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Orologio_board> in library <work> (Architecture <structural>).
+WARNING:Xst:753 - "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.vhd" line 100: Unconnected output port 'DIV' of component 'Orologio_hh_mm_ss'.
+Entity <Orologio_board> analyzed. Unit <Orologio_board> generated.
+
+Analyzing Entity <codificatore> in library <work> (Architecture <behavioral>).
+Entity <codificatore> analyzed. Unit <codificatore> generated.
+
+Analyzing Entity <ControlloreI> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/ControlloreI.vhd" line 43: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <HMS>, <I>
+Entity <ControlloreI> analyzed. Unit <ControlloreI> generated.
+
+Analyzing Entity <DEMUX_1_4> in library <work> (Architecture <dataflow>).
+Entity <DEMUX_1_4> analyzed. Unit <DEMUX_1_4> generated.
+
+Analyzing Entity <Orologio_hh_mm_ss> in library <work> (Architecture <structural>).
+Entity <Orologio_hh_mm_ss> analyzed. Unit <Orologio_hh_mm_ss> generated.
+
+Analyzing generic Entity <Divisore_freq.1> in library <work> (Architecture <behavioral>).
+	freq_in = 50000000
+	freq_out = 1
+Entity <Divisore_freq.1> analyzed. Unit <Divisore_freq.1> generated.
+
+Analyzing Entity <Contatore_60> in library <work> (Architecture <structural>).
+Entity <Contatore_60> analyzed. Unit <Contatore_60> generated.
+
+Analyzing Entity <FFT> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/FFT.vhd" line 51: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <I>
+Entity <FFT> analyzed. Unit <FFT> generated.
+
+Analyzing Entity <Contatore_24> in library <work> (Architecture <structural>).
+Entity <Contatore_24> analyzed. Unit <Contatore_24> generated.
+
+Analyzing Entity <Seven_segments_display> in library <work> (Architecture <structural>).
+Entity <Seven_segments_display> analyzed. Unit <Seven_segments_display> generated.
+
+Analyzing Entity <counter_mod4> in library <work> (Architecture <behavioral>).
+Entity <counter_mod4> analyzed. Unit <counter_mod4> generated.
+
+Analyzing generic Entity <Divisore_freq.2> in library <work> (Architecture <behavioral>).
+	freq_in = 50000000
+	freq_out = 500
+Entity <Divisore_freq.2> analyzed. Unit <Divisore_freq.2> generated.
+
+Analyzing Entity <Anodes_manager> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Anodes_manager.vhd" line 56: Mux is complete : default of case is discarded
+Entity <Anodes_manager> analyzed. Unit <Anodes_manager> generated.
+
+Analyzing Entity <Cathodes_manager> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Cathodes_manager.vhd" line 87: Mux is complete : default of case is discarded
+WARNING:Xst:819 - "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Cathodes_manager.vhd" line 72: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <value>, <dots>
+INFO:Xst:1561 - "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Cathodes_manager.vhd" line 113: Mux is complete : default of case is discarded
+Entity <Cathodes_manager> analyzed. Unit <Cathodes_manager> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <codificatore>.
+    Related source file is "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/codificatore.vhd".
+Unit <codificatore> synthesized.
+
+
+Synthesizing Unit <ControlloreI>.
+    Related source file is "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/ControlloreI.vhd".
+WARNING:Xst:647 - Input <SET> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 6-bit comparator greater for signal <Output$cmp_gt0000> created at line 46.
+    Found 6-bit comparator greater for signal <Output$cmp_gt0001> created at line 52.
+    Summary:
+	inferred   2 Comparator(s).
+Unit <ControlloreI> synthesized.
+
+
+Synthesizing Unit <DEMUX_1_4>.
+    Related source file is "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/demux.vhd".
+Unit <DEMUX_1_4> synthesized.
+
+
+Synthesizing Unit <Divisore_freq_1>.
+    Related source file is "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Divisore_freq.vhd".
+    Found 1-bit register for signal <clk_out>.
+    Found 26-bit up counter for signal <cont>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <Divisore_freq_1> synthesized.
+
+
+Synthesizing Unit <FFT>.
+    Related source file is "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/FFT.vhd".
+    Found 1-bit register for signal <T>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <FFT> synthesized.
+
+
+Synthesizing Unit <counter_mod4>.
+    Related source file is "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Contatore_4.vhd".
+    Found 2-bit up counter for signal <c>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <counter_mod4> synthesized.
+
+
+Synthesizing Unit <Divisore_freq_2>.
+    Related source file is "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Divisore_freq.vhd".
+    Found 1-bit register for signal <clk_out>.
+    Found 17-bit up counter for signal <cont>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <Divisore_freq_2> synthesized.
+
+
+Synthesizing Unit <Anodes_manager>.
+    Related source file is "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Anodes_manager.vhd".
+    Found 1-of-4 decoder for signal <anodes_switching>.
+    Summary:
+	inferred   1 Decoder(s).
+Unit <Anodes_manager> synthesized.
+
+
+Synthesizing Unit <Cathodes_manager>.
+    Related source file is "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Cathodes_manager.vhd".
+WARNING:Xst:647 - Input <dots<3>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 16x7-bit ROM for signal <cathodes_for_digit>.
+    Found 4-bit 4-to-1 multiplexer for signal <nibble>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   4 Multiplexer(s).
+Unit <Cathodes_manager> synthesized.
+
+
+Synthesizing Unit <Seven_segments_display>.
+    Related source file is "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Seven_segments_display.vhd".
+WARNING:Xst:1780 - Signal <d> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <Seven_segments_display> synthesized.
+
+
+Synthesizing Unit <Contatore_60>.
+    Related source file is "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Contatore_60.vhd".
+Unit <Contatore_60> synthesized.
+
+
+Synthesizing Unit <Contatore_24>.
+    Related source file is "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Contatore_24.vhd".
+Unit <Contatore_24> synthesized.
+
+
+Synthesizing Unit <Orologio_hh_mm_ss>.
+    Related source file is "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_hh_mm_ss.vhd".
+Unit <Orologio_hh_mm_ss> synthesized.
+
+
+Synthesizing Unit <Orologio_board>.
+    Related source file is "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.vhd".
+WARNING:Xst:646 - Signal <SETS<3>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <Orologio_board> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Counters                                             : 3
+ 17-bit up counter                                     : 1
+ 2-bit up counter                                      : 1
+ 26-bit up counter                                     : 1
+# Registers                                            : 19
+ 1-bit register                                        : 19
+# Comparators                                          : 2
+ 6-bit comparator greater                              : 2
+# Multiplexers                                         : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Counters                                             : 3
+ 17-bit up counter                                     : 1
+ 2-bit up counter                                      : 1
+ 26-bit up counter                                     : 1
+# Registers                                            : 19
+ Flip-Flops                                            : 19
+# Comparators                                          : 2
+ 6-bit comparator greater                              : 2
+# Multiplexers                                         : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Orologio_board> ...
+
+Optimizing unit <codificatore> ...
+
+Optimizing unit <Contatore_60> ...
+
+Optimizing unit <Contatore_24> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Orologio_board, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 64
+ Flip-Flops                                            : 64
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Orologio_board.ngr
+Top Level Output File Name         : Orologio_board
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 28
+
+Cell Usage :
+# BELS                             : 302
+#      GND                         : 1
+#      INV                         : 20
+#      LUT1                        : 42
+#      LUT2                        : 18
+#      LUT3                        : 28
+#      LUT4                        : 83
+#      MUXCY                       : 53
+#      MUXF5                       : 13
+#      VCC                         : 1
+#      XORCY                       : 43
+# FlipFlops/Latches                : 64
+#      FDCPE_1                     : 17
+#      FDR                         : 45
+#      FDRE                        : 2
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 27
+#      IBUF                        : 10
+#      OBUF                        : 17
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1200efg320-5 
+
+ Number of Slices:                       96  out of   8672     1%  
+ Number of Slice Flip Flops:             64  out of  17344     0%  
+ Number of 4 input LUTs:                191  out of  17344     1%  
+ Number of IOs:                          28
+ Number of bonded IOBs:                  28  out of    250    11%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+--------------------------------------------------------+-------------------------------+-------+
+Clock Signal                                            | Clock buffer(FF name)         | Load  |
+--------------------------------------------------------+-------------------------------+-------+
+CLK                                                     | BUFGP                         | 47    |
+Orologio/Divf/clk_out                                   | NONE(Orologio/Secondi/F1/T)   | 1     |
+Orologio/Secondi/t<0>(Orologio/Secondi/t_0_and00001:O)  | NONE(*)(Orologio/Secondi/F2/T)| 1     |
+Orologio/Secondi/t<1>(Orologio/Secondi/t_4_and0000111:O)| NONE(*)(Orologio/Secondi/F3/T)| 1     |
+Orologio/Secondi/t<2>(Orologio/Secondi/t_4_and000012:O) | NONE(*)(Orologio/Secondi/F4/T)| 1     |
+Orologio/Secondi/t<3>(Orologio/Secondi/t_3_and00001:O)  | NONE(*)(Orologio/Secondi/F5/T)| 1     |
+Orologio/Secondi/t<4>(Orologio/Secondi/t_4_and00001:O)  | NONE(*)(Orologio/Secondi/F6/T)| 1     |
+Orologio/t<0>(Orologio/t_0_and00001:O)                  | NONE(*)(Orologio/Minuti/F1/T) | 1     |
+Orologio/Minuti/t<0>(Orologio/Minuti/t_0_and00001:O)    | NONE(*)(Orologio/Minuti/F2/T) | 1     |
+Orologio/Minuti/t<1>(Orologio/t_1_and00004:O)           | NONE(*)(Orologio/Minuti/F3/T) | 1     |
+Orologio/Minuti/t<2>(Orologio/Minuti/t_4_and000012:O)   | NONE(*)(Orologio/Minuti/F4/T) | 1     |
+Orologio/Minuti/t<3>(Orologio/Minuti/t_3_and00001:O)    | NONE(*)(Orologio/Minuti/F5/T) | 1     |
+Orologio/Minuti/t<4>(Orologio/Minuti/t_4_and00001:O)    | NONE(*)(Orologio/Minuti/F6/T) | 1     |
+Orologio/t<1>(Orologio/t_1_and000013:O)                 | NONE(*)(Orologio/Ore/F1/T)    | 1     |
+Orologio/Ore/t<0>(Orologio/Ore/t_0_and00001:O)          | NONE(*)(Orologio/Ore/F2/T)    | 1     |
+Orologio/Ore/t<1>(Orologio/Ore/t_1_and00001:O)          | NONE(*)(Orologio/Ore/F3/T)    | 1     |
+Orologio/Ore/t<2>(Orologio/Ore/t_2_and00001:O)          | NONE(*)(Orologio/Ore/F4/T)    | 1     |
+Orologio/Ore/t<3>(Orologio/Ore/t_3_and00001:O)          | NONE(*)(Orologio/Ore/F5/T)    | 1     |
+--------------------------------------------------------+-------------------------------+-------+
+(*) These 16 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+---------------------------------------------------------------+----------------------------+-------+
+Control Signal                                                 | Buffer(FF name)            | Load  |
+---------------------------------------------------------------+----------------------------+-------+
+Orologio/Minuti/F1/T_and0000(Orologio/Minuti/F1/T_and00001:O)  | NONE(Orologio/Minuti/F1/T) | 1     |
+Orologio/Minuti/F1/T_or0000(Orologio/Minuti/F1/T_or00001:O)    | NONE(Orologio/Minuti/F1/T) | 1     |
+Orologio/Minuti/F2/T_and0000(Orologio/Minuti/F2/T_and00001:O)  | NONE(Orologio/Minuti/F2/T) | 1     |
+Orologio/Minuti/F2/T_or0000(Orologio/Minuti/F2/T_or00001:O)    | NONE(Orologio/Minuti/F2/T) | 1     |
+Orologio/Minuti/F3/T_and0000(Orologio/Minuti/F3/T_and00001:O)  | NONE(Orologio/Minuti/F3/T) | 1     |
+Orologio/Minuti/F3/T_or0000(Orologio/Minuti/F3/T_or00001:O)    | NONE(Orologio/Minuti/F3/T) | 1     |
+Orologio/Minuti/F4/T_and0000(Orologio/Minuti/F4/T_and00001:O)  | NONE(Orologio/Minuti/F4/T) | 1     |
+Orologio/Minuti/F4/T_or0000(Orologio/Minuti/F4/T_or00001:O)    | NONE(Orologio/Minuti/F4/T) | 1     |
+Orologio/Minuti/F5/T_and0000(Orologio/Minuti/F5/T_and00001:O)  | NONE(Orologio/Minuti/F5/T) | 1     |
+Orologio/Minuti/F5/T_or0000(Orologio/Minuti/F5/T_or00001:O)    | NONE(Orologio/Minuti/F5/T) | 1     |
+Orologio/Minuti/F6/T_and0000(Orologio/Minuti/F6/T_and00001:O)  | NONE(Orologio/Minuti/F6/T) | 1     |
+Orologio/Minuti/F6/T_or0000(Orologio/Minuti/F6/T_or00001:O)    | NONE(Orologio/Minuti/F6/T) | 1     |
+Orologio/Ore/F1/T_and0000(Orologio/Ore/F1/T_and00001:O)        | NONE(Orologio/Ore/F1/T)    | 1     |
+Orologio/Ore/F1/T_or0000(Orologio/Ore/F1/T_or00001:O)          | NONE(Orologio/Ore/F1/T)    | 1     |
+Orologio/Ore/F2/T_and0000(Orologio/Ore/F2/T_and00001:O)        | NONE(Orologio/Ore/F2/T)    | 1     |
+Orologio/Ore/F2/T_or0000(Orologio/Ore/F2/T_or00001:O)          | NONE(Orologio/Ore/F2/T)    | 1     |
+Orologio/Ore/F3/T_and0000(Orologio/Ore/F3/T_and00001:O)        | NONE(Orologio/Ore/F3/T)    | 1     |
+Orologio/Ore/F3/T_or0000(Orologio/Ore/F3/T_or00001:O)          | NONE(Orologio/Ore/F3/T)    | 1     |
+Orologio/Ore/F4/T_and0000(Orologio/Ore/F4/T_and00001:O)        | NONE(Orologio/Ore/F4/T)    | 1     |
+Orologio/Ore/F4/T_or0000(Orologio/Ore/F4/T_or00001:O)          | NONE(Orologio/Ore/F4/T)    | 1     |
+Orologio/Ore/F5/T_and0000(Orologio/Ore/F5/T_and00001:O)        | NONE(Orologio/Ore/F5/T)    | 1     |
+Orologio/Ore/F5/T_or0000(Orologio/Ore/F5/T_or00001:O)          | NONE(Orologio/Ore/F5/T)    | 1     |
+Orologio/Secondi/F1/T_and0000(Orologio/Secondi/F1/T_and00001:O)| NONE(Orologio/Secondi/F1/T)| 1     |
+Orologio/Secondi/F1/T_or0000(Orologio/Secondi/F1/T_or00001:O)  | NONE(Orologio/Secondi/F1/T)| 1     |
+Orologio/Secondi/F2/T_and0000(Orologio/Secondi/F2/T_and00001:O)| NONE(Orologio/Secondi/F2/T)| 1     |
+Orologio/Secondi/F2/T_or0000(Orologio/Secondi/F2/T_or00001:O)  | NONE(Orologio/Secondi/F2/T)| 1     |
+Orologio/Secondi/F3/T_and0000(Orologio/Secondi/F3/T_and00001:O)| NONE(Orologio/Secondi/F3/T)| 1     |
+Orologio/Secondi/F3/T_or0000(Orologio/Secondi/F3/T_or00001:O)  | NONE(Orologio/Secondi/F3/T)| 1     |
+Orologio/Secondi/F4/T_and0000(Orologio/Secondi/F4/T_and00001:O)| NONE(Orologio/Secondi/F4/T)| 1     |
+Orologio/Secondi/F4/T_or0000(Orologio/Secondi/F4/T_or00001:O)  | NONE(Orologio/Secondi/F4/T)| 1     |
+Orologio/Secondi/F5/T_and0000(Orologio/Secondi/F5/T_and00001:O)| NONE(Orologio/Secondi/F5/T)| 1     |
+Orologio/Secondi/F5/T_or0000(Orologio/Secondi/F5/T_or00001:O)  | NONE(Orologio/Secondi/F5/T)| 1     |
+Orologio/Secondi/F6/T_and0000(Orologio/Secondi/F6/T_and00001:O)| NONE(Orologio/Secondi/F6/T)| 1     |
+Orologio/Secondi/F6/T_or0000(Orologio/Secondi/F6/T_or00001:O)  | NONE(Orologio/Secondi/F6/T)| 1     |
+---------------------------------------------------------------+----------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 5.646ns (Maximum Frequency: 177.111MHz)
+   Minimum input arrival time before clock: 4.433ns
+   Maximum output required time after clock: 8.643ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 5.646ns (frequency: 177.111MHz)
+  Total number of paths / destination ports: 1517 / 92
+-------------------------------------------------------------------------
+Delay:               5.646ns (Levels of Logic = 9)
+  Source:            Orologio/Divf/cont_5 (FF)
+  Destination:       Orologio/Divf/cont_0 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: Orologio/Divf/cont_5 to Orologio/Divf/cont_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.514   0.532  Orologio/Divf/cont_5 (Orologio/Divf/cont_5)
+     LUT2:I0->O            1   0.612   0.000  Orologio/Divf/cont_cmp_eq0000_wg_lut<0> (Orologio/Divf/cont_cmp_eq0000_wg_lut<0>)
+     MUXCY:S->O            1   0.404   0.000  Orologio/Divf/cont_cmp_eq0000_wg_cy<0> (Orologio/Divf/cont_cmp_eq0000_wg_cy<0>)
+     MUXCY:CI->O           1   0.052   0.000  Orologio/Divf/cont_cmp_eq0000_wg_cy<1> (Orologio/Divf/cont_cmp_eq0000_wg_cy<1>)
+     MUXCY:CI->O           1   0.052   0.000  Orologio/Divf/cont_cmp_eq0000_wg_cy<2> (Orologio/Divf/cont_cmp_eq0000_wg_cy<2>)
+     MUXCY:CI->O           1   0.052   0.000  Orologio/Divf/cont_cmp_eq0000_wg_cy<3> (Orologio/Divf/cont_cmp_eq0000_wg_cy<3>)
+     MUXCY:CI->O           1   0.052   0.000  Orologio/Divf/cont_cmp_eq0000_wg_cy<4> (Orologio/Divf/cont_cmp_eq0000_wg_cy<4>)
+     MUXCY:CI->O           1   0.052   0.000  Orologio/Divf/cont_cmp_eq0000_wg_cy<5> (Orologio/Divf/cont_cmp_eq0000_wg_cy<5>)
+     MUXCY:CI->O           2   0.399   0.449  Orologio/Divf/cont_cmp_eq0000_wg_cy<6> (Orologio/Divf/cont_cmp_eq0000)
+     LUT2:I1->O           26   0.612   1.071  Orologio/Divf/cont_or00001 (Orologio/Divf/cont_or0000)
+     FDR:R                     0.795          Orologio/Divf/cont_0
+    ----------------------------------------
+    Total                      5.646ns (3.594ns logic, 2.052ns route)
+                                       (63.7% logic, 36.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Orologio/Divf/clk_out'
+  Clock period: 2.394ns (frequency: 417.632MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.394ns (Levels of Logic = 1)
+  Source:            Orologio/Secondi/F1/T (FF)
+  Destination:       Orologio/Secondi/F1/T (FF)
+  Source Clock:      Orologio/Divf/clk_out falling
+  Destination Clock: Orologio/Divf/clk_out falling
+
+  Data Path: Orologio/Secondi/F1/T to Orologio/Secondi/F1/T
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q          8   0.514   0.643  Orologio/Secondi/F1/T (Orologio/Secondi/F1/T)
+     INV:I->O              1   0.612   0.357  Orologio/Secondi/F1/T_not00011_INV_0 (Orologio/Secondi/F1/T_not0001)
+     FDCPE_1:D                 0.268          Orologio/Secondi/F1/T
+    ----------------------------------------
+    Total                      2.394ns (1.394ns logic, 1.000ns route)
+                                       (58.2% logic, 41.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Orologio/Secondi/t<0>'
+  Clock period: 2.587ns (frequency: 386.615MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.587ns (Levels of Logic = 1)
+  Source:            Orologio/Secondi/F2/T (FF)
+  Destination:       Orologio/Secondi/F2/T (FF)
+  Source Clock:      Orologio/Secondi/t<0> falling
+  Destination Clock: Orologio/Secondi/t<0> falling
+
+  Data Path: Orologio/Secondi/F2/T to Orologio/Secondi/F2/T
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q         13   0.514   0.836  Orologio/Secondi/F2/T (Orologio/Secondi/F2/T)
+     INV:I->O              1   0.612   0.357  Orologio/Secondi/F2/T_not00011_INV_0 (Orologio/Secondi/F2/T_not0001)
+     FDCPE_1:D                 0.268          Orologio/Secondi/F2/T
+    ----------------------------------------
+    Total                      2.587ns (1.394ns logic, 1.193ns route)
+                                       (53.9% logic, 46.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Orologio/Secondi/t<1>'
+  Clock period: 2.601ns (frequency: 384.467MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.601ns (Levels of Logic = 1)
+  Source:            Orologio/Secondi/F3/T (FF)
+  Destination:       Orologio/Secondi/F3/T (FF)
+  Source Clock:      Orologio/Secondi/t<1> falling
+  Destination Clock: Orologio/Secondi/t<1> falling
+
+  Data Path: Orologio/Secondi/F3/T to Orologio/Secondi/F3/T
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q         14   0.514   0.850  Orologio/Secondi/F3/T (Orologio/Secondi/F3/T)
+     INV:I->O              1   0.612   0.357  Orologio/Secondi/F3/T_not00011_INV_0 (Orologio/Secondi/F3/T_not0001)
+     FDCPE_1:D                 0.268          Orologio/Secondi/F3/T
+    ----------------------------------------
+    Total                      2.601ns (1.394ns logic, 1.207ns route)
+                                       (53.6% logic, 46.4% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Orologio/Secondi/t<2>'
+  Clock period: 2.630ns (frequency: 380.243MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.630ns (Levels of Logic = 1)
+  Source:            Orologio/Secondi/F4/T (FF)
+  Destination:       Orologio/Secondi/F4/T (FF)
+  Source Clock:      Orologio/Secondi/t<2> falling
+  Destination Clock: Orologio/Secondi/t<2> falling
+
+  Data Path: Orologio/Secondi/F4/T to Orologio/Secondi/F4/T
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q         16   0.514   0.879  Orologio/Secondi/F4/T (Orologio/Secondi/F4/T)
+     INV:I->O              1   0.612   0.357  Orologio/Secondi/F4/T_not00011_INV_0 (Orologio/Secondi/F4/T_not0001)
+     FDCPE_1:D                 0.268          Orologio/Secondi/F4/T
+    ----------------------------------------
+    Total                      2.630ns (1.394ns logic, 1.236ns route)
+                                       (53.0% logic, 47.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Orologio/Secondi/t<3>'
+  Clock period: 2.615ns (frequency: 382.343MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.615ns (Levels of Logic = 1)
+  Source:            Orologio/Secondi/F5/T (FF)
+  Destination:       Orologio/Secondi/F5/T (FF)
+  Source Clock:      Orologio/Secondi/t<3> falling
+  Destination Clock: Orologio/Secondi/t<3> falling
+
+  Data Path: Orologio/Secondi/F5/T to Orologio/Secondi/F5/T
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q         15   0.514   0.864  Orologio/Secondi/F5/T (Orologio/Secondi/F5/T)
+     INV:I->O              1   0.612   0.357  Orologio/Secondi/F5/T_not00011_INV_0 (Orologio/Secondi/F5/T_not0001)
+     FDCPE_1:D                 0.268          Orologio/Secondi/F5/T
+    ----------------------------------------
+    Total                      2.615ns (1.394ns logic, 1.221ns route)
+                                       (53.3% logic, 46.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Orologio/Secondi/t<4>'
+  Clock period: 2.544ns (frequency: 393.074MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.544ns (Levels of Logic = 1)
+  Source:            Orologio/Secondi/F6/T (FF)
+  Destination:       Orologio/Secondi/F6/T (FF)
+  Source Clock:      Orologio/Secondi/t<4> falling
+  Destination Clock: Orologio/Secondi/t<4> falling
+
+  Data Path: Orologio/Secondi/F6/T to Orologio/Secondi/F6/T
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q         11   0.514   0.793  Orologio/Secondi/F6/T (Orologio/Secondi/F6/T)
+     INV:I->O              1   0.612   0.357  Orologio/Secondi/F6/T_not00011_INV_0 (Orologio/Secondi/F6/T_not0001)
+     FDCPE_1:D                 0.268          Orologio/Secondi/F6/T
+    ----------------------------------------
+    Total                      2.544ns (1.394ns logic, 1.150ns route)
+                                       (54.8% logic, 45.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Orologio/t<0>'
+  Clock period: 2.353ns (frequency: 425.026MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.353ns (Levels of Logic = 1)
+  Source:            Orologio/Minuti/F1/T (FF)
+  Destination:       Orologio/Minuti/F1/T (FF)
+  Source Clock:      Orologio/t<0> falling
+  Destination Clock: Orologio/t<0> falling
+
+  Data Path: Orologio/Minuti/F1/T to Orologio/Minuti/F1/T
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q          7   0.514   0.602  Orologio/Minuti/F1/T (Orologio/Minuti/F1/T)
+     INV:I->O              1   0.612   0.357  Orologio/Minuti/F1/T_not00011_INV_0 (Orologio/Minuti/F1/T_not0001)
+     FDCPE_1:D                 0.268          Orologio/Minuti/F1/T
+    ----------------------------------------
+    Total                      2.353ns (1.394ns logic, 0.959ns route)
+                                       (59.2% logic, 40.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Orologio/Minuti/t<0>'
+  Clock period: 2.501ns (frequency: 399.888MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.501ns (Levels of Logic = 1)
+  Source:            Orologio/Minuti/F2/T (FF)
+  Destination:       Orologio/Minuti/F2/T (FF)
+  Source Clock:      Orologio/Minuti/t<0> falling
+  Destination Clock: Orologio/Minuti/t<0> falling
+
+  Data Path: Orologio/Minuti/F2/T to Orologio/Minuti/F2/T
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q         10   0.514   0.750  Orologio/Minuti/F2/T (Orologio/Minuti/F2/T)
+     INV:I->O              1   0.612   0.357  Orologio/Minuti/F2/T_not00011_INV_0 (Orologio/Minuti/F2/T_not0001)
+     FDCPE_1:D                 0.268          Orologio/Minuti/F2/T
+    ----------------------------------------
+    Total                      2.501ns (1.394ns logic, 1.107ns route)
+                                       (55.7% logic, 44.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Orologio/Minuti/t<1>'
+  Clock period: 2.615ns (frequency: 382.343MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.615ns (Levels of Logic = 1)
+  Source:            Orologio/Minuti/F3/T (FF)
+  Destination:       Orologio/Minuti/F3/T (FF)
+  Source Clock:      Orologio/Minuti/t<1> falling
+  Destination Clock: Orologio/Minuti/t<1> falling
+
+  Data Path: Orologio/Minuti/F3/T to Orologio/Minuti/F3/T
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q         15   0.514   0.864  Orologio/Minuti/F3/T (Orologio/Minuti/F3/T)
+     INV:I->O              1   0.612   0.357  Orologio/Minuti/F3/T_not00011_INV_0 (Orologio/Minuti/F3/T_not0001)
+     FDCPE_1:D                 0.268          Orologio/Minuti/F3/T
+    ----------------------------------------
+    Total                      2.615ns (1.394ns logic, 1.221ns route)
+                                       (53.3% logic, 46.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Orologio/Minuti/t<2>'
+  Clock period: 2.630ns (frequency: 380.243MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.630ns (Levels of Logic = 1)
+  Source:            Orologio/Minuti/F4/T (FF)
+  Destination:       Orologio/Minuti/F4/T (FF)
+  Source Clock:      Orologio/Minuti/t<2> falling
+  Destination Clock: Orologio/Minuti/t<2> falling
+
+  Data Path: Orologio/Minuti/F4/T to Orologio/Minuti/F4/T
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q         16   0.514   0.879  Orologio/Minuti/F4/T (Orologio/Minuti/F4/T)
+     INV:I->O              1   0.612   0.357  Orologio/Minuti/F4/T_not00011_INV_0 (Orologio/Minuti/F4/T_not0001)
+     FDCPE_1:D                 0.268          Orologio/Minuti/F4/T
+    ----------------------------------------
+    Total                      2.630ns (1.394ns logic, 1.236ns route)
+                                       (53.0% logic, 47.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Orologio/Minuti/t<3>'
+  Clock period: 2.601ns (frequency: 384.467MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.601ns (Levels of Logic = 1)
+  Source:            Orologio/Minuti/F5/T (FF)
+  Destination:       Orologio/Minuti/F5/T (FF)
+  Source Clock:      Orologio/Minuti/t<3> falling
+  Destination Clock: Orologio/Minuti/t<3> falling
+
+  Data Path: Orologio/Minuti/F5/T to Orologio/Minuti/F5/T
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q         14   0.514   0.850  Orologio/Minuti/F5/T (Orologio/Minuti/F5/T)
+     INV:I->O              1   0.612   0.357  Orologio/Minuti/F5/T_not00011_INV_0 (Orologio/Minuti/F5/T_not0001)
+     FDCPE_1:D                 0.268          Orologio/Minuti/F5/T
+    ----------------------------------------
+    Total                      2.601ns (1.394ns logic, 1.207ns route)
+                                       (53.6% logic, 46.4% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Orologio/Minuti/t<4>'
+  Clock period: 2.587ns (frequency: 386.615MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.587ns (Levels of Logic = 1)
+  Source:            Orologio/Minuti/F6/T (FF)
+  Destination:       Orologio/Minuti/F6/T (FF)
+  Source Clock:      Orologio/Minuti/t<4> falling
+  Destination Clock: Orologio/Minuti/t<4> falling
+
+  Data Path: Orologio/Minuti/F6/T to Orologio/Minuti/F6/T
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q         13   0.514   0.836  Orologio/Minuti/F6/T (Orologio/Minuti/F6/T)
+     INV:I->O              1   0.612   0.357  Orologio/Minuti/F6/T_not00011_INV_0 (Orologio/Minuti/F6/T_not0001)
+     FDCPE_1:D                 0.268          Orologio/Minuti/F6/T
+    ----------------------------------------
+    Total                      2.587ns (1.394ns logic, 1.193ns route)
+                                       (53.9% logic, 46.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Orologio/t<1>'
+  Clock period: 2.320ns (frequency: 431.099MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.320ns (Levels of Logic = 1)
+  Source:            Orologio/Ore/F1/T (FF)
+  Destination:       Orologio/Ore/F1/T (FF)
+  Source Clock:      Orologio/t<1> falling
+  Destination Clock: Orologio/t<1> falling
+
+  Data Path: Orologio/Ore/F1/T to Orologio/Ore/F1/T
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q          6   0.514   0.569  Orologio/Ore/F1/T (Orologio/Ore/F1/T)
+     INV:I->O              1   0.612   0.357  Orologio/Ore/F1/T_not00011_INV_0 (Orologio/Ore/F1/T_not0001)
+     FDCPE_1:D                 0.268          Orologio/Ore/F1/T
+    ----------------------------------------
+    Total                      2.320ns (1.394ns logic, 0.926ns route)
+                                       (60.1% logic, 39.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Orologio/Ore/t<0>'
+  Clock period: 2.289ns (frequency: 436.862MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.289ns (Levels of Logic = 1)
+  Source:            Orologio/Ore/F2/T (FF)
+  Destination:       Orologio/Ore/F2/T (FF)
+  Source Clock:      Orologio/Ore/t<0> falling
+  Destination Clock: Orologio/Ore/t<0> falling
+
+  Data Path: Orologio/Ore/F2/T to Orologio/Ore/F2/T
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q          5   0.514   0.538  Orologio/Ore/F2/T (Orologio/Ore/F2/T)
+     INV:I->O              1   0.612   0.357  Orologio/Ore/F2/T_not00011_INV_0 (Orologio/Ore/F2/T_not0001)
+     FDCPE_1:D                 0.268          Orologio/Ore/F2/T
+    ----------------------------------------
+    Total                      2.289ns (1.394ns logic, 0.895ns route)
+                                       (60.9% logic, 39.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Orologio/Ore/t<1>'
+  Clock period: 2.250ns (frequency: 444.454MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.250ns (Levels of Logic = 1)
+  Source:            Orologio/Ore/F3/T (FF)
+  Destination:       Orologio/Ore/F3/T (FF)
+  Source Clock:      Orologio/Ore/t<1> falling
+  Destination Clock: Orologio/Ore/t<1> falling
+
+  Data Path: Orologio/Ore/F3/T to Orologio/Ore/F3/T
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q          4   0.514   0.499  Orologio/Ore/F3/T (Orologio/Ore/F3/T)
+     INV:I->O              1   0.612   0.357  Orologio/Ore/F3/T_not00011_INV_0 (Orologio/Ore/F3/T_not0001)
+     FDCPE_1:D                 0.268          Orologio/Ore/F3/T
+    ----------------------------------------
+    Total                      2.250ns (1.394ns logic, 0.856ns route)
+                                       (62.0% logic, 38.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Orologio/Ore/t<2>'
+  Clock period: 2.250ns (frequency: 444.454MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.250ns (Levels of Logic = 1)
+  Source:            Orologio/Ore/F4/T (FF)
+  Destination:       Orologio/Ore/F4/T (FF)
+  Source Clock:      Orologio/Ore/t<2> falling
+  Destination Clock: Orologio/Ore/t<2> falling
+
+  Data Path: Orologio/Ore/F4/T to Orologio/Ore/F4/T
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q          4   0.514   0.499  Orologio/Ore/F4/T (Orologio/Ore/F4/T)
+     INV:I->O              1   0.612   0.357  Orologio/Ore/F4/T_not00011_INV_0 (Orologio/Ore/F4/T_not0001)
+     FDCPE_1:D                 0.268          Orologio/Ore/F4/T
+    ----------------------------------------
+    Total                      2.250ns (1.394ns logic, 0.856ns route)
+                                       (62.0% logic, 38.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Orologio/Ore/t<3>'
+  Clock period: 2.202ns (frequency: 454.060MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.202ns (Levels of Logic = 1)
+  Source:            Orologio/Ore/F5/T (FF)
+  Destination:       Orologio/Ore/F5/T (FF)
+  Source Clock:      Orologio/Ore/t<3> falling
+  Destination Clock: Orologio/Ore/t<3> falling
+
+  Data Path: Orologio/Ore/F5/T to Orologio/Ore/F5/T
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q          3   0.514   0.451  Orologio/Ore/F5/T (Orologio/Ore/F5/T)
+     INV:I->O              1   0.612   0.357  Orologio/Ore/F5/T_not00011_INV_0 (Orologio/Ore/F5/T_not0001)
+     FDCPE_1:D                 0.268          Orologio/Ore/F5/T
+    ----------------------------------------
+    Total                      2.202ns (1.394ns logic, 0.808ns route)
+                                       (63.3% logic, 36.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 47 / 47
+-------------------------------------------------------------------------
+Offset:              4.433ns (Levels of Logic = 2)
+  Source:            RST (PAD)
+  Destination:       Orologio/Divf/cont_0 (FF)
+  Destination Clock: CLK rising
+
+  Data Path: RST to Orologio/Divf/cont_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             9   1.106   0.849  RST_IBUF (RST_IBUF)
+     LUT2:I0->O           26   0.612   1.071  Orologio/Divf/cont_or00001 (Orologio/Divf/cont_or0000)
+     FDR:R                     0.795          Orologio/Divf/cont_0
+    ----------------------------------------
+    Total                      4.433ns (2.513ns logic, 1.920ns route)
+                                       (56.7% logic, 43.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 85 / 11
+-------------------------------------------------------------------------
+Offset:              7.283ns (Levels of Logic = 4)
+  Source:            SSD/cnt/c_0 (FF)
+  Destination:       CATODES<6> (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: SSD/cnt/c_0 to CATODES<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            13   0.514   0.988  SSD/cnt/c_0 (SSD/cnt/c_0)
+     LUT3:I0->O            1   0.612   0.000  SSD/C_m/Mmux_nibble_3 (SSD/C_m/Mmux_nibble_3)
+     MUXF5:I1->O           7   0.278   0.754  SSD/C_m/Mmux_nibble_2_f5 (SSD/C_m/nibble<0>)
+     LUT4:I0->O            1   0.612   0.357  SSD/C_m/Mrom_cathodes_for_digit31 (CATODES_3_OBUF)
+     OBUF:I->O                 3.169          CATODES_3_OBUF (CATODES<3>)
+    ----------------------------------------
+    Total                      7.283ns (5.185ns logic, 2.098ns route)
+                                       (71.2% logic, 28.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Orologio/Ore/t<3>'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.134ns (Levels of Logic = 1)
+  Source:            Orologio/Ore/F5/T (FF)
+  Destination:       LEDS<0> (PAD)
+  Source Clock:      Orologio/Ore/t<3> falling
+
+  Data Path: Orologio/Ore/F5/T to LEDS<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q          3   0.514   0.451  Orologio/Ore/F5/T (Orologio/Ore/F5/T)
+     OBUF:I->O                 3.169          LEDS_0_OBUF (LEDS<0>)
+    ----------------------------------------
+    Total                      4.134ns (3.683ns logic, 0.451ns route)
+                                       (89.1% logic, 10.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Orologio/Ore/t<2>'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.182ns (Levels of Logic = 1)
+  Source:            Orologio/Ore/F4/T (FF)
+  Destination:       LEDS<1> (PAD)
+  Source Clock:      Orologio/Ore/t<2> falling
+
+  Data Path: Orologio/Ore/F4/T to LEDS<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q          4   0.514   0.499  Orologio/Ore/F4/T (Orologio/Ore/F4/T)
+     OBUF:I->O                 3.169          LEDS_1_OBUF (LEDS<1>)
+    ----------------------------------------
+    Total                      4.182ns (3.683ns logic, 0.499ns route)
+                                       (88.1% logic, 11.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Orologio/Ore/t<1>'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.182ns (Levels of Logic = 1)
+  Source:            Orologio/Ore/F3/T (FF)
+  Destination:       LEDS<2> (PAD)
+  Source Clock:      Orologio/Ore/t<1> falling
+
+  Data Path: Orologio/Ore/F3/T to LEDS<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q          4   0.514   0.499  Orologio/Ore/F3/T (Orologio/Ore/F3/T)
+     OBUF:I->O                 3.169          LEDS_2_OBUF (LEDS<2>)
+    ----------------------------------------
+    Total                      4.182ns (3.683ns logic, 0.499ns route)
+                                       (88.1% logic, 11.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Orologio/Ore/t<0>'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.221ns (Levels of Logic = 1)
+  Source:            Orologio/Ore/F2/T (FF)
+  Destination:       LEDS<3> (PAD)
+  Source Clock:      Orologio/Ore/t<0> falling
+
+  Data Path: Orologio/Ore/F2/T to LEDS<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q          5   0.514   0.538  Orologio/Ore/F2/T (Orologio/Ore/F2/T)
+     OBUF:I->O                 3.169          LEDS_3_OBUF (LEDS<3>)
+    ----------------------------------------
+    Total                      4.221ns (3.683ns logic, 0.538ns route)
+                                       (87.3% logic, 12.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Orologio/t<1>'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.252ns (Levels of Logic = 1)
+  Source:            Orologio/Ore/F1/T (FF)
+  Destination:       LEDS<4> (PAD)
+  Source Clock:      Orologio/t<1> falling
+
+  Data Path: Orologio/Ore/F1/T to LEDS<4>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q          6   0.514   0.569  Orologio/Ore/F1/T (Orologio/Ore/F1/T)
+     OBUF:I->O                 3.169          LEDS_4_OBUF (LEDS<4>)
+    ----------------------------------------
+    Total                      4.252ns (3.683ns logic, 0.569ns route)
+                                       (86.6% logic, 13.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Orologio/Secondi/t<3>'
+  Total number of paths / destination ports: 77 / 7
+-------------------------------------------------------------------------
+Offset:              8.628ns (Levels of Logic = 6)
+  Source:            Orologio/Secondi/F5/T (FF)
+  Destination:       CATODES<6> (PAD)
+  Source Clock:      Orologio/Secondi/t<3> falling
+
+  Data Path: Orologio/Secondi/F5/T to CATODES<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q         15   0.514   1.016  Orologio/Secondi/F5/T (Orologio/Secondi/F5/T)
+     LUT4:I0->O            1   0.612   0.000  cod/Z_14_or0000_F (N66)
+     MUXF5:I0->O           1   0.278   0.426  cod/Z_14_or0000 (u<14>)
+     LUT3:I1->O            1   0.612   0.000  SSD/C_m/Mmux_nibble_41 (SSD/C_m/Mmux_nibble_41)
+     MUXF5:I0->O           7   0.278   0.754  SSD/C_m/Mmux_nibble_2_f5_0 (SSD/C_m/nibble<1>)
+     LUT4:I0->O            1   0.612   0.357  SSD/C_m/Mrom_cathodes_for_digit21 (CATODES_2_OBUF)
+     OBUF:I->O                 3.169          CATODES_2_OBUF (CATODES<2>)
+    ----------------------------------------
+    Total                      8.628ns (6.075ns logic, 2.553ns route)
+                                       (70.4% logic, 29.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Orologio/Secondi/t<0>'
+  Total number of paths / destination ports: 56 / 7
+-------------------------------------------------------------------------
+Offset:              8.516ns (Levels of Logic = 6)
+  Source:            Orologio/Secondi/F2/T (FF)
+  Destination:       CATODES<6> (PAD)
+  Source Clock:      Orologio/Secondi/t<0> falling
+
+  Data Path: Orologio/Secondi/F2/T to CATODES<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q         13   0.514   0.905  Orologio/Secondi/F2/T (Orologio/Secondi/F2/T)
+     LUT4:I1->O            1   0.612   0.000  cod/Z_14_or0000_F (N66)
+     MUXF5:I0->O           1   0.278   0.426  cod/Z_14_or0000 (u<14>)
+     LUT3:I1->O            1   0.612   0.000  SSD/C_m/Mmux_nibble_41 (SSD/C_m/Mmux_nibble_41)
+     MUXF5:I0->O           7   0.278   0.754  SSD/C_m/Mmux_nibble_2_f5_0 (SSD/C_m/nibble<1>)
+     LUT4:I0->O            1   0.612   0.357  SSD/C_m/Mrom_cathodes_for_digit21 (CATODES_2_OBUF)
+     OBUF:I->O                 3.169          CATODES_2_OBUF (CATODES<2>)
+    ----------------------------------------
+    Total                      8.516ns (6.075ns logic, 2.441ns route)
+                                       (71.3% logic, 28.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Orologio/Secondi/t<2>'
+  Total number of paths / destination ports: 77 / 7
+-------------------------------------------------------------------------
+Offset:              8.643ns (Levels of Logic = 6)
+  Source:            Orologio/Secondi/F4/T (FF)
+  Destination:       CATODES<6> (PAD)
+  Source Clock:      Orologio/Secondi/t<2> falling
+
+  Data Path: Orologio/Secondi/F4/T to CATODES<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q         16   0.514   1.031  Orologio/Secondi/F4/T (Orologio/Secondi/F4/T)
+     LUT4:I0->O            1   0.612   0.000  cod/Z_14_or0000_G (N67)
+     MUXF5:I1->O           1   0.278   0.426  cod/Z_14_or0000 (u<14>)
+     LUT3:I1->O            1   0.612   0.000  SSD/C_m/Mmux_nibble_41 (SSD/C_m/Mmux_nibble_41)
+     MUXF5:I0->O           7   0.278   0.754  SSD/C_m/Mmux_nibble_2_f5_0 (SSD/C_m/nibble<1>)
+     LUT4:I0->O            1   0.612   0.357  SSD/C_m/Mrom_cathodes_for_digit21 (CATODES_2_OBUF)
+     OBUF:I->O                 3.169          CATODES_2_OBUF (CATODES<2>)
+    ----------------------------------------
+    Total                      8.643ns (6.075ns logic, 2.568ns route)
+                                       (70.3% logic, 29.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Orologio/Secondi/t<4>'
+  Total number of paths / destination ports: 56 / 7
+-------------------------------------------------------------------------
+Offset:              8.474ns (Levels of Logic = 6)
+  Source:            Orologio/Secondi/F6/T (FF)
+  Destination:       CATODES<6> (PAD)
+  Source Clock:      Orologio/Secondi/t<4> falling
+
+  Data Path: Orologio/Secondi/F6/T to CATODES<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q         11   0.514   0.862  Orologio/Secondi/F6/T (Orologio/Secondi/F6/T)
+     LUT4:I1->O            1   0.612   0.000  cod/Z_14_or0000_G (N67)
+     MUXF5:I1->O           1   0.278   0.426  cod/Z_14_or0000 (u<14>)
+     LUT3:I1->O            1   0.612   0.000  SSD/C_m/Mmux_nibble_41 (SSD/C_m/Mmux_nibble_41)
+     MUXF5:I0->O           7   0.278   0.754  SSD/C_m/Mmux_nibble_2_f5_0 (SSD/C_m/nibble<1>)
+     LUT4:I0->O            1   0.612   0.357  SSD/C_m/Mrom_cathodes_for_digit21 (CATODES_2_OBUF)
+     OBUF:I->O                 3.169          CATODES_2_OBUF (CATODES<2>)
+    ----------------------------------------
+    Total                      8.474ns (6.075ns logic, 2.399ns route)
+                                       (71.7% logic, 28.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Orologio/Secondi/t<1>'
+  Total number of paths / destination ports: 70 / 7
+-------------------------------------------------------------------------
+Offset:              8.492ns (Levels of Logic = 6)
+  Source:            Orologio/Secondi/F3/T (FF)
+  Destination:       CATODES<3> (PAD)
+  Source Clock:      Orologio/Secondi/t<1> falling
+
+  Data Path: Orologio/Secondi/F3/T to CATODES<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q         14   0.514   0.919  Orologio/Secondi/F3/T (Orologio/Secondi/F3/T)
+     LUT4:I1->O            1   0.612   0.000  cod/Z_11_mux0000_G (N55)
+     MUXF5:I1->O           1   0.278   0.387  cod/Z_11_mux0000 (u<11>)
+     LUT3:I2->O            1   0.612   0.000  SSD/C_m/Mmux_nibble_4 (SSD/C_m/Mmux_nibble_4)
+     MUXF5:I0->O           7   0.278   0.754  SSD/C_m/Mmux_nibble_2_f5 (SSD/C_m/nibble<0>)
+     LUT4:I0->O            1   0.612   0.357  SSD/C_m/Mrom_cathodes_for_digit31 (CATODES_3_OBUF)
+     OBUF:I->O                 3.169          CATODES_3_OBUF (CATODES<3>)
+    ----------------------------------------
+    Total                      8.492ns (6.075ns logic, 2.417ns route)
+                                       (71.5% logic, 28.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Orologio/Minuti/t<1>'
+  Total number of paths / destination ports: 77 / 7
+-------------------------------------------------------------------------
+Offset:              8.628ns (Levels of Logic = 6)
+  Source:            Orologio/Minuti/F3/T (FF)
+  Destination:       CATODES<6> (PAD)
+  Source Clock:      Orologio/Minuti/t<1> falling
+
+  Data Path: Orologio/Minuti/F3/T to CATODES<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q         15   0.514   1.016  Orologio/Minuti/F3/T (Orologio/Minuti/F3/T)
+     LUT4:I0->O            1   0.612   0.000  cod/Z_6_or0000_F (N64)
+     MUXF5:I0->O           1   0.278   0.426  cod/Z_6_or0000 (u<6>)
+     LUT3:I1->O            1   0.612   0.000  SSD/C_m/Mmux_nibble_31 (SSD/C_m/Mmux_nibble_31)
+     MUXF5:I1->O           7   0.278   0.754  SSD/C_m/Mmux_nibble_2_f5_0 (SSD/C_m/nibble<1>)
+     LUT4:I0->O            1   0.612   0.357  SSD/C_m/Mrom_cathodes_for_digit21 (CATODES_2_OBUF)
+     OBUF:I->O                 3.169          CATODES_2_OBUF (CATODES<2>)
+    ----------------------------------------
+    Total                      8.628ns (6.075ns logic, 2.553ns route)
+                                       (70.4% logic, 29.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Orologio/Minuti/t<4>'
+  Total number of paths / destination ports: 70 / 7
+-------------------------------------------------------------------------
+Offset:              8.516ns (Levels of Logic = 6)
+  Source:            Orologio/Minuti/F6/T (FF)
+  Destination:       CATODES<6> (PAD)
+  Source Clock:      Orologio/Minuti/t<4> falling
+
+  Data Path: Orologio/Minuti/F6/T to CATODES<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q         13   0.514   0.905  Orologio/Minuti/F6/T (Orologio/Minuti/F6/T)
+     LUT4:I1->O            1   0.612   0.000  cod/Z_6_or0000_F (N64)
+     MUXF5:I0->O           1   0.278   0.426  cod/Z_6_or0000 (u<6>)
+     LUT3:I1->O            1   0.612   0.000  SSD/C_m/Mmux_nibble_31 (SSD/C_m/Mmux_nibble_31)
+     MUXF5:I1->O           7   0.278   0.754  SSD/C_m/Mmux_nibble_2_f5_0 (SSD/C_m/nibble<1>)
+     LUT4:I0->O            1   0.612   0.357  SSD/C_m/Mrom_cathodes_for_digit21 (CATODES_2_OBUF)
+     OBUF:I->O                 3.169          CATODES_2_OBUF (CATODES<2>)
+    ----------------------------------------
+    Total                      8.516ns (6.075ns logic, 2.441ns route)
+                                       (71.3% logic, 28.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Orologio/Minuti/t<2>'
+  Total number of paths / destination ports: 77 / 7
+-------------------------------------------------------------------------
+Offset:              8.643ns (Levels of Logic = 6)
+  Source:            Orologio/Minuti/F4/T (FF)
+  Destination:       CATODES<6> (PAD)
+  Source Clock:      Orologio/Minuti/t<2> falling
+
+  Data Path: Orologio/Minuti/F4/T to CATODES<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q         16   0.514   1.031  Orologio/Minuti/F4/T (Orologio/Minuti/F4/T)
+     LUT4:I0->O            1   0.612   0.000  cod/Z_6_or0000_G (N65)
+     MUXF5:I1->O           1   0.278   0.426  cod/Z_6_or0000 (u<6>)
+     LUT3:I1->O            1   0.612   0.000  SSD/C_m/Mmux_nibble_31 (SSD/C_m/Mmux_nibble_31)
+     MUXF5:I1->O           7   0.278   0.754  SSD/C_m/Mmux_nibble_2_f5_0 (SSD/C_m/nibble<1>)
+     LUT4:I0->O            1   0.612   0.357  SSD/C_m/Mrom_cathodes_for_digit21 (CATODES_2_OBUF)
+     OBUF:I->O                 3.169          CATODES_2_OBUF (CATODES<2>)
+    ----------------------------------------
+    Total                      8.643ns (6.075ns logic, 2.568ns route)
+                                       (70.3% logic, 29.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Orologio/Minuti/t<3>'
+  Total number of paths / destination ports: 70 / 7
+-------------------------------------------------------------------------
+Offset:              8.531ns (Levels of Logic = 6)
+  Source:            Orologio/Minuti/F5/T (FF)
+  Destination:       CATODES<6> (PAD)
+  Source Clock:      Orologio/Minuti/t<3> falling
+
+  Data Path: Orologio/Minuti/F5/T to CATODES<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q         14   0.514   1.002  Orologio/Minuti/F5/T (Orologio/Minuti/F5/T)
+     LUT4:I0->O            1   0.612   0.000  cod/Z_5_or0000_F (N56)
+     MUXF5:I0->O           1   0.278   0.426  cod/Z_5_or0000 (u<5>)
+     LUT3:I1->O            1   0.612   0.000  SSD/C_m/Mmux_nibble_32 (SSD/C_m/Mmux_nibble_32)
+     MUXF5:I1->O           7   0.278   0.671  SSD/C_m/Mmux_nibble_2_f5_1 (SSD/C_m/nibble<2>)
+     LUT4:I1->O            1   0.612   0.357  SSD/C_m/Mrom_cathodes_for_digit61 (CATODES_6_OBUF)
+     OBUF:I->O                 3.169          CATODES_6_OBUF (CATODES<6>)
+    ----------------------------------------
+    Total                      8.531ns (6.075ns logic, 2.456ns route)
+                                       (71.2% logic, 28.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Orologio/Minuti/t<0>'
+  Total number of paths / destination ports: 42 / 7
+-------------------------------------------------------------------------
+Offset:              8.352ns (Levels of Logic = 6)
+  Source:            Orologio/Minuti/F2/T (FF)
+  Destination:       CATODES<3> (PAD)
+  Source Clock:      Orologio/Minuti/t<0> falling
+
+  Data Path: Orologio/Minuti/F2/T to CATODES<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q         10   0.514   0.780  Orologio/Minuti/F2/T (Orologio/Minuti/F2/T)
+     LUT4:I2->O            1   0.612   0.000  cod/Z_3_mux0000_G (N53)
+     MUXF5:I1->O           1   0.278   0.387  cod/Z_3_mux0000 (u<3>)
+     LUT3:I2->O            1   0.612   0.000  SSD/C_m/Mmux_nibble_3 (SSD/C_m/Mmux_nibble_3)
+     MUXF5:I1->O           7   0.278   0.754  SSD/C_m/Mmux_nibble_2_f5 (SSD/C_m/nibble<0>)
+     LUT4:I0->O            1   0.612   0.357  SSD/C_m/Mrom_cathodes_for_digit31 (CATODES_3_OBUF)
+     OBUF:I->O                 3.169          CATODES_3_OBUF (CATODES<3>)
+    ----------------------------------------
+    Total                      8.352ns (6.075ns logic, 2.278ns route)
+                                       (72.7% logic, 27.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Orologio/Divf/clk_out'
+  Total number of paths / destination ports: 14 / 7
+-------------------------------------------------------------------------
+Offset:              8.258ns (Levels of Logic = 6)
+  Source:            Orologio/Secondi/F1/T (FF)
+  Destination:       CATODES<3> (PAD)
+  Source Clock:      Orologio/Divf/clk_out falling
+
+  Data Path: Orologio/Secondi/F1/T to CATODES<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q          8   0.514   0.646  Orologio/Secondi/F1/T (Orologio/Secondi/F1/T)
+     LUT4:I3->O            1   0.612   0.000  cod/Z_15_mux00001 (cod/Z_15_mux0000)
+     MUXF5:I1->O           1   0.278   0.426  cod/Z_15_mux0000_f5 (u<15>)
+     LUT3:I1->O            1   0.612   0.000  SSD/C_m/Mmux_nibble_4 (SSD/C_m/Mmux_nibble_4)
+     MUXF5:I0->O           7   0.278   0.754  SSD/C_m/Mmux_nibble_2_f5 (SSD/C_m/nibble<0>)
+     LUT4:I0->O            1   0.612   0.357  SSD/C_m/Mrom_cathodes_for_digit31 (CATODES_3_OBUF)
+     OBUF:I->O                 3.169          CATODES_3_OBUF (CATODES<3>)
+    ----------------------------------------
+    Total                      8.258ns (6.075ns logic, 2.183ns route)
+                                       (73.6% logic, 26.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Orologio/t<0>'
+  Total number of paths / destination ports: 14 / 7
+-------------------------------------------------------------------------
+Offset:              8.217ns (Levels of Logic = 6)
+  Source:            Orologio/Minuti/F1/T (FF)
+  Destination:       CATODES<3> (PAD)
+  Source Clock:      Orologio/t<0> falling
+
+  Data Path: Orologio/Minuti/F1/T to CATODES<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q          7   0.514   0.605  Orologio/Minuti/F1/T (Orologio/Minuti/F1/T)
+     LUT4:I3->O            1   0.612   0.000  cod/Z_7_mux00001 (cod/Z_7_mux0000)
+     MUXF5:I1->O           1   0.278   0.426  cod/Z_7_mux0000_f5 (u<7>)
+     LUT3:I1->O            1   0.612   0.000  SSD/C_m/Mmux_nibble_3 (SSD/C_m/Mmux_nibble_3)
+     MUXF5:I1->O           7   0.278   0.754  SSD/C_m/Mmux_nibble_2_f5 (SSD/C_m/nibble<0>)
+     LUT4:I0->O            1   0.612   0.357  SSD/C_m/Mrom_cathodes_for_digit31 (CATODES_3_OBUF)
+     OBUF:I->O                 3.169          CATODES_3_OBUF (CATODES<3>)
+    ----------------------------------------
+    Total                      8.217ns (6.075ns logic, 2.142ns route)
+                                       (73.9% logic, 26.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 5.16 secs
+ 
+--> 
+
+
+Total memory usage is 616672 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    8 (   0 filtered)
+Number of infos    :    4 (   0 filtered)
+

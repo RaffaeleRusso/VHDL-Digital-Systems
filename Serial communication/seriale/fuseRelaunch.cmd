@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/vhdl/seriale_1/seriale/sistema_tb_isim_beh.exe" -prj "/home/ise/vhdl/seriale_1/seriale/sistema_tb_beh.prj" "work.sistema_tb" 

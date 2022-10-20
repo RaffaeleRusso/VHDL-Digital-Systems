@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/vincenzo/Scrivania/Progetti_Xilinx/Es_pronti/Esercizio_1/rete_intercon_decoder_Tb_isim_beh.exe" -prj "/home/vincenzo/Scrivania/Progetti_Xilinx/Es_pronti/Esercizio_1/rete_intercon_decoder_Tb_beh.prj" "work.rete_intercon_decoder_Tb" 

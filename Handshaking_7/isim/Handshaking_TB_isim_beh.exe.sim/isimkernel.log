@@ -1,0 +1,30 @@
+Command line:
+   Handshaking_TB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  45339
+
+Fri Sep 16 02:25:01 2022
+
+
+ Elaboration Time: 0.04 sec
+
+ Current Memory Usage: 184.144 Meg
+
+ Total Signals          : 78
+ Total Nets             : 139
+ Total Signal Drivers   : 20
+ Total Blocks           : 16
+ Total Primitive Blocks : 12
+ Total Processes        : 12
+ Total Traceable Variables  : 54
+ Total Scalar Nets and Variables : 773
+Total Line Count : 69
+Total Line Count : 69
+
+ Total Simulation Time: 0.22 sec
+
+ Current Memory Usage: 259.645 Meg
+
+Fri Sep 16 02:29:23 2022
+

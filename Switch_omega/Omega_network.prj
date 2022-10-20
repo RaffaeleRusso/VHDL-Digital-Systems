@@ -1,0 +1,6 @@
+vhdl work "RoutingNode.vhd"
+vhdl work "Mux_4_1.vhd"
+vhdl work "Arbitro.vhd"
+vhdl work "op_unit.vhd"
+vhdl work "control_unit.vhd"
+vhdl work "Omega_network.vhd"

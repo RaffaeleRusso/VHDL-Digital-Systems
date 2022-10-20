@@ -1,0 +1,30 @@
+Command line:
+   BlowFish_Decr_TB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51387
+
+Tue Sep 13 11:59:44 2022
+
+
+ Elaboration Time: 0.09 sec
+
+ Current Memory Usage: 214.942 Meg
+
+ Total Signals          : 464
+ Total Nets             : 34340
+ Total Signal Drivers   : 160
+ Total Blocks           : 145
+ Total Primitive Blocks : 79
+ Total Processes        : 151
+ Total Traceable Variables  : 79
+ Total Scalar Nets and Variables : 34905
+Total Line Count : 233
+Total Line Count : 233
+
+ Total Simulation Time: 0.14 sec
+
+ Current Memory Usage: 290.443 Meg
+
+Tue Sep 13 12:00:08 2022
+

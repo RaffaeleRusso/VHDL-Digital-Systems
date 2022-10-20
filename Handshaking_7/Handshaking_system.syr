@@ -1,0 +1,555 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> 
+Reading design: Handshaking_system.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Handshaking_system.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Handshaking_system"
+Output Format                      : NGC
+Target Device                      : xc3s1200e-5-fg320
+
+---- Source Options
+Top Module Name                    : Handshaking_system
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/ucB.vhd" in Library work.
+Architecture behavioral of Entity ucb is up to date.
+Compiling vhdl file "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/counter_mod8.vhd" in Library work.
+Architecture behavioral of Entity counter is up to date.
+Compiling vhdl file "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/ROM.vhd" in Library work.
+Architecture behavioral of Entity rom is up to date.
+Compiling vhdl file "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/RAM.vhd" in Library work.
+Architecture behavioral of Entity ram is up to date.
+Compiling vhdl file "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/ucA.vhd" in Library work.
+Architecture behavioral of Entity uca is up to date.
+Compiling vhdl file "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/EntityA.vhd" in Library work.
+Architecture structural of Entity entitya is up to date.
+Compiling vhdl file "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/EntityB.vhd" in Library work.
+Entity <entityb> compiled.
+Entity <entityb> (Architecture <structural>) compiled.
+Compiling vhdl file "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/Handshaking_system.vhd" in Library work.
+Architecture structural of Entity handshaking_system is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Handshaking_system> in library <work> (architecture <structural>) with generics.
+	M = 4
+	N = 8
+
+Analyzing hierarchy for entity <EntityA> in library <work> (architecture <structural>) with generics.
+	M = 4
+	N = 8
+
+Analyzing hierarchy for entity <EntityB> in library <work> (architecture <structural>) with generics.
+	M = 4
+	N = 8
+
+Analyzing hierarchy for entity <ucA> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <counter> in library <work> (architecture <behavioral>) with generics.
+	N = 8
+
+Analyzing hierarchy for entity <ROM> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ucB> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <RAM> in library <work> (architecture <behavioral>) with generics.
+	M = 5
+	N = 8
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <Handshaking_system> in library <work> (Architecture <structural>).
+	M = 4
+	N = 8
+Entity <Handshaking_system> analyzed. Unit <Handshaking_system> generated.
+
+Analyzing generic Entity <EntityA> in library <work> (Architecture <structural>).
+	M = 4
+	N = 8
+Entity <EntityA> analyzed. Unit <EntityA> generated.
+
+Analyzing Entity <ucA> in library <work> (Architecture <behavioral>).
+Entity <ucA> analyzed. Unit <ucA> generated.
+
+Analyzing generic Entity <counter> in library <work> (Architecture <behavioral>).
+	N = 8
+Entity <counter> analyzed. Unit <counter> generated.
+
+Analyzing Entity <ROM> in library <work> (Architecture <behavioral>).
+    Set property "rom_style = block" for signal <ROM>.
+Entity <ROM> analyzed. Unit <ROM> generated.
+
+Analyzing generic Entity <EntityB> in library <work> (Architecture <structural>).
+	M = 4
+	N = 8
+WARNING:Xst:753 - "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/EntityB.vhd" line 117: Unconnected output port 'DIV' of component 'counter'.
+WARNING:Xst:1610 - "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/EntityB.vhd" line 137: Width mismatch. <somma> has a width of 5 bits but assigned expression is 4-bit wide.
+WARNING:Xst:753 - "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/EntityB.vhd" line 139: Unconnected output port 'do' of component 'RAM'.
+Entity <EntityB> analyzed. Unit <EntityB> generated.
+
+Analyzing Entity <ucB> in library <work> (Architecture <behavioral>).
+Entity <ucB> analyzed. Unit <ucB> generated.
+
+Analyzing generic Entity <RAM> in library <work> (Architecture <behavioral>).
+	M = 5
+	N = 8
+Entity <RAM> analyzed. Unit <RAM> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <ucA>.
+    Related source file is "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/ucA.vhd".
+WARNING:Xst:647 - Input <RST> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found finite state machine <FSM_0> for signal <stato_corr>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 3                                              |
+    | Outputs            | 3                                              |
+    | Clock              | CLK                       (rising_edge)        |
+    | Power Up State     | idle                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <RTS>.
+    Found 1-bit register for signal <incr>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   2 D-type flip-flop(s).
+Unit <ucA> synthesized.
+
+
+Synthesizing Unit <counter>.
+    Related source file is "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/counter_mod8.vhd".
+    Found 1-bit register for signal <DIV>.
+    Found 3-bit up counter for signal <c>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <counter> synthesized.
+
+
+Synthesizing Unit <ROM>.
+    Related source file is "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/ROM.vhd".
+WARNING:Xst:1781 - Signal <ROM> is used but never assigned. Tied to default value.
+    Found 8x4-bit ROM for signal <$varindex0000> created at line 69.
+    Found 4-bit register for signal <DATA>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   4 D-type flip-flop(s).
+Unit <ROM> synthesized.
+
+
+Synthesizing Unit <ucB>.
+    Related source file is "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/ucB.vhd".
+WARNING:Xst:647 - Input <RST> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Register <RTS> equivalent to <incr> has been removed
+    Found finite state machine <FSM_1> for signal <stato_corr>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 4                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 3                                              |
+    | Clock              | CLK                       (rising_edge)        |
+    | Power Up State     | q0                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <incr>.
+    Found 1-bit register for signal <we>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   2 D-type flip-flop(s).
+Unit <ucB> synthesized.
+
+
+Synthesizing Unit <RAM>.
+    Related source file is "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/RAM.vhd".
+    Found 5-bit register for signal <do>.
+    Found 5-bit 8-to-1 multiplexer for signal <$varindex0000> created at line 68.
+    Found 40-bit register for signal <RAM>.
+    Summary:
+	inferred  45 D-type flip-flop(s).
+	inferred   5 Multiplexer(s).
+Unit <RAM> synthesized.
+
+
+Synthesizing Unit <EntityA>.
+    Related source file is "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/EntityA.vhd".
+Unit <EntityA> synthesized.
+
+
+Synthesizing Unit <EntityB>.
+    Related source file is "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/EntityB.vhd".
+    Found 4-bit adder for signal <somma$add0000> created at line 137.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <EntityB> synthesized.
+
+
+Synthesizing Unit <Handshaking_system>.
+    Related source file is "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/Handshaking_system.vhd".
+Unit <Handshaking_system> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 8x4-bit ROM                                           : 2
+# Adders/Subtractors                                   : 1
+ 4-bit adder                                           : 1
+# Counters                                             : 2
+ 3-bit up counter                                      : 2
+# Registers                                            : 17
+ 1-bit register                                        : 6
+ 4-bit register                                        : 2
+ 5-bit register                                        : 9
+# Multiplexers                                         : 1
+ 5-bit 8-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <B/UC/stato_corr/FSM> on signal <stato_corr[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ q0    | 00
+ q1    | 01
+ q2    | 10
+-------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <A/UC/stato_corr/FSM> on signal <stato_corr[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ idle  | 00
+ q0    | 01
+ q1    | 10
+-------------------
+WARNING:Xst:1290 - Hierarchical block <A> is unconnected in block <Handshaking_system>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <B> is unconnected in block <Handshaking_system>.
+   It will be removed from the design.
+
+Synthesizing (advanced) Unit <ROM>.
+INFO:Xst:3044 - The ROM <Mrom__varindex0000> will be implemented as a read-only BLOCK RAM, absorbing the register: <_varindex0000>.
+INFO:Xst:3225 - The RAM <Mrom__varindex0000> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 8-word x 4-bit                      |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <CLK>           | rise     |
+    |     enA            | connected to signal <DATA_not0001_0> | high     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <ADDR>          |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <DATA>          |          |
+    |     dorstA         | connected to signal <N0>            | high     |
+    | reset value        | 0000                                           |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <ROM> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 2
+# RAMs                                                 : 2
+ 8x4-bit single-port block RAM                         : 2
+# Adders/Subtractors                                   : 1
+ 4-bit adder                                           : 1
+# Counters                                             : 2
+ 3-bit up counter                                      : 2
+# Registers                                            : 51
+ Flip-Flops                                            : 51
+# Multiplexers                                         : 1
+ 5-bit 8-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <RAM_1_4> (without init value) has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <RAM_0_4> (without init value) has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <RAM_2_4> (without init value) has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <RAM_3_4> (without init value) has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <RAM_6_4> (without init value) has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <RAM_4_4> (without init value) has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <RAM_5_4> (without init value) has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <RAM_7_4> (without init value) has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <B/cont_ric/DIV> of sequential type is unconnected in block <Handshaking_system>.
+INFO:Xst:2697 - Unit <Handshaking_system> : the RAMs <A/rom0/Mrom__varindex0000>, <B/rom1/Mrom__varindex0000> are packed into the single block RAM <A/rom0/Mrom__varindex00001>
+WARNING:Xst:1710 - FF/Latch <do_4> (without init value) has a constant value of 0 in block <RAM>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <Handshaking_system> ...
+
+Optimizing unit <RAM> ...
+WARNING:Xst:2677 - Node <A/cont_tras/DIV> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <A/UC/incr> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <A/UC/RTS> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <A/UC/stato_corr_FSM_FFd1> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <A/UC/stato_corr_FSM_FFd2> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/UC/we> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/UC/incr> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/UC/stato_corr_FSM_FFd2> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/UC/stato_corr_FSM_FFd1> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <A/rom0/Mrom__varindex00001> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <A/cont_tras/c_0> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <A/cont_tras/c_1> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <A/cont_tras/c_2> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/cont_ric/c_0> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/cont_ric/c_1> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/cont_ric/c_2> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/do_3> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/do_2> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/do_1> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/do_0> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/RAM_7_3> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/RAM_7_2> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/RAM_7_1> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/RAM_7_0> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/RAM_5_3> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/RAM_5_2> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/RAM_5_1> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/RAM_5_0> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/RAM_4_3> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/RAM_4_2> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/RAM_4_1> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/RAM_4_0> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/RAM_6_3> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/RAM_6_2> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/RAM_6_1> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/RAM_6_0> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/RAM_3_3> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/RAM_3_2> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/RAM_3_1> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/RAM_3_0> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/RAM_2_3> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/RAM_2_2> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/RAM_2_1> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/RAM_2_0> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/RAM_0_3> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/RAM_0_2> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/RAM_0_1> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/RAM_0_0> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/RAM_1_3> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/RAM_1_2> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/RAM_1_1> of sequential type is unconnected in block <Handshaking_system>.
+WARNING:Xst:2677 - Node <B/ram0/RAM_1_0> of sequential type is unconnected in block <Handshaking_system>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Handshaking_system, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Handshaking_system.ngr
+Top Level Output File Name         : Handshaking_system
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 3
+
+Cell Usage :
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1200efg320-5 
+
+ Number of Slices:                        0  out of   8672     0%  
+ Number of IOs:                           3
+ Number of bonded IOBs:                   0  out of    250     0%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 10.46 secs
+ 
+--> 
+
+
+Total memory usage is 514208 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   70 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

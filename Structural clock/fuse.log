@@ -1,0 +1,29 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_TB_isim_beh.exe -prj /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_TB_beh.prj work.Orologio_TB 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/FFT.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Divisore_freq.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Contatore_60.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Contatore_24.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_hh_mm_ss.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_TB.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 95572 KB
+Fuse CPU Usage: 710 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity Divisore_freq [\Divisore_freq(50000000,1)\]
+Compiling architecture behavioral of entity FFT [fft_default]
+Compiling architecture structural of entity Contatore_60 [contatore_60_default]
+Compiling architecture structural of entity Contatore_24 [contatore_24_default]
+Compiling architecture structural of entity Orologio_hh_mm_ss [orologio_hh_mm_ss_default]
+Compiling architecture behavior of entity orologio_tb
+Time Resolution for simulation is 1ps.
+Compiled 13 VHDL Units
+Built simulation executable /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_TB_isim_beh.exe
+Fuse Memory Usage: 104228 KB
+Fuse CPU Usage: 800 ms
+GCC CPU Usage: 470 ms

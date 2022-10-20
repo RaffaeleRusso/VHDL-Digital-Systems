@@ -1,0 +1,3 @@
+vhdl work "riconoscitore_sequenza.vhd"
+vhdl work "ButtonDebouncer.vhd"
+vhdl work "riconoscitore_sequenza_temp.vhd"

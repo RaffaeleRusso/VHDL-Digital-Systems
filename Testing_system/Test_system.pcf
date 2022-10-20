@@ -1,0 +1,14 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Mar 04 19:50:08 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Y<1>" LOCATE = SITE "J15" LEVEL 1;
+COMP "Y<2>" LOCATE = SITE "K15" LEVEL 1;
+COMP "RST" LOCATE = SITE "E18" LEVEL 1;
+COMP "BTN_READ" LOCATE = SITE "H13" LEVEL 1;
+COMP "CLK" LOCATE = SITE "B8" LEVEL 1;
+COMP "Y<0>" LOCATE = SITE "J14" LEVEL 1;
+NET "CLK_BUFGP/IBUFG" BEL "CLK_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

@@ -1,0 +1,431 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> 
+Reading design: Omega_network.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Omega_network.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Omega_network"
+Output Format                      : NGC
+Target Device                      : xc3s1200e-5-fg320
+
+---- Source Options
+Top Module Name                    : Omega_network
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/Mux_4_1.vhd" in Library work.
+Architecture dataflow of Entity mux_4_1 is up to date.
+Compiling vhdl file "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/Arbitro.vhd" in Library work.
+Architecture dataflow of Entity arbitro is up to date.
+Compiling vhdl file "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/RoutingNode.vhd" in Library work.
+Architecture dataflow of Entity routingnode is up to date.
+Compiling vhdl file "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/op_unit.vhd" in Library work.
+Architecture structural of Entity op_unit is up to date.
+Compiling vhdl file "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/control_unit.vhd" in Library work.
+Architecture structural of Entity control_unit is up to date.
+Compiling vhdl file "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/Omega_network.vhd" in Library work.
+Entity <omega_network> compiled.
+Entity <Omega_network> (Architecture <Structural>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Omega_network> in library <work> (architecture <Structural>) with generics.
+	N = 2
+
+Analyzing hierarchy for entity <op_unit> in library <work> (architecture <structural>) with generics.
+	N = 2
+
+Analyzing hierarchy for entity <control_unit> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <RoutingNode> in library <work> (architecture <dataflow>) with generics.
+	N = 2
+
+Analyzing hierarchy for entity <Mux_4_1> in library <work> (architecture <dataflow>).
+
+Analyzing hierarchy for entity <Arbitro> in library <work> (architecture <dataflow>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <Omega_network> in library <work> (Architecture <Structural>).
+	N = 2
+Entity <Omega_network> analyzed. Unit <Omega_network> generated.
+
+Analyzing generic Entity <op_unit> in library <work> (Architecture <structural>).
+	N = 2
+Entity <op_unit> analyzed. Unit <op_unit> generated.
+
+Analyzing generic Entity <RoutingNode> in library <work> (Architecture <dataflow>).
+	N = 2
+Entity <RoutingNode> analyzed. Unit <RoutingNode> generated.
+
+Analyzing Entity <control_unit> in library <work> (Architecture <structural>).
+Entity <control_unit> analyzed. Unit <control_unit> generated.
+
+Analyzing Entity <Mux_4_1> in library <work> (Architecture <dataflow>).
+Entity <Mux_4_1> analyzed. Unit <Mux_4_1> generated.
+
+Analyzing Entity <Arbitro> in library <work> (Architecture <dataflow>).
+Entity <Arbitro> analyzed. Unit <Arbitro> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <RoutingNode>.
+    Related source file is "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/RoutingNode.vhd".
+Unit <RoutingNode> synthesized.
+
+
+Synthesizing Unit <Mux_4_1>.
+    Related source file is "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/Mux_4_1.vhd".
+    Found 2-bit 4-to-1 multiplexer for signal <Y>.
+    Summary:
+	inferred   2 Multiplexer(s).
+Unit <Mux_4_1> synthesized.
+
+
+Synthesizing Unit <Arbitro>.
+    Related source file is "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/Arbitro.vhd".
+    Register <SRC> equivalent to <sel> has been removed
+WARNING:Xst:737 - Found 2-bit latch for signal <sel>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+Unit <Arbitro> synthesized.
+
+
+Synthesizing Unit <op_unit>.
+    Related source file is "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/op_unit.vhd".
+Unit <op_unit> synthesized.
+
+
+Synthesizing Unit <control_unit>.
+    Related source file is "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/control_unit.vhd".
+Unit <control_unit> synthesized.
+
+
+Synthesizing Unit <Omega_network>.
+    Related source file is "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/Omega_network.vhd".
+Unit <Omega_network> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Latches                                              : 1
+ 2-bit latch                                           : 1
+# Multiplexers                                         : 1
+ 2-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Latches                                              : 1
+ 2-bit latch                                           : 1
+# Multiplexers                                         : 1
+ 2-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Omega_network> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Omega_network, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Omega_network.ngr
+Top Level Output File Name         : Omega_network
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 28
+
+Cell Usage :
+# BELS                             : 24
+#      INV                         : 1
+#      LUT2                        : 1
+#      LUT3                        : 17
+#      MUXF5                       : 4
+#      VCC                         : 1
+# FlipFlops/Latches                : 2
+#      LDCP                        : 2
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 27
+#      IBUF                        : 19
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1200efg320-5 
+
+ Number of Slices:                       11  out of   8672     0%  
+ Number of Slice Flip Flops:              2  out of  17344     0%  
+ Number of 4 input LUTs:                 19  out of  17344     0%  
+ Number of IOs:                          28
+ Number of bonded IOBs:                  28  out of    250    11%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+R<3>                               | BUFGP                  | 2     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+------------------------------------------------+------------------------+-------+
+Control Signal                                  | Buffer(FF name)        | Load  |
+------------------------------------------------+------------------------+-------+
+R<1>                                            | IBUF                   | 1     |
+R<2>                                            | IBUF                   | 1     |
+cnt/arb/sel_0__or0000(cnt/arb/sel_0__or00001:O) | NONE(cnt/arb/sel_0)    | 1     |
+cnt/arb/sel_1__or0000(cnt/arb/sel_Q_1_or00001:O)| NONE(cnt/arb/sel_1)    | 1     |
+------------------------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 2.794ns
+   Maximum output required time after clock: 7.207ns
+   Maximum combinational path delay: 7.355ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'R<3>'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              2.794ns (Levels of Logic = 2)
+  Source:            R<2> (PAD)
+  Destination:       cnt/arb/sel_0 (LATCH)
+  Destination Clock: R<3> falling
+
+  Data Path: R<2> to cnt/arb/sel_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.106   0.451  R_2_IBUF (R_2_IBUF)
+     INV:I->O              1   0.612   0.357  cnt/arb/sel_mux0000<1>1_INV_0 (cnt/arb/sel_mux0000<1>)
+     LDCP:D                    0.268          cnt/arb/sel_0
+    ----------------------------------------
+    Total                      2.794ns (1.986ns logic, 0.808ns route)
+                                       (71.1% logic, 28.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'R<3>'
+  Total number of paths / destination ports: 72 / 8
+-------------------------------------------------------------------------
+Offset:              7.207ns (Levels of Logic = 4)
+  Source:            cnt/arb/sel_0 (LATCH)
+  Destination:       OUT0<1> (PAD)
+  Source Clock:      R<3> falling
+
+  Data Path: cnt/arb/sel_0 to OUT0<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDCP:G->Q             8   0.588   0.795  cnt/arb/sel_0 (cnt/arb/sel_0)
+     LUT3:I0->O            1   0.612   0.000  cnt/m/Mmux_Y_3 (cnt/m/Mmux_Y_3)
+     MUXF5:I1->O           8   0.278   0.795  cnt/m/Mmux_Y_2_f5 (destin<0>)
+     LUT3:I0->O            1   0.612   0.357  op/nodo02/DATA_OUT1<1>2 (OUT0_1_OBUF)
+     OBUF:I->O                 3.169          OUT0_1_OBUF (OUT0<1>)
+    ----------------------------------------
+    Total                      7.207ns (5.259ns logic, 1.948ns route)
+                                       (73.0% logic, 27.0% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 96 / 8
+-------------------------------------------------------------------------
+Delay:               7.355ns (Levels of Logic = 5)
+  Source:            DEST0<0> (PAD)
+  Destination:       OUT0<1> (PAD)
+
+  Data Path: DEST0<0> to OUT0<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.106   0.426  DEST0_0_IBUF (DEST0_0_IBUF)
+     LUT3:I1->O            1   0.612   0.000  cnt/m/Mmux_Y_4 (cnt/m/Mmux_Y_4)
+     MUXF5:I0->O           8   0.278   0.795  cnt/m/Mmux_Y_2_f5 (destin<0>)
+     LUT3:I0->O            1   0.612   0.357  op/nodo02/DATA_OUT1<1>2 (OUT0_1_OBUF)
+     OBUF:I->O                 3.169          OUT0_1_OBUF (OUT0<1>)
+    ----------------------------------------
+    Total                      7.355ns (5.777ns logic, 1.578ns route)
+                                       (78.5% logic, 21.5% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 11.07 secs
+ 
+--> 
+
+
+Total memory usage is 504092 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

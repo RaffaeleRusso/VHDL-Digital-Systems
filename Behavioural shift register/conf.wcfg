@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/mnt/hgfs/Condivisa/esercizio4_comportamentale/Shift_register_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="shift_register_tb" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/shift_register_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shift_register_tb/input" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">input</obj_property>
+      <obj_property name="ObjectShortName">input</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shift_register_tb/set" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">set</obj_property>
+      <obj_property name="ObjectShortName">set</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shift_register_tb/m" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">m</obj_property>
+      <obj_property name="ObjectShortName">m</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shift_register_tb/l_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">l_out</obj_property>
+      <obj_property name="ObjectShortName">l_out</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#0000ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shift_register_tb/uut/t" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">t[0:3]</obj_property>
+      <obj_property name="ObjectShortName">t[0:3]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shift_register_tb/r_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">r_out</obj_property>
+      <obj_property name="ObjectShortName">r_out</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#0000ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/shift_register_tb/y" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">y[0:3]</obj_property>
+      <obj_property name="ObjectShortName">y[0:3]</obj_property>
+      <obj_property name="label">nshift</obj_property>
+   </wvobject>
+</wave_config>

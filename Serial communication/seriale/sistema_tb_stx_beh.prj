@@ -1,0 +1,7 @@
+vhdl isim_temp "RS232RefComp.vhd"
+vhdl isim_temp "../Encoder_8_3.vhd"
+vhdl isim_temp "../Decoder_3_8.vhd"
+vhdl isim_temp "nodo_tx.vhd"
+vhdl isim_temp "Nodo_rx.vhd"
+vhdl isim_temp "sistema.vhd"
+vhdl isim_temp "sistema_tb.vhd"

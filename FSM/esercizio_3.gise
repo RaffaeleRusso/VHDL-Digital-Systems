@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="esercizio_3.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="riconoscitore_sequenza_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="riconoscitore_sequenza_tb_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1635691927" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1635691927">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1646394645" xil_pn:in_ck="4661443106066721393" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1646394644">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="riconoscitore_sequenza.vhd"/>
+      <outfile xil_pn:name="riconoscitore_sequenza_tb.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1635692889" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-5034877086267647133" xil_pn:start_ts="1635692889">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1635692889" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-5850204641257615771" xil_pn:start_ts="1635692889">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1635691927" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="6722925402230428561" xil_pn:start_ts="1635691927">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1646394645" xil_pn:in_ck="4661443106066721393" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1646394645">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="riconoscitore_sequenza.vhd"/>
+      <outfile xil_pn:name="riconoscitore_sequenza_tb.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1646394648" xil_pn:in_ck="4661443106066721393" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="8773445613685020318" xil_pn:start_ts="1646394645">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1646394587" xil_pn:in_ck="7902247209436644530" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="8340079130748845665" xil_pn:start_ts="1646394587">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForced"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="riconoscitore_sequenza_tb_isim_beh.wdb"/>
+    </transform>
+  </transforms>
+
+</generated_project>

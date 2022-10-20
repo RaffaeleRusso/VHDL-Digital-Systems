@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/vhdl/progetti_vhdl_ok/progetto_esame/uo_A.vhd</arg>&quot; line <arg fmt="%d" index="2">76</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">count</arg>&apos; of component &apos;<arg fmt="%s" index="4">cnt4</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/vhdl/progetti_vhdl_ok/progetto_esame/Nodo_B.vhd</arg>&quot; line <arg fmt="%d" index="2">66</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">count</arg>&apos; of component &apos;<arg fmt="%s" index="4">cnt_10</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="1781" delta="new" >Signal &lt;<arg fmt="%s" index="1">ROM</arg>&gt; is used but never assigned. Tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">data_s</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">sys</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">N_in</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="info" file="Xst" num="3044" delta="new" >The ROM &lt;<arg fmt="%s" index="1">Mrom__varindex0000</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="2">DATA</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3225" delta="new" >The RAM &lt;<arg fmt="%s" index="1">Mrom__varindex0000</arg>&gt; will be implemented as BLOCK RAM
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">N_in/uoA/cnt_0/div</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">N_in/ucA/en_cnt</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">N_in/ucA/rts</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">N_in/ucA/current_state_FSM_FFd1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">N_in/ucA/current_state_FSM_FFd2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">sys/nodoA/ucA/load_sr</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">sys/nodoA/ucA/en_cnt</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">sys/nodoA/ucA/rts</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">sys/nodoA/uoA/cnt_4_0/div</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">sys/nodoB/cnt_10_is/div</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">sys/nodoB/ric/Y</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">N_in/uoA/rom_0/Mrom__varindex0000</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">N_in/uoA/cnt_0/c_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">N_in/uoA/cnt_0/c_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">N_in/uoA/cnt_0/c_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">N_in/uoA/cnt_0/c_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">sys/nodoA/uoA/cnt_4_0/c_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">sys/nodoA/uoA/cnt_4_0/c_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">sys/nodoB/cnt_10_is/c_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">sys/nodoB/cnt_10_is/c_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">sys/nodoB/cnt_10_is/c_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">sys/nodoB/cnt_10_is/c_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">sys/nodoB/ric/stato_corrente_FSM_FFd1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">sys/nodoB/ric/stato_corrente_FSM_FFd2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">sys/nodoB/ric/stato_corrente_FSM_FFd3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">sys/nodoB/ric/stato_corrente_FSM_FFd4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">sys/nodoB/ric/stato_corrente_FSM_FFd7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">sys/nodoB/ric/stato_corrente_FSM_FFd5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">sys/nodoB/ric/stato_corrente_FSM_FFd6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">sys/nodoA/ucA/current_state_FSM_FFd3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">sys/nodoA/ucA/current_state_FSM_FFd1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">sys/nodoA/ucA/current_state_FSM_FFd2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">sys/nodoA/uoA/sr_par_0/T_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">sys/nodoA/uoA/sr_par_0/T_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">sys/nodoA/uoA/sr_par_0/T_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">sys/nodoA/uoA/sr_par_0/T_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">full_box</arg>&gt;.
+</msg>
+
+</messages>
+

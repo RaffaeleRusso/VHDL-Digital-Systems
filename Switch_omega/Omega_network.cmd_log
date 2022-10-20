@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/Omega_network.xst" -ofn "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/Omega_network.syr" 
+xst -intstyle ise -ifn "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/Omega_network.xst" -ofn "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/Omega_network.syr" 

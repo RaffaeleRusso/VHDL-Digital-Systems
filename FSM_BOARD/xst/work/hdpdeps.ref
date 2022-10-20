@@ -1,0 +1,23 @@
+V3 11
+FL /home/ise/vhdl/progetti_vhdl_ok/esercizio3.2/ButtonDebouncer.vhd 2021/11/10.08:22:19 P.20131013
+EN work/ButtonDebouncer 1646394122 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/esercizio3.2/ButtonDebouncer.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/ButtonDebouncer/Behavioral 1646394123 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/esercizio3.2/ButtonDebouncer.vhd \
+      EN work/ButtonDebouncer 1646394122
+FL /home/ise/vhdl/progetti_vhdl_ok/esercizio3.2/riconoscitore_sequenza.vhd 2022/03/04.15:14:08 P.20131013
+EN work/riconoscitore_sequenza 1646394120 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/esercizio3.2/riconoscitore_sequenza.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/riconoscitore_sequenza/Behavioral 1646394121 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/esercizio3.2/riconoscitore_sequenza.vhd \
+      EN work/riconoscitore_sequenza 1646394120
+FL /home/ise/vhdl/progetti_vhdl_ok/esercizio3.2/riconoscitore_sequenza_temp.vhd 2022/03/04.14:53:48 P.20131013
+EN work/riconoscitore_sequenza_temp 1646394124 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/esercizio3.2/riconoscitore_sequenza_temp.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/riconoscitore_sequenza_temp/structural 1646394125 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/esercizio3.2/riconoscitore_sequenza_temp.vhd \
+      EN work/riconoscitore_sequenza_temp 1646394124 CP riconoscitore_sequenza \
+      CP ButtonDebouncer

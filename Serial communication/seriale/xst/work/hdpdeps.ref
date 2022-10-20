@@ -1,0 +1,49 @@
+V3 30
+FL /home/ise/vhdl/seriale_1/Decoder_3_8.vhd 2022/09/03.13:30:16 P.20131013
+EN work/decoder_3_8 1662212159 FL /home/ise/vhdl/seriale_1/Decoder_3_8.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/decoder_3_8/Dataflow 1662212160 \
+      FL /home/ise/vhdl/seriale_1/Decoder_3_8.vhd EN work/decoder_3_8 1662212159
+FL /home/ise/vhdl/seriale_1/Encoder_8_3.vhd 2022/03/04.09:09:56 P.20131013
+EN work/Encoder 1662212155 FL /home/ise/vhdl/seriale_1/Encoder_8_3.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Encoder/Dataflow 1662212156 \
+      FL /home/ise/vhdl/seriale_1/Encoder_8_3.vhd EN work/Encoder 1662212155
+FL /home/ise/vhdl/seriale_1/seriale/ButtonDebouncer.vhd 2022/09/03.15:08:25 P.20131013
+EN work/ButtonDebouncer 1662212161 \
+      FL /home/ise/vhdl/seriale_1/seriale/ButtonDebouncer.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/ButtonDebouncer/Behavioral 1662212162 \
+      FL /home/ise/vhdl/seriale_1/seriale/ButtonDebouncer.vhd \
+      EN work/ButtonDebouncer 1662212161
+FL /home/ise/vhdl/seriale_1/seriale/Nodo_rx.vhd 2022/09/03.13:38:51 P.20131013
+EN work/Nodo_rx 1662212165 FL /home/ise/vhdl/seriale_1/seriale/Nodo_rx.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Nodo_rx/Structural 1662212166 \
+      FL /home/ise/vhdl/seriale_1/seriale/Nodo_rx.vhd EN work/Nodo_rx 1662212165 \
+      CP Encoder CP UartComponent
+FL /home/ise/vhdl/seriale_1/seriale/nodo_tx.vhd 2022/09/03.13:41:17 P.20131013
+EN work/Nodo_tx 1662212163 FL /home/ise/vhdl/seriale_1/seriale/nodo_tx.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Nodo_tx/Structural 1662212164 \
+      FL /home/ise/vhdl/seriale_1/seriale/nodo_tx.vhd EN work/Nodo_tx 1662212163 \
+      CP decoder_3_8 CP UartComponent
+FL /home/ise/vhdl/seriale_1/seriale/RS232RefComp.vhd 2022/09/03.09:03:12 P.20131013
+EN work/Rs232RefComp 1662202880 \
+      FL /home/ise/vhdl/seriale_1/seriale/RS232RefComp.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Rs232RefComp/Behavioral 1662202881 \
+      FL /home/ise/vhdl/seriale_1/seriale/RS232RefComp.vhd EN work/Rs232RefComp 1662202880
+FL /home/ise/vhdl/seriale_1/seriale/RS232RefComp2.vhd 2022/09/03.14:37:11 P.20131013
+EN work/UARTcomponent 1662212157 \
+      FL /home/ise/vhdl/seriale_1/seriale/RS232RefComp2.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/UARTcomponent/Behavioral 1662212158 \
+      FL /home/ise/vhdl/seriale_1/seriale/RS232RefComp2.vhd EN work/UARTcomponent 1662212157
+FL /home/ise/vhdl/seriale_1/seriale/sistema.vhd 2022/09/03.15:16:57 P.20131013
+EN work/sistema 1662212167 FL /home/ise/vhdl/seriale_1/seriale/sistema.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/sistema/structural 1662212168 \
+      FL /home/ise/vhdl/seriale_1/seriale/sistema.vhd EN work/sistema 1662212167 \
+      CP ButtonDebouncer CP Nodo_tx CP Nodo_rx

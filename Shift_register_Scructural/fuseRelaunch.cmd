@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/so/Scrivania/Shift_register_Scructural/Shift_register_mod_tb_isim_beh.exe" -prj "/home/so/Scrivania/Shift_register_Scructural/Shift_register_mod_tb_beh.prj" "work.Shift_register_mod_tb" 

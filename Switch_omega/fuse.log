@@ -1,0 +1,32 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/Omega_TB_isim_beh.exe -prj /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/Omega_TB_beh.prj work.Omega_TB 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/RoutingNode.vhd" into library work
+Parsing VHDL file "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/Mux_4_1.vhd" into library work
+Parsing VHDL file "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/Arbitro.vhd" into library work
+Parsing VHDL file "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/op_unit.vhd" into library work
+Parsing VHDL file "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/control_unit.vhd" into library work
+Parsing VHDL file "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/Omega_network.vhd" into library work
+Parsing VHDL file "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/Omega_TB.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 83356 KB
+Fuse CPU Usage: 2290 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture dataflow of entity RoutingNode [\RoutingNode(2)\]
+Compiling architecture structural of entity op_unit [\op_unit(2)\]
+Compiling architecture dataflow of entity Mux_4_1 [mux_4_1_default]
+Compiling architecture dataflow of entity Arbitro [arbitro_default]
+Compiling architecture structural of entity control_unit [control_unit_default]
+Compiling architecture structural of entity Omega_network [\Omega_network(2)\]
+Compiling architecture behavior of entity omega_tb
+Time Resolution for simulation is 1ps.
+Waiting for 4 sub-compilation(s) to finish...
+Compiled 15 VHDL Units
+Built simulation executable /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/Omega_TB_isim_beh.exe
+Fuse Memory Usage: 386892 KB
+Fuse CPU Usage: 2380 ms
+GCC CPU Usage: 1120 ms

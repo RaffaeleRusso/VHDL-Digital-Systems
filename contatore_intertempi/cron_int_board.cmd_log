@@ -1,0 +1,66 @@
+xst -intstyle ise -ifn "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/cron_int_board.xst" -ofn "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/cron_int_board.syr" 
+xst -intstyle ise -ifn "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/cron_int_board.xst" -ofn "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/cron_int_board.syr" 
+xst -intstyle ise -ifn "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/cron_int_board.xst" -ofn "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/cron_int_board.syr" 
+xst -intstyle ise -ifn "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/cron_int_board.xst" -ofn "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/cron_int_board.syr" 
+xst -intstyle ise -ifn "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/cron_int_board.xst" -ofn "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/cron_int_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_1200K.ucf -p xc3s1200e-fg320-5 cron_int_board.ngc cron_int_board.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_1200K.ucf -p xc3s1200e-fg320-5 cron_int_board.ngc cron_int_board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o cron_int_board_map.ncd cron_int_board.ngd cron_int_board.pcf 
+par -w -intstyle ise -ol high -t 1 cron_int_board_map.ncd cron_int_board.ncd cron_int_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml cron_int_board.twx cron_int_board.ncd -o cron_int_board.twr cron_int_board.pcf -ucf Nexys2_1200K.ucf 
+bitgen -intstyle ise -f cron_int_board.ut cron_int_board.ncd 
+xst -intstyle ise -ifn "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/cron_int_board.xst" -ofn "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/cron_int_board.syr" 
+xst -intstyle ise -ifn "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/cron_int_board.xst" -ofn "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/cron_int_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_1200K.ucf -p xc3s1200e-fg320-5 cron_int_board.ngc cron_int_board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o cron_int_board_map.ncd cron_int_board.ngd cron_int_board.pcf 
+par -w -intstyle ise -ol high -t 1 cron_int_board_map.ncd cron_int_board.ncd cron_int_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml cron_int_board.twx cron_int_board.ncd -o cron_int_board.twr cron_int_board.pcf -ucf Nexys2_1200K.ucf 
+bitgen -intstyle ise -f cron_int_board.ut cron_int_board.ncd 
+xst -intstyle ise -ifn "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/cron_int_board.xst" -ofn "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/cron_int_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_1200K.ucf -p xc3s1200e-fg320-5 cron_int_board.ngc cron_int_board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o cron_int_board_map.ncd cron_int_board.ngd cron_int_board.pcf 
+par -w -intstyle ise -ol high -t 1 cron_int_board_map.ncd cron_int_board.ncd cron_int_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml cron_int_board.twx cron_int_board.ncd -o cron_int_board.twr cron_int_board.pcf -ucf Nexys2_1200K.ucf 
+bitgen -intstyle ise -f cron_int_board.ut cron_int_board.ncd 
+xst -intstyle ise -ifn "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/cron_int_board.xst" -ofn "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/cron_int_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_1200K.ucf -p xc3s1200e-fg320-5 cron_int_board.ngc cron_int_board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o cron_int_board_map.ncd cron_int_board.ngd cron_int_board.pcf 
+par -w -intstyle ise -ol high -t 1 cron_int_board_map.ncd cron_int_board.ncd cron_int_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml cron_int_board.twx cron_int_board.ncd -o cron_int_board.twr cron_int_board.pcf -ucf Nexys2_1200K.ucf 
+bitgen -intstyle ise -f cron_int_board.ut cron_int_board.ncd 
+xst -intstyle ise -ifn "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/cron_int_board.xst" -ofn "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/cron_int_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_1200K.ucf -p xc3s1200e-fg320-5 cron_int_board.ngc cron_int_board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o cron_int_board_map.ncd cron_int_board.ngd cron_int_board.pcf 
+par -w -intstyle ise -ol high -t 1 cron_int_board_map.ncd cron_int_board.ncd cron_int_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml cron_int_board.twx cron_int_board.ncd -o cron_int_board.twr cron_int_board.pcf -ucf Nexys2_1200K.ucf 
+bitgen -intstyle ise -f cron_int_board.ut cron_int_board.ncd 
+xst -intstyle ise -ifn "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/cron_int_board.xst" -ofn "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/cron_int_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_1200K.ucf -p xc3s1200e-fg320-5 cron_int_board.ngc cron_int_board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o cron_int_board_map.ncd cron_int_board.ngd cron_int_board.pcf 
+par -w -intstyle ise -ol high -t 1 cron_int_board_map.ncd cron_int_board.ncd cron_int_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml cron_int_board.twx cron_int_board.ncd -o cron_int_board.twr cron_int_board.pcf -ucf Nexys2_1200K.ucf 
+bitgen -intstyle ise -f cron_int_board.ut cron_int_board.ncd 
+xst -intstyle ise -ifn "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/cron_int_board.xst" -ofn "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/cron_int_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_1200K.ucf -p xc3s1200e-fg320-5 cron_int_board.ngc cron_int_board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o cron_int_board_map.ncd cron_int_board.ngd cron_int_board.pcf 
+par -w -intstyle ise -ol high -t 1 cron_int_board_map.ncd cron_int_board.ncd cron_int_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml cron_int_board.twx cron_int_board.ncd -o cron_int_board.twr cron_int_board.pcf -ucf Nexys2_1200K.ucf 
+bitgen -intstyle ise -f cron_int_board.ut cron_int_board.ncd 
+xst -intstyle ise -ifn "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/cron_int_board.xst" -ofn "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/cron_int_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_1200K.ucf -p xc3s1200e-fg320-5 cron_int_board.ngc cron_int_board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o cron_int_board_map.ncd cron_int_board.ngd cron_int_board.pcf 
+par -w -intstyle ise -ol high -t 1 cron_int_board_map.ncd cron_int_board.ncd cron_int_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml cron_int_board.twx cron_int_board.ncd -o cron_int_board.twr cron_int_board.pcf -ucf Nexys2_1200K.ucf 
+bitgen -intstyle ise -f cron_int_board.ut cron_int_board.ncd 
+xst -intstyle ise -ifn "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/cron_int_board.xst" -ofn "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/cron_int_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_1200K.ucf -p xc3s1200e-fg320-5 cron_int_board.ngc cron_int_board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o cron_int_board_map.ncd cron_int_board.ngd cron_int_board.pcf 
+par -w -intstyle ise -ol high -t 1 cron_int_board_map.ncd cron_int_board.ncd cron_int_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml cron_int_board.twx cron_int_board.ncd -o cron_int_board.twr cron_int_board.pcf -ucf Nexys2_1200K.ucf 
+bitgen -intstyle ise -f cron_int_board.ut cron_int_board.ncd 
+xst -intstyle ise -ifn "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/cron_int_board.xst" -ofn "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/cron_int_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_1200K.ucf -p xc3s1200e-fg320-5 cron_int_board.ngc cron_int_board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o cron_int_board_map.ncd cron_int_board.ngd cron_int_board.pcf 
+par -w -intstyle ise -ol high -t 1 cron_int_board_map.ncd cron_int_board.ncd cron_int_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml cron_int_board.twx cron_int_board.ncd -o cron_int_board.twr cron_int_board.pcf -ucf Nexys2_1200K.ucf 
+bitgen -intstyle ise -f cron_int_board.ut cron_int_board.ncd 

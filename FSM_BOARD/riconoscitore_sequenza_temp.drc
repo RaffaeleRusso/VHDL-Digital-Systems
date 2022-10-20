@@ -1,0 +1,17 @@
+Release 14.7 Drc P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Fri Mar  4 11:42:59 2022
+
+drc -z riconoscitore_sequenza_temp.ncd riconoscitore_sequenza_temp.pcf
+
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   riconoscitore_sequenza_0/Y_Q_0_or0000 is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   riconoscitore_sequenza_0/Y_Q_1_or0000 is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+DRC detected 0 errors and 2 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

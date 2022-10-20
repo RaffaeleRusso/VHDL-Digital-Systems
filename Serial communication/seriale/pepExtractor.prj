@@ -1,0 +1,6 @@
+work	"../Decoder_3_8.vhd"
+work	"../Encoder_8_3.vhd"
+work	"Nodo_rx.vhd"
+work	"RS232RefComp2.vhd"
+work	"nodo_tx.vhd"
+work	"sistema.vhd"

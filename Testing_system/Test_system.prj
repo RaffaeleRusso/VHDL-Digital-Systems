@@ -1,0 +1,6 @@
+vhdl work "ROM.vhd"
+vhdl work "RAM.vhd"
+vhdl work "mux_2_1.vhd"
+vhdl work "Counter_address.vhd"
+vhdl work "clock_filter.vhd"
+vhdl work "Test_system.vhd"

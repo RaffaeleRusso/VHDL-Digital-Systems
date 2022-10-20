@@ -1,0 +1,7 @@
+vhdl work "MUX_4_1.vhd"
+vhdl work "MUX_16_1.vhd"
+vhdl work "DEMUX_1_4.vhd"
+vhdl work "Rete_interconnessione.vhd"
+vhdl work "Decoder_4_16.vhd"
+vhdl work "Rete_interconn_decoder.vhd"
+vhdl work "Rete_interconn_decoder_TB.vhd"

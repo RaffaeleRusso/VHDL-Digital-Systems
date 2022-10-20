@@ -1,0 +1,28 @@
+Command line:
+   nodo_input_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  36144
+
+Tue Oct 18 06:30:12 2022
+
+
+ Elaboration Time: 0.1 sec
+
+ Current Memory Usage: 198.832 Meg
+
+ Total Signals          : 43
+ Total Nets             : 90
+ Total Signal Drivers   : 11
+ Total Blocks           : 10
+ Total Primitive Blocks : 7
+ Total Processes        : 6
+ Total Traceable Variables  : 16
+ Total Scalar Nets and Variables : 592
+
+ Total Simulation Time: 0.12 sec
+
+ Current Memory Usage: 276.431 Meg
+
+Tue Oct 18 06:30:52 2022
+

@@ -1,0 +1,16 @@
+AR uartcomponent behavioral /home/ise/vhdl/seriale_1/seriale/RS232RefComp2.vhd sub00/vhpl13 1662212158
+EN buttondebouncer NULL /home/ise/vhdl/seriale_1/seriale/ButtonDebouncer.vhd sub00/vhpl14 1662212161
+EN uartcomponent NULL /home/ise/vhdl/seriale_1/seriale/RS232RefComp2.vhd sub00/vhpl12 1662212157
+AR nodo_rx structural /home/ise/vhdl/seriale_1/seriale/Nodo_rx.vhd sub00/vhpl09 1662212166
+EN sistema NULL /home/ise/vhdl/seriale_1/seriale/sistema.vhd sub00/vhpl10 1662212167
+EN nodo_rx NULL /home/ise/vhdl/seriale_1/seriale/Nodo_rx.vhd sub00/vhpl08 1662212165
+AR buttondebouncer behavioral /home/ise/vhdl/seriale_1/seriale/ButtonDebouncer.vhd sub00/vhpl15 1662212162
+EN nodo_tx NULL /home/ise/vhdl/seriale_1/seriale/nodo_tx.vhd sub00/vhpl06 1662212163
+EN rs232refcomp NULL /home/ise/vhdl/seriale_1/seriale/RS232RefComp.vhd sub00/vhpl02 1662202880
+EN encoder NULL /home/ise/vhdl/seriale_1/Encoder_8_3.vhd sub00/vhpl00 1662212155
+AR rs232refcomp behavioral /home/ise/vhdl/seriale_1/seriale/RS232RefComp.vhd sub00/vhpl03 1662202881
+EN decoder_3_8 NULL /home/ise/vhdl/seriale_1/Decoder_3_8.vhd sub00/vhpl04 1662212159
+AR encoder dataflow /home/ise/vhdl/seriale_1/Encoder_8_3.vhd sub00/vhpl01 1662212156
+AR decoder_3_8 dataflow /home/ise/vhdl/seriale_1/Decoder_3_8.vhd sub00/vhpl05 1662212160
+AR sistema structural /home/ise/vhdl/seriale_1/seriale/sistema.vhd sub00/vhpl11 1662212168
+AR nodo_tx structural /home/ise/vhdl/seriale_1/seriale/nodo_tx.vhd sub00/vhpl07 1662212164

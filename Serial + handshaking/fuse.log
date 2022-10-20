@@ -1,0 +1,41 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /mnt/hgfs/Condivisa/Seriale_es_2/system_tb_isim_beh.exe -prj /mnt/hgfs/Condivisa/Seriale_es_2/system_tb_beh.prj work.system_tb 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "/mnt/hgfs/Condivisa/Seriale_es_2/RS232RefComp.vhd" into library work
+Parsing VHDL file "/mnt/hgfs/Condivisa/Seriale_es_2/ROM.vhd" into library work
+Parsing VHDL file "/mnt/hgfs/Condivisa/Seriale_es_2/RAM.vhd" into library work
+Parsing VHDL file "/mnt/hgfs/Condivisa/Seriale_es_2/fsm_transmettitore.vhd" into library work
+Parsing VHDL file "/mnt/hgfs/Condivisa/Seriale_es_2/fsm_ricevitore.vhd" into library work
+Parsing VHDL file "/mnt/hgfs/Condivisa/Seriale_es_2/counter_mod8.vhd" into library work
+Parsing VHDL file "/mnt/hgfs/Condivisa/Seriale_es_2/Trasmettitore.vhd" into library work
+Parsing VHDL file "/mnt/hgfs/Condivisa/Seriale_es_2/Ricevitore.vhd" into library work
+Parsing VHDL file "/mnt/hgfs/Condivisa/Seriale_es_2/system.vhd" into library work
+Parsing VHDL file "/mnt/hgfs/Condivisa/Seriale_es_2/system_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 86304 KB
+Fuse CPU Usage: 1930 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling architecture behavioral of entity fsm_trasmettitore [fsm_trasmettitore_default]
+Compiling architecture behavioral of entity ROM [rom_default]
+Compiling architecture behavioral of entity counter_mod8 [counter_mod8_default]
+Compiling architecture behavioral of entity UARTcomponent [\UARTcomponent(14,231)\]
+Compiling architecture structural of entity Trasmettitore [trasmettitore_default]
+Compiling architecture behavioral of entity fsm_ricevitore [fsm_ricevitore_default]
+Compiling architecture behavioral of entity RAM [ram_default]
+Compiling architecture structural of entity Ricevitore [ricevitore_default]
+Compiling architecture structural of entity system [system_default]
+Compiling architecture behavior of entity system_tb
+Time Resolution for simulation is 1ps.
+Waiting for 6 sub-compilation(s) to finish...
+Compiled 24 VHDL Units
+Built simulation executable /mnt/hgfs/Condivisa/Seriale_es_2/system_tb_isim_beh.exe
+Fuse Memory Usage: 400340 KB
+Fuse CPU Usage: 2700 ms
+GCC CPU Usage: 2740 ms

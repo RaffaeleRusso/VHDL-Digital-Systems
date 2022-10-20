@@ -1,0 +1,29 @@
+Command line:
+   fsm_trasmettitore_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51495
+
+Wed Sep  7 02:56:09 2022
+
+
+ Elaboration Time: 0.04 sec
+
+ Current Memory Usage: 183.931 Meg
+
+ Total Signals          : 13
+ Total Nets             : 13
+ Total Signal Drivers   : 6
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 1
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 373
+Total Line Count : 34
+
+ Total Simulation Time: 0.08 sec
+
+ Current Memory Usage: 259.432 Meg
+
+Wed Sep  7 02:56:13 2022
+

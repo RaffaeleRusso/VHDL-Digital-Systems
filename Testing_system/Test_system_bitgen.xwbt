@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/vhdl/Testing_system/Test_system.ncd
+OUTFILE=/home/ise/vhdl/Testing_system/Test_system.bit
+FAMILY=Spartan3E
+PART=xc3s1200e-4fg320
+WORKINGDIR=/home/ise/vhdl/Testing_system
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620

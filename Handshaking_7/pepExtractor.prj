@@ -1,0 +1,8 @@
+work	"EntityA.vhd"
+work	"EntityB.vhd"
+work	"Handshaking_system.vhd"
+work	"RAM.vhd"
+work	"ROM.vhd"
+work	"counter_mod8.vhd"
+work	"ucA.vhd"
+work	"ucB.vhd"

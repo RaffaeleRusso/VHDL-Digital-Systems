@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ise/vhdl/progetti_vhdl_ok/progetto_esame/nodo_b_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="nodo_b_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/nodo_b_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nodo_b_tb/start" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nodo_b_tb/i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">i</obj_property>
+      <obj_property name="ObjectShortName">i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nodo_b_tb/uut/ric/y" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">y</obj_property>
+      <obj_property name="ObjectShortName">y</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nodo_b_tb/stop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">stop</obj_property>
+      <obj_property name="ObjectShortName">stop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nodo_b_tb/uut/ric/stato_corrente" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">stato_corrente</obj_property>
+      <obj_property name="ObjectShortName">stato_corrente</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nodo_b_tb/uut/cnt_10_is/count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">count[3:0]</obj_property>
+      <obj_property name="ObjectShortName">count[3:0]</obj_property>
+   </wvobject>
+</wave_config>

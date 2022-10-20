@@ -1,0 +1,25 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/so/Scrivania/esercizio_2/Encoder_prioritario_tb_isim_beh.exe -prj /home/so/Scrivania/esercizio_2/Encoder_prioritario_tb_beh.prj work.Encoder_prioritario_tb 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/so/Scrivania/esercizio_2/encoder_10_4.vhd" into library work
+Parsing VHDL file "/home/so/Scrivania/esercizio_2/Arbitro.vhd" into library work
+Parsing VHDL file "/home/so/Scrivania/esercizio_2/Encoder_prioritario.vhd" into library work
+Parsing VHDL file "/home/so/Scrivania/esercizio_2/Encoder_prioritario_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 83424 KB
+Fuse CPU Usage: 1260 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture dataflow of entity Arbitro [arbitro_default]
+Compiling architecture dataflow of entity encoder_10_4 [encoder_10_4_default]
+Compiling architecture structural of entity Encoder_prioritario [encoder_prioritario_default]
+Compiling architecture behavior of entity encoder_prioritario_tb
+Time Resolution for simulation is 1ps.
+Compiled 9 VHDL Units
+Built simulation executable /home/so/Scrivania/esercizio_2/Encoder_prioritario_tb_isim_beh.exe
+Fuse Memory Usage: 92044 KB
+Fuse CPU Usage: 1290 ms
+GCC CPU Usage: 360 ms

@@ -1,0 +1,29 @@
+Command line:
+   Arbitro_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  46963
+
+Sat Oct 30 17:11:12 2021
+
+
+ Elaboration Time: 0.01 sec
+
+ Current Memory Usage: 184.177 Meg
+
+ Total Signals          : 4
+ Total Nets             : 20
+ Total Signal Drivers   : 2
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 2
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 380
+Total Line Count : 46
+
+ Total Simulation Time: 0.01 sec
+
+ Current Memory Usage: 259.678 Meg
+
+Sat Oct 30 17:15:14 2021
+

@@ -1,0 +1,16 @@
+AR handshaking_system structural /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/Handshaking_system.vhd sub00/vhpl15 1663319343
+AR counter behavioral /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/counter_mod8.vhd sub00/vhpl03 1663319331
+AR ucb behavioral /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/ucB.vhd sub00/vhpl01 1663319329
+EN rom NULL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/ROM.vhd sub00/vhpl04 1663319332
+EN entitya NULL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/EntityA.vhd sub00/vhpl10 1663319338
+EN uca NULL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/ucA.vhd sub00/vhpl08 1663319336
+EN entityb NULL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/EntityB.vhd sub00/vhpl12 1663319340
+EN ucb NULL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/ucB.vhd sub00/vhpl00 1663319328
+AR rom behavioral /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/ROM.vhd sub00/vhpl05 1663319333
+AR entitya structural /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/EntityA.vhd sub00/vhpl11 1663319339
+EN counter NULL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/counter_mod8.vhd sub00/vhpl02 1663319330
+AR ram behavioral /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/RAM.vhd sub00/vhpl07 1663319335
+AR uca behavioral /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/ucA.vhd sub00/vhpl09 1663319337
+EN ram NULL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/RAM.vhd sub00/vhpl06 1663319334
+EN handshaking_system NULL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/Handshaking_system.vhd sub00/vhpl14 1663319342
+AR entityb structural /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/EntityB.vhd sub00/vhpl13 1663319341

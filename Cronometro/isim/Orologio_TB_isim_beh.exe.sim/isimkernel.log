@@ -1,0 +1,29 @@
+Command line:
+   Orologio_TB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  37691
+
+Mon Mar  7 09:06:37 2022
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 183.931 Meg
+
+ Total Signals          : 170
+ Total Nets             : 96
+ Total Signal Drivers   : 64
+ Total Blocks           : 24
+ Total Primitive Blocks : 19
+ Total Processes        : 63
+ Total Traceable Variables  : 12
+ Total Scalar Nets and Variables : 460
+Total Line Count : 131
+
+ Total Simulation Time: 0.1 sec
+
+ Current Memory Usage: 259.432 Meg
+
+Mon Mar  7 09:07:16 2022
+

@@ -1,0 +1,40 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/Handshaking_TB_isim_beh.exe -prj /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/Handshaking_TB_beh.prj work.Handshaking_TB 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/ucB.vhd" into library work
+Parsing VHDL file "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/ucA.vhd" into library work
+Parsing VHDL file "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/ROM.vhd" into library work
+Parsing VHDL file "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/RAM.vhd" into library work
+Parsing VHDL file "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/counter_mod8.vhd" into library work
+Parsing VHDL file "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/EntityB.vhd" into library work
+Parsing VHDL file "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/EntityA.vhd" into library work
+Parsing VHDL file "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/Handshaking_system.vhd" into library work
+Parsing VHDL file "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/Handshaking_TB.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 86532 KB
+Fuse CPU Usage: 2070 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package math_real
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling architecture behavioral of entity ucA [uca_default]
+Compiling architecture behavioral of entity counter [\counter(8)\]
+Compiling architecture behavioral of entity ROM [rom_default]
+Compiling architecture structural of entity EntityA [\EntityA(8,4)\]
+Compiling architecture behavioral of entity ucB [ucb_default]
+Compiling architecture behavioral of entity RAM [\RAM(8,4)\]
+Compiling architecture structural of entity EntityB [\EntityB(8,4)\]
+Compiling architecture structural of entity Handshaking_system [\Handshaking_system(4,8)\]
+Compiling architecture behavior of entity handshaking_tb
+Time Resolution for simulation is 1ps.
+Waiting for 6 sub-compilation(s) to finish...
+Compiled 23 VHDL Units
+Built simulation executable /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/Handshaking_TB_isim_beh.exe
+Fuse Memory Usage: 402584 KB
+Fuse CPU Usage: 2570 ms
+GCC CPU Usage: 1260 ms

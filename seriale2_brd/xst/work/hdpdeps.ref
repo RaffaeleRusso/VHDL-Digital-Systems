@@ -1,0 +1,81 @@
+V3 46
+FL /home/ise/vhdl/seriale_1/seriale2_brd/ButtonDebouncer.vhd 2022/09/07.13:48:32 P.20131013
+EN work/ButtonDebouncer 1662557717 \
+      FL /home/ise/vhdl/seriale_1/seriale2_brd/ButtonDebouncer.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/ButtonDebouncer/Behavioral 1662557718 \
+      FL /home/ise/vhdl/seriale_1/seriale2_brd/ButtonDebouncer.vhd \
+      EN work/ButtonDebouncer 1662557717
+FL /home/ise/vhdl/seriale_1/seriale2_brd/clock_filter.vhd 2022/09/07.14:19:51 P.20131013
+EN work/clock_filter 1662554230 \
+      FL /home/ise/vhdl/seriale_1/seriale2_brd/clock_filter.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/clock_filter/Behavioral 1662554231 \
+      FL /home/ise/vhdl/seriale_1/seriale2_brd/clock_filter.vhd \
+      EN work/clock_filter 1662554230
+FL /home/ise/vhdl/seriale_1/seriale2_brd/counter_mod8.vhd 2022/09/07.14:45:58 P.20131013
+EN work/counter_mod8 1662557707 \
+      FL /home/ise/vhdl/seriale_1/seriale2_brd/counter_mod8.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/counter_mod8/Behavioral 1662557708 \
+      FL /home/ise/vhdl/seriale_1/seriale2_brd/counter_mod8.vhd \
+      EN work/counter_mod8 1662557707
+FL /home/ise/vhdl/seriale_1/seriale2_brd/Encoder_8_3.vhd 2022/03/04.09:09:56 P.20131013
+EN work/Encoder 1662557709 \
+      FL /home/ise/vhdl/seriale_1/seriale2_brd/Encoder_8_3.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Encoder/Dataflow 1662557710 \
+      FL /home/ise/vhdl/seriale_1/seriale2_brd/Encoder_8_3.vhd EN work/Encoder 1662557709
+FL /home/ise/vhdl/seriale_1/seriale2_brd/fsm_ricevitore.vhd 2022/09/07.14:16:34 P.20131013
+EN work/fsm_ricevitore 1662557703 \
+      FL /home/ise/vhdl/seriale_1/seriale2_brd/fsm_ricevitore.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/fsm_ricevitore/Behavioral 1662557704 \
+      FL /home/ise/vhdl/seriale_1/seriale2_brd/fsm_ricevitore.vhd \
+      EN work/fsm_ricevitore 1662557703
+FL /home/ise/vhdl/seriale_1/seriale2_brd/fsm_transmettitore.vhd 2022/09/07.14:58:47 P.20131013
+EN work/fsm_trasmettitore 1662557713 \
+      FL /home/ise/vhdl/seriale_1/seriale2_brd/fsm_transmettitore.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/fsm_trasmettitore/Behavioral 1662557714 \
+      FL /home/ise/vhdl/seriale_1/seriale2_brd/fsm_transmettitore.vhd \
+      EN work/fsm_trasmettitore 1662557713
+FL /home/ise/vhdl/seriale_1/seriale2_brd/RAM.vhd 2022/09/06.14:24:34 P.20131013
+EN work/RAM 1662557711 FL /home/ise/vhdl/seriale_1/seriale2_brd/RAM.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/RAM/Behavioral 1662557712 \
+      FL /home/ise/vhdl/seriale_1/seriale2_brd/RAM.vhd EN work/RAM 1662557711
+FL /home/ise/vhdl/seriale_1/seriale2_brd/Ricevitore.vhd 2022/09/07.14:03:03 P.20131013
+EN work/Ricevitore 1662557721 \
+      FL /home/ise/vhdl/seriale_1/seriale2_brd/Ricevitore.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Ricevitore/Structural 1662557722 \
+      FL /home/ise/vhdl/seriale_1/seriale2_brd/Ricevitore.vhd EN work/Ricevitore 1662557721 \
+      CP fsm_ricevitore CP UARTcomponent CP counter_mod8 CP Encoder CP RAM
+FL /home/ise/vhdl/seriale_1/seriale2_brd/ROM.vhd 2022/09/07.15:03:18 P.20131013
+EN work/ROM 1662557715 FL /home/ise/vhdl/seriale_1/seriale2_brd/ROM.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/ROM/behavioral 1662557716 \
+      FL /home/ise/vhdl/seriale_1/seriale2_brd/ROM.vhd EN work/ROM 1662557715
+FL /home/ise/vhdl/seriale_1/seriale2_brd/RS232RefComp.vhd 2022/09/07.15:17:42 P.20131013
+EN work/UARTcomponent 1662557705 \
+      FL /home/ise/vhdl/seriale_1/seriale2_brd/RS232RefComp.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/UARTcomponent/Behavioral 1662557706 \
+      FL /home/ise/vhdl/seriale_1/seriale2_brd/RS232RefComp.vhd \
+      EN work/UARTcomponent 1662557705
+FL /home/ise/vhdl/seriale_1/seriale2_brd/system.vhd 2022/09/07.14:23:09 P.20131013
+EN work/system 1662557723 FL /home/ise/vhdl/seriale_1/seriale2_brd/system.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/system/Structural 1662557724 \
+      FL /home/ise/vhdl/seriale_1/seriale2_brd/system.vhd EN work/system 1662557723 \
+      CP ButtonDebouncer CP Trasmettitore CP Ricevitore
+FL /home/ise/vhdl/seriale_1/seriale2_brd/Trasmettitore.vhd 2022/09/07.14:19:51 P.20131013
+EN work/Trasmettitore 1662557719 \
+      FL /home/ise/vhdl/seriale_1/seriale2_brd/Trasmettitore.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Trasmettitore/Structural 1662557720 \
+      FL /home/ise/vhdl/seriale_1/seriale2_brd/Trasmettitore.vhd \
+      EN work/Trasmettitore 1662557719 CP fsm_trasmettitore CP ROM CP counter_mod8 \
+      CP UARTcomponent

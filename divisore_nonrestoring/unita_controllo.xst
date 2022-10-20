@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/xst"
+elaborate
+-ifn unita_controllo.prj
+-ifmt mixed

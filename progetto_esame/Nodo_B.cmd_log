@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/home/ise/vhdl/progetti_vhdl_ok/progetto_esame/Nodo_B.xst" -ofn "/home/ise/vhdl/progetti_vhdl_ok/progetto_esame/Nodo_B.syr" 
+xst -intstyle ise -ifn "/home/ise/vhdl/progetti_vhdl_ok/progetto_esame/Nodo_B.xst" -ofn "/home/ise/vhdl/progetti_vhdl_ok/progetto_esame/Nodo_B.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1200e-fg320-5 Nodo_B.ngc Nodo_B.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o Nodo_B_map.ncd Nodo_B.ngd Nodo_B.pcf 
+par -w -intstyle ise -ol high -t 1 Nodo_B_map.ncd Nodo_B.ncd Nodo_B.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Nodo_B.twx Nodo_B.ncd -o Nodo_B.twr Nodo_B.pcf 

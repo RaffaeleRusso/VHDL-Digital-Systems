@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/vhdl/progetti_vhdl_ok/progetto_esame/nodo_input_tb_isim_beh.exe" -prj "/home/ise/vhdl/progetti_vhdl_ok/progetto_esame/nodo_input_tb_beh.prj" "work.nodo_input_tb" 

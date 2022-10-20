@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/Handshaking_TB_isim_beh.exe" -prj "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/Handshaking_TB_beh.prj" "work.Handshaking_TB" 

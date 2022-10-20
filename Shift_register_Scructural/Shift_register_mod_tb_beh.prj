@@ -1,0 +1,6 @@
+vhdl work "mux_2_1.vhd"
+vhdl work "D_FF.vhd"
+vhdl work "Shift_register.vhd"
+vhdl work "Counter.vhd"
+vhdl work "Shift_register_mod.vhd"
+vhdl work "Shift_register_mod_tb.vhd"

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/Omega_TB_isim_beh.exe" -prj "/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/Omega_TB_beh.prj" "work.Omega_TB" 

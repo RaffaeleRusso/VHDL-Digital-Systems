@@ -1,0 +1,5 @@
+work	"Counter.vhd"
+work	"D_FF.vhd"
+work	"Shift_register.vhd"
+work	"Shift_register_mod.vhd"
+work	"mux_2_1.vhd"

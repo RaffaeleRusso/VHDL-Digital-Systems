@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "/home/ise/vhdl/Testing_system/Test_system.xst" -ofn "/home/ise/vhdl/Testing_system/Test_system.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_1200K.ucf -p xc3s1200e-fg320-4 Test_system.ngc Test_system.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Test_system_map.ncd Test_system.ngd Test_system.pcf 
+par -w -intstyle ise -ol high -t 1 Test_system_map.ncd Test_system.ncd Test_system.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Test_system.twx Test_system.ncd -o Test_system.twr Test_system.pcf -ucf Nexys2_1200K.ucf 
+bitgen -intstyle ise -f Test_system.ut Test_system.ncd 
+xst -intstyle ise -ifn "/home/ise/vhdl/Testing_system/Test_system.xst" -ofn "/home/ise/vhdl/Testing_system/Test_system.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_1200K.ucf -p xc3s1200e-fg320-4 Test_system.ngc Test_system.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Test_system_map.ncd Test_system.ngd Test_system.pcf 
+par -w -intstyle ise -ol high -t 1 Test_system_map.ncd Test_system.ncd Test_system.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Test_system.twx Test_system.ncd -o Test_system.twr Test_system.pcf -ucf Nexys2_1200K.ucf 

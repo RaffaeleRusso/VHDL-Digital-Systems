@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Thu Sep  8 03:59:01 2022
+
+drc -z divisore_board.ncd divisore_board.pcf
+
+DRC detected 0 errors and 0 warnings.

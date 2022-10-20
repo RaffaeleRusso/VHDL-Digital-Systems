@@ -1,0 +1,32 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/vincenzo/Scrivania/Progetti_Xilinx/Es_pronti/Esercizio_1/rete_intercon_decoder_Tb_isim_beh.exe -prj /home/vincenzo/Scrivania/Progetti_Xilinx/Es_pronti/Esercizio_1/rete_intercon_decoder_Tb_beh.prj work.rete_intercon_decoder_Tb 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/vincenzo/Scrivania/Progetti_Xilinx/Es_pronti/Esercizio_1/MUX_4_1.vhd" into library work
+Parsing VHDL file "/home/vincenzo/Scrivania/Progetti_Xilinx/Es_pronti/Esercizio_1/MUX_16_1.vhd" into library work
+Parsing VHDL file "/home/vincenzo/Scrivania/Progetti_Xilinx/Es_pronti/Esercizio_1/DEMUX_1_4.vhd" into library work
+Parsing VHDL file "/home/vincenzo/Scrivania/Progetti_Xilinx/Es_pronti/Esercizio_1/Rete_interconnessione.vhd" into library work
+Parsing VHDL file "/home/vincenzo/Scrivania/Progetti_Xilinx/Es_pronti/Esercizio_1/Decoder_4_16.vhd" into library work
+Parsing VHDL file "/home/vincenzo/Scrivania/Progetti_Xilinx/Es_pronti/Esercizio_1/Rete_interconn_decoder.vhd" into library work
+Parsing VHDL file "/home/vincenzo/Scrivania/Progetti_Xilinx/Es_pronti/Esercizio_1/Rete_interconn_decoder_TB.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 83184 KB
+Fuse CPU Usage: 1540 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture dataflow of entity mux4 [mux4_default]
+Compiling architecture structural of entity mux16 [mux16_default]
+Compiling architecture dataflow of entity DEMUX_1_4 [demux_1_4_default]
+Compiling architecture structural of entity rete_intercon [rete_intercon_default]
+Compiling architecture behavioral of entity decoder_4_16 [decoder_4_16_default]
+Compiling architecture behavioral of entity rete_decoder [rete_decoder_default]
+Compiling architecture behavior of entity rete_intercon_decoder_tb
+Time Resolution for simulation is 1ps.
+Waiting for 5 sub-compilation(s) to finish...
+Compiled 15 VHDL Units
+Built simulation executable /home/vincenzo/Scrivania/Progetti_Xilinx/Es_pronti/Esercizio_1/rete_intercon_decoder_Tb_isim_beh.exe
+Fuse Memory Usage: 386776 KB
+Fuse CPU Usage: 1600 ms
+GCC CPU Usage: 1700 ms

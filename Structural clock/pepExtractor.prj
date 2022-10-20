@@ -1,0 +1,5 @@
+work	"Contatore_24.vhd"
+work	"Contatore_60.vhd"
+work	"Divisore_freq.vhd"
+work	"FFT.vhd"
+work	"Orologio_hh_mm_ss.vhd"

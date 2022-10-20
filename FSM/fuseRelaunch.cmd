@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/vhdl/progetti_vhdl_ok/esercizio_3/riconoscitore_sequenza_tb_isim_beh.exe" -prj "/home/ise/vhdl/progetti_vhdl_ok/esercizio_3/riconoscitore_sequenza_tb_beh.prj" "work.riconoscitore_sequenza_tb" 

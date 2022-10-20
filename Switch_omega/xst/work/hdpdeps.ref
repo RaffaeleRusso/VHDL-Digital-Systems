@@ -1,0 +1,43 @@
+V3 23
+FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/Arbitro.vhd 2022/09/08.01:32:49 P.20131013
+EN work/Arbitro 1662627166 \
+      FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/Arbitro.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Arbitro/Dataflow 1662627167 \
+      FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/Arbitro.vhd \
+      EN work/Arbitro 1662627166
+FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/control_unit.vhd 2022/09/08.01:38:34 P.20131013
+EN work/control_unit 1662627172 \
+      FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/control_unit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/control_unit/Structural 1662627173 \
+      FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/control_unit.vhd \
+      EN work/control_unit 1662627172 CP Mux_4_1 CP Arbitro
+FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/Mux_4_1.vhd 2022/09/08.01:27:07 P.20131013
+EN work/Mux_4_1 1662627164 \
+      FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/Mux_4_1.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Mux_4_1/Dataflow 1662627165 \
+      FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/Mux_4_1.vhd \
+      EN work/Mux_4_1 1662627164
+FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/Omega_network.vhd 2022/09/08.01:52:31 P.20131013
+EN work/Omega_network 1662627174 \
+      FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/Omega_network.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Omega_network/Structural 1662627175 \
+      FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/Omega_network.vhd \
+      EN work/Omega_network 1662627174 CP op_unit CP control_unit
+FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/op_unit.vhd 2022/09/08.01:11:05 P.20131013
+EN work/op_unit 1662627170 \
+      FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/op_unit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/op_unit/Structural 1662627171 \
+      FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/op_unit.vhd \
+      EN work/op_unit 1662627170 CP RoutingNode
+FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/RoutingNode.vhd 2022/09/08.01:22:48 P.20131013
+EN work/RoutingNode 1662627168 \
+      FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/RoutingNode.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/RoutingNode/Dataflow 1662627169 \
+      FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/RoutingNode.vhd \
+      EN work/RoutingNode 1662627168

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vincenzo/Scrivania/Progetti_Xilinx/Es_pronti/Esercizio_1/DEMUX_1_4.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vincenzo/Scrivania/Progetti_Xilinx/Es_pronti/Esercizio_1/Decoder_4_16.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vincenzo/Scrivania/Progetti_Xilinx/Es_pronti/Esercizio_1/MUX_16_1.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vincenzo/Scrivania/Progetti_Xilinx/Es_pronti/Esercizio_1/Mux_2_1.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vincenzo/Scrivania/Progetti_Xilinx/Es_pronti/Esercizio_1/Rete_interconn_decoder.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vincenzo/Scrivania/Progetti_Xilinx/Es_pronti/Esercizio_1/Rete_interconnessione.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vincenzo/Scrivania/Progetti_Xilinx/Es_pronti/Esercizio_1/mux4_1.vhd&quot; into library work</arg>
+</msg>
+
+</messages>
+

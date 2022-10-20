@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/vhdl/progetti_vhdl_ok/esercizio3.2/riconoscitore_sequenza_temp.ncd
+OUTFILE=/home/ise/vhdl/progetti_vhdl_ok/esercizio3.2/riconoscitore_sequenza_temp.bit
+FAMILY=Spartan3E
+PART=xc3s1200e-4fg320
+WORKINGDIR=/home/ise/vhdl/progetti_vhdl_ok/esercizio3.2
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620

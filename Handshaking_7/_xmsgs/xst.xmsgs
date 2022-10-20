@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/EntityB.vhd</arg>&quot; line <arg fmt="%d" index="2">117</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DIV</arg>&apos; of component &apos;<arg fmt="%s" index="4">counter</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="1610" delta="new" >&quot;<arg fmt="%s" index="1">/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/EntityB.vhd</arg>&quot; line <arg fmt="%d" index="2">137</arg>: Width mismatch. &lt;<arg fmt="%s" index="3">somma</arg>&gt; has a width of <arg fmt="%d" index="4">5</arg> bits but assigned expression is <arg fmt="%d" index="5">4</arg>-bit wide.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/EntityB.vhd</arg>&quot; line <arg fmt="%d" index="2">139</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">do</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAM</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">RST</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="1781" delta="new" >Signal &lt;<arg fmt="%s" index="1">ROM</arg>&gt; is used but never assigned. Tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">RST</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">A</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">B</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="info" file="Xst" num="3044" delta="new" >The ROM &lt;<arg fmt="%s" index="1">Mrom__varindex0000</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="2">_varindex0000</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3225" delta="new" >The RAM &lt;<arg fmt="%s" index="1">Mrom__varindex0000</arg>&gt; will be implemented as BLOCK RAM
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">RAM_1_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">RAM</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">RAM_0_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">RAM</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">RAM_2_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">RAM</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">RAM_3_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">RAM</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">RAM_6_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">RAM</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">RAM_4_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">RAM</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">RAM_5_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">RAM</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">RAM_7_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">RAM</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/cont_ric/DIV</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2697" delta="new" >Unit &lt;<arg fmt="%s" index="1">Handshaking_system</arg>&gt; : the RAMs &lt;<arg fmt="%s" index="2">A/rom0/Mrom__varindex0000</arg>&gt;, &lt;<arg fmt="%s" index="3">B/rom1/Mrom__varindex0000</arg>&gt; are packed into the single block RAM &lt;<arg fmt="%s" index="4">A/rom0/Mrom__varindex00001</arg>&gt;
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">do_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">RAM</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">A/cont_tras/DIV</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">A/UC/incr</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">A/UC/RTS</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">A/UC/stato_corr_FSM_FFd1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">A/UC/stato_corr_FSM_FFd2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/UC/we</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/UC/incr</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/UC/stato_corr_FSM_FFd2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/UC/stato_corr_FSM_FFd1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">A/rom0/Mrom__varindex00001</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">A/cont_tras/c_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">A/cont_tras/c_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">A/cont_tras/c_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/cont_ric/c_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/cont_ric/c_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/cont_ric/c_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/do_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/do_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/do_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/do_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/RAM_7_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/RAM_7_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/RAM_7_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/RAM_7_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/RAM_5_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/RAM_5_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/RAM_5_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/RAM_5_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/RAM_4_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/RAM_4_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/RAM_4_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/RAM_4_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/RAM_6_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/RAM_6_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/RAM_6_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/RAM_6_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/RAM_3_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/RAM_3_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/RAM_3_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/RAM_3_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/RAM_2_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/RAM_2_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/RAM_2_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/RAM_2_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/RAM_0_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/RAM_0_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/RAM_0_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/RAM_0_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/RAM_1_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/RAM_1_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/RAM_1_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">B/ram0/RAM_1_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Handshaking_system</arg>&gt;.
+</msg>
+
+</messages>
+

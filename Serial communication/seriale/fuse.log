@@ -1,0 +1,36 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/ise/vhdl/seriale_1/seriale/sistema_tb_isim_beh.exe -prj /home/ise/vhdl/seriale_1/seriale/sistema_tb_beh.prj work.sistema_tb 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/vhdl/seriale_1/seriale/RS232RefComp2.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/seriale_1/seriale/../Encoder_8_3.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/seriale_1/seriale/../Decoder_3_8.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/seriale_1/seriale/nodo_tx.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/seriale_1/seriale/Nodo_rx.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/seriale_1/seriale/ButtonDebouncer.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/seriale_1/seriale/sistema.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/seriale_1/seriale/sistema_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 98584 KB
+Fuse CPU Usage: 990 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity ButtonDebouncer [\ButtonDebouncer(20,13000000)\]
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture dataflow of entity decoder_3_8 [decoder_3_8_default]
+Compiling architecture behavioral of entity UARTcomponent [\UARTcomponent(20,326)\]
+Compiling architecture structural of entity Nodo_tx [nodo_tx_default]
+Compiling architecture dataflow of entity Encoder [encoder_default]
+Compiling architecture structural of entity Nodo_rx [nodo_rx_default]
+Compiling architecture structural of entity sistema [sistema_default]
+Compiling architecture behavior of entity sistema_tb
+Time Resolution for simulation is 1ps.
+Compiled 20 VHDL Units
+Built simulation executable /home/ise/vhdl/seriale_1/seriale/sistema_tb_isim_beh.exe
+Fuse Memory Usage: 117440 KB
+Fuse CPU Usage: 1350 ms
+GCC CPU Usage: 970 ms

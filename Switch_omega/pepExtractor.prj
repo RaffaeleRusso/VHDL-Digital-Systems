@@ -1,0 +1,6 @@
+work	"Arbitro.vhd"
+work	"Mux_4_1.vhd"
+work	"Omega_network.vhd"
+work	"RoutingNode.vhd"
+work	"control_unit.vhd"
+work	"op_unit.vhd"

@@ -1,0 +1,61 @@
+V3 31
+FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/counter_mod8.vhd 2022/09/16.01:32:37 P.20131013
+EN work/counter 1663319330 \
+      FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/counter_mod8.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/MATH_REAL 1381692182 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/NUMERIC_STD 1381692181
+AR work/counter/Behavioral 1663319331 \
+      FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/counter_mod8.vhd \
+      EN work/counter 1663319330
+FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/EntityA.vhd 2022/09/16.02:07:52 P.20131013
+EN work/EntityA 1663319338 \
+      FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/EntityA.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/MATH_REAL 1381692182 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/EntityA/Structural 1663319339 \
+      FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/EntityA.vhd \
+      EN work/EntityA 1663319338 CP ucA CP counter CP ROM
+FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/EntityB.vhd 2022/09/16.02:08:27 P.20131013
+EN work/EntityB 1663319340 \
+      FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/EntityB.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/MATH_REAL 1381692182 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/EntityB/Structural 1663319341 \
+      FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/EntityB.vhd \
+      EN work/EntityB 1663319340 CP ucB CP counter CP ROM CP RAM
+FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/Handshaking_system.vhd 2022/09/16.02:05:04 P.20131013
+EN work/Handshaking_system 1663319342 \
+      FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/Handshaking_system.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Handshaking_system/Structural 1663319343 \
+      FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/Handshaking_system.vhd \
+      EN work/Handshaking_system 1663319342 CP EntityA CP EntityB
+FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/RAM.vhd 2022/09/16.01:17:15 P.20131013
+EN work/RAM 1663319334 \
+      FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/RAM.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/MATH_REAL 1381692182 PB ieee/NUMERIC_STD 1381692181
+AR work/RAM/Behavioral 1663319335 \
+      FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/RAM.vhd \
+      EN work/RAM 1663319334
+FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/ROM.vhd 2022/09/16.02:07:49 P.20131013
+EN work/ROM 1663319332 \
+      FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/ROM.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/ROM/behavioral 1663319333 \
+      FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/ROM.vhd \
+      EN work/ROM 1663319332
+FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/ucA.vhd 2022/09/16.02:03:43 P.20131013
+EN work/ucA 1663319336 \
+      FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/ucA.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ucA/Behavioral 1663319337 \
+      FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/ucA.vhd \
+      EN work/ucA 1663319336
+FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/ucB.vhd 2022/09/16.02:03:22 P.20131013
+EN work/ucB 1663319328 \
+      FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/ucB.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ucB/Behavioral 1663319329 \
+      FL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Handshaking_7/ucB.vhd \
+      EN work/ucB 1663319328

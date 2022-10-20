@@ -1,0 +1,552 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> 
+Reading design: Divisore_NR.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Divisore_NR.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Divisore_NR"
+Output Format                      : NGC
+Target Device                      : xc3s1200e-5-fg320
+
+---- Source Options
+Top Module Name                    : Divisore_NR
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/full_adder.vhd" in Library work.
+Architecture rtl of Entity full_adder is up to date.
+Compiling vhdl file "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/ripple_carry.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/ripple_carry.vhd" is newer than current system time.
+Architecture structural of Entity ripple_carry is up to date.
+Compiling vhdl file "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/cont_mod4.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/cont_mod4.vhd" is newer than current system time.
+Architecture behavioural of Entity cont4 is up to date.
+Compiling vhdl file "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/FFD.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/FFD.vhd" is newer than current system time.
+Entity <ffd> compiled.
+Entity <ffd> (Architecture <behavioural>) compiled.
+Compiling vhdl file "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/registro4.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/registro4.vhd" is newer than current system time.
+Entity <registrodivisore> compiled.
+Entity <registrodivisore> (Architecture <behavioural>) compiled.
+Compiling vhdl file "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/shift_register.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/shift_register.vhd" is newer than current system time.
+Entity <shift_register> compiled.
+Entity <shift_register> (Architecture <behavioural>) compiled.
+Compiling vhdl file "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/unita_controllo.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/unita_controllo.vhd" is newer than current system time.
+Entity <unita_controllo> compiled.
+Entity <unita_controllo> (Architecture <structural>) compiled.
+Compiling vhdl file "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/adder_sub.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/adder_sub.vhd" is newer than current system time.
+Architecture structural of Entity adder_sub is up to date.
+Compiling vhdl file "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/Divisore.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/Divisore.vhd" is newer than current system time.
+Architecture behavioral of Entity divisore_nr is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Divisore_NR> in library <work> (architecture <behavioral>) with generics.
+	N = 4
+
+Analyzing hierarchy for entity <cont4> in library <work> (architecture <behavioural>).
+
+Analyzing hierarchy for entity <FFD> in library <work> (architecture <behavioural>).
+
+Analyzing hierarchy for entity <registroDivisore> in library <work> (architecture <behavioural>) with generics.
+	N = 4
+
+Analyzing hierarchy for entity <shift_register> in library <work> (architecture <behavioural>) with generics.
+	N = 4
+
+Analyzing hierarchy for entity <unita_controllo> in library <work> (architecture <structural>) with generics.
+	N = 4
+
+Analyzing hierarchy for entity <adder_sub> in library <work> (architecture <structural>) with generics.
+	N = 4
+
+Analyzing hierarchy for entity <ripple_carry> in library <work> (architecture <structural>) with generics.
+	N = 4
+
+Analyzing hierarchy for entity <full_adder> in library <work> (architecture <rtl>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <Divisore_NR> in library <work> (Architecture <behavioral>).
+	N = 4
+WARNING:Xst:753 - "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/Divisore.vhd" line 118: Unconnected output port 'count' of component 'cont4'.
+WARNING:Xst:753 - "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/Divisore.vhd" line 186: Unconnected output port 'cout' of component 'adder_sub'.
+Entity <Divisore_NR> analyzed. Unit <Divisore_NR> generated.
+
+Analyzing Entity <cont4> in library <work> (Architecture <behavioural>).
+Entity <cont4> analyzed. Unit <cont4> generated.
+
+Analyzing Entity <FFD> in library <work> (Architecture <behavioural>).
+Entity <FFD> analyzed. Unit <FFD> generated.
+
+Analyzing generic Entity <registroDivisore> in library <work> (Architecture <behavioural>).
+	N = 4
+Entity <registroDivisore> analyzed. Unit <registroDivisore> generated.
+
+Analyzing generic Entity <shift_register> in library <work> (Architecture <behavioural>).
+	N = 4
+Entity <shift_register> analyzed. Unit <shift_register> generated.
+
+Analyzing generic Entity <unita_controllo> in library <work> (Architecture <structural>).
+	N = 4
+Entity <unita_controllo> analyzed. Unit <unita_controllo> generated.
+
+Analyzing generic Entity <adder_sub> in library <work> (Architecture <structural>).
+	N = 4
+Entity <adder_sub> analyzed. Unit <adder_sub> generated.
+
+Analyzing generic Entity <ripple_carry> in library <work> (Architecture <structural>).
+	N = 4
+Entity <ripple_carry> analyzed. Unit <ripple_carry> generated.
+
+Analyzing Entity <full_adder> in library <work> (Architecture <rtl>).
+Entity <full_adder> analyzed. Unit <full_adder> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <cont4>.
+    Related source file is "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/cont_mod4.vhd".
+    Found 1-bit register for signal <div>.
+    Found 2-bit up counter for signal <c>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <cont4> synthesized.
+
+
+Synthesizing Unit <FFD>.
+    Related source file is "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/FFD.vhd".
+    Found 1-bit register for signal <y>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <FFD> synthesized.
+
+
+Synthesizing Unit <registroDivisore>.
+    Related source file is "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/registro4.vhd".
+    Found 4-bit register for signal <output>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <registroDivisore> synthesized.
+
+
+Synthesizing Unit <shift_register>.
+    Related source file is "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/shift_register.vhd".
+    Found 8-bit register for signal <temp>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <shift_register> synthesized.
+
+
+Synthesizing Unit <unita_controllo>.
+    Related source file is "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/unita_controllo.vhd".
+WARNING:Xst:647 - Input <Z_MSB> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Register <load_qi> equivalent to <en_cnt> has been removed
+    Found finite state machine <FSM_0> for signal <current_state>.
+    -----------------------------------------------------------------------
+    | States             | 10                                             |
+    | Transitions        | 13                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 10                                             |
+    | Clock              | CLK                       (rising_edge)        |
+    | Power Up State     | idle                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <shift>.
+    Found 1-bit register for signal <en_cnt>.
+    Found 1-bit register for signal <load_resto_parziale>.
+    Found 1-bit register for signal <en_qi>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   4 D-type flip-flop(s).
+Unit <unita_controllo> synthesized.
+
+
+Synthesizing Unit <full_adder>.
+    Related source file is "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/full_adder.vhd".
+    Found 1-bit xor2 for signal <s>.
+    Found 1-bit xor2 for signal <cout$xor0000> created at line 17.
+Unit <full_adder> synthesized.
+
+
+Synthesizing Unit <ripple_carry>.
+    Related source file is "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/ripple_carry.vhd".
+WARNING:Xst:1780 - Signal <temp<3>> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <ripple_carry> synthesized.
+
+
+Synthesizing Unit <adder_sub>.
+    Related source file is "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/adder_sub.vhd".
+    Found 4-bit xor2 for signal <complementoy>.
+Unit <adder_sub> synthesized.
+
+
+Synthesizing Unit <Divisore_NR>.
+    Related source file is "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/Divisore.vhd".
+WARNING:Xst:1780 - Signal <sub> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <Divisore_NR> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 2-bit up counter                                      : 1
+# Registers                                            : 15
+ 1-bit register                                        : 14
+ 4-bit register                                        : 1
+# Xors                                                 : 12
+ 1-bit xor2                                            : 12
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <uc/current_state/FSM> on signal <current_state[1:10]> with one-hot encoding.
+--------------------------
+ State      | Encoding
+--------------------------
+ idle       | 0000000001
+ wait_start | 0000000010
+ q_load     | 0000000100
+ q1         | 0000001000
+ q2         | 0000010000
+ q3         | 0000100000
+ q4         | 0010000000
+ q_wait     | 0001000000
+ q5         | 0100000000
+ q_corr     | 1000000000
+--------------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Counters                                             : 1
+ 2-bit up counter                                      : 1
+# Registers                                            : 18
+ Flip-Flops                                            : 18
+# Xors                                                 : 12
+ 1-bit xor2                                            : 12
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Divisore_NR> ...
+
+Optimizing unit <shift_register> ...
+
+Optimizing unit <unita_controllo> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Divisore_NR, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 30
+ Flip-Flops                                            : 30
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Divisore_NR.ngr
+Top Level Output File Name         : Divisore_NR
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 19
+
+Cell Usage :
+# BELS                             : 40
+#      GND                         : 1
+#      INV                         : 1
+#      LUT2                        : 7
+#      LUT3                        : 12
+#      LUT3_L                      : 4
+#      LUT4                        : 12
+#      LUT4_D                      : 2
+#      LUT4_L                      : 1
+# FlipFlops/Latches                : 30
+#      FD                          : 8
+#      FDCE                        : 15
+#      FDCE_1                      : 1
+#      FDS                         : 5
+#      FDSE                        : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 18
+#      IBUF                        : 10
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1200efg320-5 
+
+ Number of Slices:                       23  out of   8672     0%  
+ Number of Slice Flip Flops:             30  out of  17344     0%  
+ Number of 4 input LUTs:                 39  out of  17344     0%  
+ Number of IOs:                          19
+ Number of bonded IOBs:                  19  out of    250     7%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 30    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+RST                                | IBUF                   | 16    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 6.079ns (Maximum Frequency: 164.503MHz)
+   Minimum input arrival time before clock: 3.688ns
+   Maximum output required time after clock: 4.252ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 6.079ns (frequency: 164.503MHz)
+  Total number of paths / destination ports: 128 / 43
+-------------------------------------------------------------------------
+Delay:               3.039ns (Levels of Logic = 2)
+  Source:            ffd_0/y (FF)
+  Destination:       sr_AQ1/temp_7 (FF)
+  Source Clock:      CLK falling
+  Destination Clock: CLK rising
+
+  Data Path: ffd_0/y to sr_AQ1/temp_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE_1:C->Q           8   0.514   0.673  ffd_0/y (ffd_0/y)
+     LUT3:I2->O            1   0.612   0.360  sr_AQ1/temp_5_mux0000_SW0 (N4)
+     LUT4:I3->O            1   0.612   0.000  sr_AQ1/temp_5_mux0000 (sr_AQ1/temp_5_mux0000)
+     FDCE:D                    0.268          sr_AQ1/temp_5
+    ----------------------------------------
+    Total                      3.039ns (2.006ns logic, 1.033ns route)
+                                       (66.0% logic, 34.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 28 / 23
+-------------------------------------------------------------------------
+Offset:              3.688ns (Levels of Logic = 2)
+  Source:            start (PAD)
+  Destination:       sr_AQ1/temp_7 (FF)
+  Destination Clock: CLK rising
+
+  Data Path: start to sr_AQ1/temp_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            13   1.106   0.988  start_IBUF (start_IBUF)
+     LUT3:I0->O            4   0.612   0.499  sr_AQ1/temp_4_not00011 (sr_AQ1/temp_4_not0001)
+     FDCE:CE                   0.483          sr_AQ1/temp_4
+    ----------------------------------------
+    Total                      3.688ns (2.201ns logic, 1.487ns route)
+                                       (59.7% logic, 40.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              4.252ns (Levels of Logic = 1)
+  Source:            sr_AQ1/temp_4 (FF)
+  Destination:       OUTPUT<4> (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: sr_AQ1/temp_4 to OUTPUT<4>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             6   0.514   0.569  sr_AQ1/temp_4 (sr_AQ1/temp_4)
+     OBUF:I->O                 3.169          OUTPUT_4_OBUF (OUTPUT<4>)
+    ----------------------------------------
+    Total                      4.252ns (3.683ns logic, 0.569ns route)
+                                       (86.6% logic, 13.4% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 4.22 secs
+ 
+--> 
+
+
+Total memory usage is 617824 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   13 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

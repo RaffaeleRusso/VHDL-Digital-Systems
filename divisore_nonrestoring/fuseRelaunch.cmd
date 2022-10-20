@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/tb_divisore_isim_beh.exe" -prj "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/tb_divisore_beh.prj" "work.tb_divisore" 

@@ -1,0 +1,99 @@
+V3 54
+FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Anodes_manager.vhd 2022/03/07.16:48:31 P.20131013
+EN work/Anodes_manager 1646675256 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Anodes_manager.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Anodes_manager/Behavioral 1646675257 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Anodes_manager.vhd \
+      EN work/Anodes_manager 1646675256
+FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Cathodes_manager.vhd 2022/03/07.13:49:44 P.20131013
+EN work/Cathodes_manager 1646675258 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Cathodes_manager.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Cathodes_manager/Behavioral 1646675259 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Cathodes_manager.vhd \
+      EN work/Cathodes_manager 1646675258
+FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/codificatore.vhd 2022/03/07.13:48:58 P.20131013
+EN work/codificatore 1646675264 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/codificatore.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/codificatore/Behavioral 1646675265 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/codificatore.vhd \
+      EN work/codificatore 1646675264
+FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Contatore_24.vhd 2022/03/07.15:18:20 P.20131013
+EN work/Contatore_24 1646675262 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Contatore_24.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Contatore_24/Structural 1646675263 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Contatore_24.vhd \
+      EN work/Contatore_24 1646675262 CP FFT
+FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Contatore_4.vhd 2022/03/07.14:59:36 P.20131013
+EN work/counter_mod4 1646675252 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Contatore_4.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/counter_mod4/Behavioral 1646675253 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Contatore_4.vhd \
+      EN work/counter_mod4 1646675252
+FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Contatore_60.vhd 2022/03/07.15:17:44 P.20131013
+EN work/Contatore_60 1646675260 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Contatore_60.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Contatore_60/Structural 1646675261 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Contatore_60.vhd \
+      EN work/Contatore_60 1646675260 CP FFT
+FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/ControlloreI.vhd 2022/03/07.16:38:54 P.20131013
+EN work/ControlloreI 1646675266 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/ControlloreI.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ControlloreI/Behavioral 1646675267 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/ControlloreI.vhd \
+      EN work/ControlloreI 1646675266
+FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Convertitore_display.vhd 2022/03/06.11:04:58 P.20131013
+EN work/Convertitore_display 1646436058 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Convertitore_display.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Convertitore_display/Behavioral 1646436059 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Convertitore_display.vhd \
+      EN work/Convertitore_display 1646436058
+FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/demux.vhd 2022/03/06.10:59:32 P.20131013
+EN work/DEMUX_1_4 1646675268 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/demux.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/DEMUX_1_4/Dataflow 1646675269 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/demux.vhd EN work/DEMUX_1_4 1646675268
+FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Divisore_freq.vhd 2022/03/06.11:47:48 P.20131013
+EN work/Divisore_freq 1646675254 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Divisore_freq.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Divisore_freq/Behavioral 1646675255 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Divisore_freq.vhd \
+      EN work/Divisore_freq 1646675254
+FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/FFT.vhd 2021/12/04.10:29:33 P.20131013
+EN work/FFT 1646675250 FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/FFT.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/FFT/Behavioral 1646675251 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/FFT.vhd EN work/FFT 1646675250
+FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.vhd 2022/03/07.17:47:24 P.20131013
+EN work/Orologio_board 1646675274 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Orologio_board/Structural 1646675275 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.vhd \
+      EN work/Orologio_board 1646675274 CP codificatore CP ControlloreI \
+      CP DEMUX_1_4 CP Orologio_hh_mm_ss CP Seven_segments_display
+FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_hh_mm_ss.vhd 2022/03/07.17:46:08 P.20131013
+EN work/Orologio_hh_mm_ss 1646675270 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_hh_mm_ss.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Orologio_hh_mm_ss/Structural 1646675271 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_hh_mm_ss.vhd \
+      EN work/Orologio_hh_mm_ss 1646675270 CP Divisore_freq CP Contatore_60 \
+      CP Contatore_24
+FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Seven_segments_display.vhd 2022/03/07.14:59:29 P.20131013
+EN work/Seven_segments_display 1646675272 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Seven_segments_display.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Seven_segments_display/Structural 1646675273 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Seven_segments_display.vhd \
+      EN work/Seven_segments_display 1646675272 CP counter_mod4 CP Divisore_freq \
+      CP Anodes_manager CP Cathodes_manager

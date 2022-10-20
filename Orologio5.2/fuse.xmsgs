@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="1156" delta="unknown" >"/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_TB.vhd" Line 47: Formal port &lt;<arg fmt="%s" index="1">set_h</arg>&gt; does not exist in entity &lt;<arg fmt="%s" index="2">Orologio_hh_mm_ss</arg>&gt;.  Please compare the definition of block &lt;<arg fmt="%s" index="3">Orologio_hh_mm_ss</arg>&gt; to its component declaration and its instantion to detect the mismatch.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1156" delta="unknown" >"/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_TB.vhd" Line 48: Formal port &lt;<arg fmt="%s" index="1">set_m</arg>&gt; does not exist in entity &lt;<arg fmt="%s" index="2">Orologio_hh_mm_ss</arg>&gt;.  Please compare the definition of block &lt;<arg fmt="%s" index="3">Orologio_hh_mm_ss</arg>&gt; to its component declaration and its instantion to detect the mismatch.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1156" delta="unknown" >"/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_TB.vhd" Line 49: Formal port &lt;<arg fmt="%s" index="1">set_s</arg>&gt; does not exist in entity &lt;<arg fmt="%s" index="2">Orologio_hh_mm_ss</arg>&gt;.  Please compare the definition of block &lt;<arg fmt="%s" index="3">Orologio_hh_mm_ss</arg>&gt; to its component declaration and its instantion to detect the mismatch.
+</msg>
+
+<msg type="error" file="Simulator" num="777" delta="unknown" >Static elaboration of top level VHDL design unit <arg fmt="%s" index="1">orologio_tb</arg> in library <arg fmt="%s" index="2">work</arg> failed
+</msg>
+
+</messages>
+

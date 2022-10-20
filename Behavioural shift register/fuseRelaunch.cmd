@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/mnt/hgfs/Condivisa/esercizio4_comportamentale/Shift_register_tb_isim_beh.exe" -prj "/mnt/hgfs/Condivisa/esercizio4_comportamentale/Shift_register_tb_beh.prj" "work.Shift_register_tb" 

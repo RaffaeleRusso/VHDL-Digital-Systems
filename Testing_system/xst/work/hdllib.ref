@@ -1,0 +1,14 @@
+EN counter_address NULL /home/ise/vhdl/Testing_system/Counter_address.vhd sub00/vhpl10 1646423393
+AR test_system behavioral /home/ise/vhdl/Testing_system/Test_system.vhd sub00/vhpl13 1646423396
+AR counter_address behavioral /home/ise/vhdl/Testing_system/Counter_address.vhd sub00/vhpl11 1646423394
+EN clock_filter NULL /home/ise/vhdl/Testing_system/clock_filter.vhd sub00/vhpl06 1646423389
+EN rom NULL /home/ise/vhdl/Testing_system/ROM.vhd sub00/vhpl00 1646423385
+AR rom behavioral /home/ise/vhdl/Testing_system/ROM.vhd sub00/vhpl01 1646423386
+EN mux_2_1 NULL /home/ise/vhdl/Testing_system/mux_2_1.vhd sub00/vhpl04 1646423387
+EN macchina_combinatoria NULL /home/ise/vhdl/Testing_system/Macchina_combinatoria.vhd sub00/vhpl02 1637321893
+AR clock_filter behavioral /home/ise/vhdl/Testing_system/clock_filter.vhd sub00/vhpl07 1646423390
+AR ram behavioral /home/ise/vhdl/Testing_system/RAM.vhd sub00/vhpl09 1646423392
+AR mux_2_1 dataflow /home/ise/vhdl/Testing_system/mux_2_1.vhd sub00/vhpl05 1646423388
+EN ram NULL /home/ise/vhdl/Testing_system/RAM.vhd sub00/vhpl08 1646423391
+AR macchina_combinatoria behavioral /home/ise/vhdl/Testing_system/Macchina_combinatoria.vhd sub00/vhpl03 1637321894
+EN test_system NULL /home/ise/vhdl/Testing_system/Test_system.vhd sub00/vhpl12 1646423395

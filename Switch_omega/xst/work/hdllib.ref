@@ -1,0 +1,12 @@
+AR omega_network structural /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/Omega_network.vhd sub00/vhpl11 1662627175
+EN routingnode NULL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/RoutingNode.vhd sub00/vhpl00 1662627168
+AR op_unit structural /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/op_unit.vhd sub00/vhpl03 1662627171
+EN mux_4_1 NULL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/Mux_4_1.vhd sub00/vhpl04 1662627164
+AR control_unit structural /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/control_unit.vhd sub00/vhpl09 1662627173
+EN omega_network NULL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/Omega_network.vhd sub00/vhpl10 1662627174
+AR routingnode dataflow /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/RoutingNode.vhd sub00/vhpl01 1662627169
+AR arbitro dataflow /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/Arbitro.vhd sub00/vhpl07 1662627167
+AR mux_4_1 dataflow /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/Mux_4_1.vhd sub00/vhpl05 1662627165
+EN arbitro NULL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/Arbitro.vhd sub00/vhpl06 1662627166
+EN control_unit NULL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/control_unit.vhd sub00/vhpl08 1662627172
+EN op_unit NULL /home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Switch_omega/op_unit.vhd sub00/vhpl02 1662627170

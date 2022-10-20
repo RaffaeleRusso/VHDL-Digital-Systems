@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Blow_Fish.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="BlowFish_Decr_TB_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="BlowFish_Decr_TB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="BlowFish_Decr_TB_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Blowfish_TB_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="F_TB_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="control_unit_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1662989594" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1662989594">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1663063176" xil_pn:in_ck="-6910287830644827669" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1663063176">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="BlowFish_Decr_TB.vhd"/>
+      <outfile xil_pn:name="Blowfish.vhd"/>
+      <outfile xil_pn:name="Blowfish_TB.vhd"/>
+      <outfile xil_pn:name="Counter_address.vhd"/>
+      <outfile xil_pn:name="F.vhd"/>
+      <outfile xil_pn:name="F_TB.vhd"/>
+      <outfile xil_pn:name="Plain_register.vhd"/>
+      <outfile xil_pn:name="Post_proc_register.vhd"/>
+      <outfile xil_pn:name="Post_processing.vhd"/>
+      <outfile xil_pn:name="ROM_P.vhd"/>
+      <outfile xil_pn:name="Round.vhd"/>
+      <outfile xil_pn:name="Sbox1.vhd"/>
+      <outfile xil_pn:name="Sbox2.vhd"/>
+      <outfile xil_pn:name="Sbox3.vhd"/>
+      <outfile xil_pn:name="Sbox4.vhd"/>
+      <outfile xil_pn:name="control_unit.vhd"/>
+      <outfile xil_pn:name="full_adder.vhd"/>
+      <outfile xil_pn:name="registro32.vhd"/>
+      <outfile xil_pn:name="ripple_carry.vhd"/>
+      <outfile xil_pn:name="unita_controllo.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1663061560" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="4384349354338852422" xil_pn:start_ts="1663061560">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1663061560" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="6906719988165591496" xil_pn:start_ts="1663061560">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1662989594" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-2343423461790787264" xil_pn:start_ts="1662989594">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1663063176" xil_pn:in_ck="-6910287830644827669" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1663063176">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="BlowFish_Decr_TB.vhd"/>
+      <outfile xil_pn:name="Blowfish.vhd"/>
+      <outfile xil_pn:name="Blowfish_TB.vhd"/>
+      <outfile xil_pn:name="Counter_address.vhd"/>
+      <outfile xil_pn:name="F.vhd"/>
+      <outfile xil_pn:name="F_TB.vhd"/>
+      <outfile xil_pn:name="Plain_register.vhd"/>
+      <outfile xil_pn:name="Post_proc_register.vhd"/>
+      <outfile xil_pn:name="Post_processing.vhd"/>
+      <outfile xil_pn:name="ROM_P.vhd"/>
+      <outfile xil_pn:name="Round.vhd"/>
+      <outfile xil_pn:name="Sbox1.vhd"/>
+      <outfile xil_pn:name="Sbox2.vhd"/>
+      <outfile xil_pn:name="Sbox3.vhd"/>
+      <outfile xil_pn:name="Sbox4.vhd"/>
+      <outfile xil_pn:name="control_unit.vhd"/>
+      <outfile xil_pn:name="full_adder.vhd"/>
+      <outfile xil_pn:name="registro32.vhd"/>
+      <outfile xil_pn:name="ripple_carry.vhd"/>
+      <outfile xil_pn:name="unita_controllo.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1663063181" xil_pn:in_ck="-6910287830644827669" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-8210405809005771730" xil_pn:start_ts="1663063176">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="BlowFish_Decr_TB_beh.prj"/>
+      <outfile xil_pn:name="BlowFish_Decr_TB_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1663063181" xil_pn:in_ck="275740389606331610" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-6744725566500704389" xil_pn:start_ts="1663063181">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="BlowFish_Decr_TB_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+  </transforms>
+
+</generated_project>

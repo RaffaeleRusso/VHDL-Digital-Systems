@@ -1,0 +1,8 @@
+vhdl work "ucB.vhd"
+vhdl work "ucA.vhd"
+vhdl work "ROM.vhd"
+vhdl work "RAM.vhd"
+vhdl work "counter_mod8.vhd"
+vhdl work "EntityB.vhd"
+vhdl work "EntityA.vhd"
+vhdl work "Handshaking_system.vhd"

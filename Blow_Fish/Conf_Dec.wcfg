@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ale/Scrivania/Blow_Fish/BlowFish_Decr_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="blowfish_decr_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/blowfish_decr_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blowfish_decr_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blowfish_decr_tb/start" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blowfish_decr_tb/m" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">m</obj_property>
+      <obj_property name="ObjectShortName">m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blowfish_decr_tb/plaintext" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">plaintext[63:0]</obj_property>
+      <obj_property name="ObjectShortName">plaintext[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blowfish_decr_tb/k" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">k[31:0]</obj_property>
+      <obj_property name="ObjectShortName">k[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blowfish_decr_tb/ciphertext" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ciphertext[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ciphertext[63:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blowfish_decr_tb/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blowfish_decr_tb/uut/pl_reg/round_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">round_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">round_out[63:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blowfish_decr_tb/uut/pl_reg/load_round_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">load_round_out</obj_property>
+      <obj_property name="ObjectShortName">load_round_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blowfish_decr_tb/uut/CU/stato_corr" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">stato_corr</obj_property>
+      <obj_property name="ObjectShortName">stato_corr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blowfish_decr_tb/uut/cont/counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">counter[4:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blowfish_decr_tb/uut/cont/en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blowfish_decr_tb/uut/rom1/data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blowfish_decr_tb/uut/round1/xor1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">xor1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">xor1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

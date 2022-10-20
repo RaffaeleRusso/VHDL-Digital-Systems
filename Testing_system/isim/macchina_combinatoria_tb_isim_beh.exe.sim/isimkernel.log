@@ -1,0 +1,28 @@
+Command line:
+   macchina_combinatoria_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  38758
+
+Fri Mar  4 20:06:16 2022
+
+
+ Elaboration Time: 0.1 sec
+
+ Current Memory Usage: 198.611 Meg
+
+ Total Signals          : 4
+ Total Nets             : 7
+ Total Signal Drivers   : 2
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 2
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 367
+
+ Total Simulation Time: 0.11 sec
+
+ Current Memory Usage: 276.21 Meg
+
+Fri Mar  4 20:07:48 2022
+

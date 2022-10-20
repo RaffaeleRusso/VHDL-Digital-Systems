@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/so/Scrivania/esercizio_2/Encoder_prioritario_tb_isim_beh.exe" -prj "/home/so/Scrivania/esercizio_2/Encoder_prioritario_tb_beh.prj" "work.Encoder_prioritario_tb" 

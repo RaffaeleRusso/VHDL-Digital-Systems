@@ -1,0 +1,57 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/sim_cron_int_tb_isim_beh.exe -prj /home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/sim_cron_int_tb_beh.prj work.sim_cron_int_tb 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/FFT.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/Divisore_freq.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/Contatore_60.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/Contatore_4.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/Contatore_24.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/Cathodes_manager.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/Anodes_manager.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/Seven_segments_display.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/RAM.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/Orologio_hh_mm_ss.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/mux_2_1.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/demux.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/Counter_address.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/ControlloreI.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/codificatore.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/ButtonDebouncer.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/contatore_int_board.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/sim_cron_int_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 98976 KB
+Fuse CPU Usage: 1400 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture dataflow of entity DEMUX_1_4 [demux_1_4_default]
+Compiling architecture behavioral of entity Divisore_freq [\Divisore_freq(50000000,1)\]
+Compiling architecture behavioral of entity FFT [fft_default]
+Compiling architecture structural of entity Contatore_60 [contatore_60_default]
+Compiling architecture structural of entity Contatore_24 [contatore_24_default]
+Compiling architecture structural of entity Orologio_hh_mm_ss [orologio_hh_mm_ss_default]
+Compiling architecture behavioral of entity ButtonDebouncer [\ButtonDebouncer(20,0)\]
+Compiling architecture behavioral of entity RAM [ram_default]
+Compiling architecture behavioral of entity counter_mod4 [counter_mod4_default]
+Compiling architecture behavioral of entity Divisore_freq [\Divisore_freq(50000000,500)\]
+Compiling architecture behavioral of entity Anodes_manager [anodes_manager_default]
+Compiling architecture behavioral of entity Cathodes_manager [cathodes_manager_default]
+Compiling architecture structural of entity Seven_segments_display [seven_segments_display_default]
+Compiling architecture behavioral of entity codificatore [codificatore_default]
+Compiling architecture behavioral of entity Counter_address [counter_address_default]
+Compiling architecture dataflow of entity mux [mux_default]
+Compiling architecture behavioral of entity ControlloreI [controllorei_default]
+Compiling architecture structural of entity cron_int_board [cron_int_board_default]
+Compiling architecture behavior of entity sim_cron_int_tb
+Time Resolution for simulation is 1ps.
+Compiled 42 VHDL Units
+Built simulation executable /home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/sim_cron_int_tb_isim_beh.exe
+Fuse Memory Usage: 118464 KB
+Fuse CPU Usage: 1900 ms
+GCC CPU Usage: 2260 ms

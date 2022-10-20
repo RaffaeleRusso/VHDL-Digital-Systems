@@ -1,0 +1,85 @@
+xst -intstyle ise -ifn "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.xst" -ofn "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_1200K.ucf -p xc7a100t-csg324-3 Orologio_board.ngc Orologio_board.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Orologio_board_map.ncd Orologio_board.ngd Orologio_board.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_1200K.ucf -p xc7a100t-csg324-3 Orologio_board.ngc Orologio_board.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Orologio_board_map.ncd Orologio_board.ngd Orologio_board.pcf 
+xst -intstyle ise -ifn "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.xst" -ofn "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_1200K.ucf -p xc3s1200e-fg320-5 Orologio_board.ngc Orologio_board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o Orologio_board_map.ncd Orologio_board.ngd Orologio_board.pcf 
+par -w -intstyle ise -ol high -t 1 Orologio_board_map.ncd Orologio_board.ncd Orologio_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Orologio_board.twx Orologio_board.ncd -o Orologio_board.twr Orologio_board.pcf -ucf Nexys2_1200K.ucf 
+bitgen -intstyle ise -f Orologio_board.ut Orologio_board.ncd 
+xst -intstyle ise -ifn "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.xst" -ofn "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_1200K.ucf -p xc3s1200e-fg320-5 Orologio_board.ngc Orologio_board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o Orologio_board_map.ncd Orologio_board.ngd Orologio_board.pcf 
+par -w -intstyle ise -ol high -t 1 Orologio_board_map.ncd Orologio_board.ncd Orologio_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Orologio_board.twx Orologio_board.ncd -o Orologio_board.twr Orologio_board.pcf -ucf Nexys2_1200K.ucf 
+bitgen -intstyle ise -f Orologio_board.ut Orologio_board.ncd 
+xst -intstyle ise -ifn "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.xst" -ofn "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_1200K.ucf -p xc3s1200e-fg320-5 Orologio_board.ngc Orologio_board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o Orologio_board_map.ncd Orologio_board.ngd Orologio_board.pcf 
+par -w -intstyle ise -ol high -t 1 Orologio_board_map.ncd Orologio_board.ncd Orologio_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Orologio_board.twx Orologio_board.ncd -o Orologio_board.twr Orologio_board.pcf -ucf Nexys2_1200K.ucf 
+bitgen -intstyle ise -f Orologio_board.ut Orologio_board.ncd 
+xst -intstyle ise -ifn "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.xst" -ofn "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_1200K.ucf -p xc3s1200e-fg320-5 Orologio_board.ngc Orologio_board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o Orologio_board_map.ncd Orologio_board.ngd Orologio_board.pcf 
+par -w -intstyle ise -ol high -t 1 Orologio_board_map.ncd Orologio_board.ncd Orologio_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Orologio_board.twx Orologio_board.ncd -o Orologio_board.twr Orologio_board.pcf -ucf Nexys2_1200K.ucf 
+bitgen -intstyle ise -f Orologio_board.ut Orologio_board.ncd 
+xst -intstyle ise -ifn "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.xst" -ofn "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.syr" 
+xst -intstyle ise -ifn "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.xst" -ofn "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_1200K.ucf -p xc3s1200e-fg320-5 Orologio_board.ngc Orologio_board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o Orologio_board_map.ncd Orologio_board.ngd Orologio_board.pcf 
+par -w -intstyle ise -ol high -t 1 Orologio_board_map.ncd Orologio_board.ncd Orologio_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Orologio_board.twx Orologio_board.ncd -o Orologio_board.twr Orologio_board.pcf -ucf Nexys2_1200K.ucf 
+bitgen -intstyle ise -f Orologio_board.ut Orologio_board.ncd 
+xst -intstyle ise -ifn "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.xst" -ofn "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.syr" 
+xst -intstyle ise -ifn "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.xst" -ofn "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_1200K.ucf -p xc3s1200e-fg320-5 Orologio_board.ngc Orologio_board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o Orologio_board_map.ncd Orologio_board.ngd Orologio_board.pcf 
+par -w -intstyle ise -ol high -t 1 Orologio_board_map.ncd Orologio_board.ncd Orologio_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Orologio_board.twx Orologio_board.ncd -o Orologio_board.twr Orologio_board.pcf -ucf Nexys2_1200K.ucf 
+bitgen -intstyle ise -f Orologio_board.ut Orologio_board.ncd 
+xst -intstyle ise -ifn "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.xst" -ofn "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_1200K.ucf -p xc3s1200e-fg320-5 Orologio_board.ngc Orologio_board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o Orologio_board_map.ncd Orologio_board.ngd Orologio_board.pcf 
+par -w -intstyle ise -ol high -t 1 Orologio_board_map.ncd Orologio_board.ncd Orologio_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Orologio_board.twx Orologio_board.ncd -o Orologio_board.twr Orologio_board.pcf -ucf Nexys2_1200K.ucf 
+bitgen -intstyle ise -f Orologio_board.ut Orologio_board.ncd 
+xst -intstyle ise -ifn "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.xst" -ofn "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_1200K.ucf -p xc3s1200e-fg320-5 Orologio_board.ngc Orologio_board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o Orologio_board_map.ncd Orologio_board.ngd Orologio_board.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_1200K.ucf -p xc3s1200e-fg320-5 Orologio_board.ngc Orologio_board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o Orologio_board_map.ncd Orologio_board.ngd Orologio_board.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_1200K.ucf -p xc3s1200e-fg320-5 Orologio_board.ngc Orologio_board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o Orologio_board_map.ncd Orologio_board.ngd Orologio_board.pcf 
+par -w -intstyle ise -ol high -t 1 Orologio_board_map.ncd Orologio_board.ncd Orologio_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Orologio_board.twx Orologio_board.ncd -o Orologio_board.twr Orologio_board.pcf -ucf Nexys2_1200K.ucf 
+bitgen -intstyle ise -f Orologio_board.ut Orologio_board.ncd 
+xst -intstyle ise -ifn "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.xst" -ofn "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_1200K.ucf -p xc3s1200e-fg320-5 Orologio_board.ngc Orologio_board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o Orologio_board_map.ncd Orologio_board.ngd Orologio_board.pcf 
+par -w -intstyle ise -ol high -t 1 Orologio_board_map.ncd Orologio_board.ncd Orologio_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Orologio_board.twx Orologio_board.ncd -o Orologio_board.twr Orologio_board.pcf -ucf Nexys2_1200K.ucf 
+bitgen -intstyle ise -f Orologio_board.ut Orologio_board.ncd 
+xst -intstyle ise -ifn "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.xst" -ofn "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_1200K.ucf -p xc3s1200e-fg320-5 Orologio_board.ngc Orologio_board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o Orologio_board_map.ncd Orologio_board.ngd Orologio_board.pcf 
+par -w -intstyle ise -ol high -t 1 Orologio_board_map.ncd Orologio_board.ncd Orologio_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Orologio_board.twx Orologio_board.ncd -o Orologio_board.twr Orologio_board.pcf -ucf Nexys2_1200K.ucf 
+bitgen -intstyle ise -f Orologio_board.ut Orologio_board.ncd 
+xst -intstyle ise -ifn "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.xst" -ofn "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_1200K.ucf -p xc3s1200e-fg320-5 Orologio_board.ngc Orologio_board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o Orologio_board_map.ncd Orologio_board.ngd Orologio_board.pcf 
+par -w -intstyle ise -ol high -t 1 Orologio_board_map.ncd Orologio_board.ncd Orologio_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Orologio_board.twx Orologio_board.ncd -o Orologio_board.twr Orologio_board.pcf -ucf Nexys2_1200K.ucf 
+bitgen -intstyle ise -f Orologio_board.ut Orologio_board.ncd 
+xst -intstyle ise -ifn "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.xst" -ofn "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.syr" 
+xst -intstyle ise -ifn "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.xst" -ofn "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.syr" 
+xst -intstyle ise -ifn "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.xst" -ofn "/home/ise/vhdl/progetti_vhdl_ok/Orologio5.2/Orologio_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_1200K.ucf -p xc3s1200e-fg320-5 Orologio_board.ngc Orologio_board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o Orologio_board_map.ncd Orologio_board.ngd Orologio_board.pcf 
+par -w -intstyle ise -ol high -t 1 Orologio_board_map.ncd Orologio_board.ncd Orologio_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Orologio_board.twx Orologio_board.ncd -o Orologio_board.twr Orologio_board.pcf -ucf Nexys2_1200K.ucf 
+bitgen -intstyle ise -f Orologio_board.ut Orologio_board.ncd 

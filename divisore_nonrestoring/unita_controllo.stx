@@ -1,0 +1,41 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> 
+Parameter xsthdpdir set to /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> 
+WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/unita_controllo.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/unita_controllo.vhd" is newer than current system time.
+Entity <unita_controllo> compiled.
+ERROR:HDLParsers:3313 - "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/unita_controllo.vhd" Line 76. Undefined symbol 'q_1'.  Should it be: q1?
+ERROR:HDLParsers:1209 - "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/unita_controllo.vhd" Line 76. q_1: Undefined symbol (last report in this block)
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> 
+
+
+Total memory usage is 566844 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

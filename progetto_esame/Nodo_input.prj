@@ -1,0 +1,5 @@
+vhdl work "ROM.vhd"
+vhdl work "cont_mod4.vhd"
+vhdl work "uo_input.vhd"
+vhdl work "uc_input.vhd"
+vhdl work "Nodo_input.vhd"

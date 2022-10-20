@@ -1,0 +1,32 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/nodo_input_tb_isim_beh.exe -prj /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/nodo_input_tb_beh.prj work.nodo_input_tb 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/progetto_esame/ROM.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/progetto_esame/cont_mod4.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/progetto_esame/uo_input.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/progetto_esame/uc_input.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/progetto_esame/Nodo_input.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/progetto_esame/nodo_input_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 98408 KB
+Fuse CPU Usage: 1570 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture structural of entity uc_input [uc_input_default]
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling architecture behavioral of entity ROM [rom_default]
+Compiling architecture behavioural of entity cont16 [cont16_default]
+Compiling architecture structural of entity uo_input [uo_input_default]
+Compiling architecture structural of entity Nodo_input [nodo_input_default]
+Compiling architecture behavior of entity nodo_input_tb
+Time Resolution for simulation is 1ps.
+Compiled 16 VHDL Units
+Built simulation executable /home/ise/vhdl/progetti_vhdl_ok/progetto_esame/nodo_input_tb_isim_beh.exe
+Fuse Memory Usage: 118128 KB
+Fuse CPU Usage: 2040 ms
+GCC CPU Usage: 940 ms

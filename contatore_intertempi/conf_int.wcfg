@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/sim_cron_int_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="sim_cron_int_tb" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/sim_cron_int_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_cron_int_tb/btn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">btn</obj_property>
+      <obj_property name="ObjectShortName">btn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_cron_int_tb/i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i[5:0]</obj_property>
+      <obj_property name="ObjectShortName">i[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_cron_int_tb/uut/btn_me/btn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">btn</obj_property>
+      <obj_property name="ObjectShortName">btn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_cron_int_tb/uut/btn_me/cleared_btn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cleared_btn</obj_property>
+      <obj_property name="ObjectShortName">cleared_btn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_cron_int_tb/uut/ram_0/we" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_cron_int_tb/uut/ram_0/en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_cron_int_tb/uut/ram_0/addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_cron_int_tb/uut/cnt_add/c" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">c[3:0]</obj_property>
+      <obj_property name="ObjectShortName">c[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_cron_int_tb/uut/ram_0/di" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">di[16:0]</obj_property>
+      <obj_property name="ObjectShortName">di[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_cron_int_tb/uut/ram_0/do" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">do[16:0]</obj_property>
+      <obj_property name="ObjectShortName">do[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_cron_int_tb/uut/ram_0/ram" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram[0:15]</obj_property>
+      <obj_property name="ObjectShortName">ram[0:15]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_cron_int_tb/uut/cnt_add/counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">counter[3:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_cron_int_tb/uut/cnt_add/e" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">e</obj_property>
+      <obj_property name="ObjectShortName">e</obj_property>
+      <obj_property name="label">e</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_cron_int_tb/uut/cron/y" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">y[16:0]</obj_property>
+      <obj_property name="ObjectShortName">y[16:0]</obj_property>
+   </wvobject>
+</wave_config>

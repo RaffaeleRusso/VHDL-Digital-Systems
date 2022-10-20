@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Handshaking_7.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Handshaking_TB_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Handshaking_TB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Handshaking_TB_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Handshaking_system.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Handshaking_system.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Handshaking_system.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Handshaking_system.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Handshaking_system.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Handshaking_system.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Handshaking_system.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Handshaking_system.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Handshaking_system_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Handshaking_system_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1663319359" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1663319359">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1663320292" xil_pn:in_ck="-1783515845203993122" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1663320292">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="EntityA.vhd"/>
+      <outfile xil_pn:name="EntityB.vhd"/>
+      <outfile xil_pn:name="Handshaking_TB.vhd"/>
+      <outfile xil_pn:name="Handshaking_system.vhd"/>
+      <outfile xil_pn:name="RAM.vhd"/>
+      <outfile xil_pn:name="ROM.vhd"/>
+      <outfile xil_pn:name="counter_mod8.vhd"/>
+      <outfile xil_pn:name="ucA.vhd"/>
+      <outfile xil_pn:name="ucB.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1663319408" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-447002967988594261" xil_pn:start_ts="1663319408">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1663319408" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="1263751988609832045" xil_pn:start_ts="1663319408">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1663319359" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="4471156782339069338" xil_pn:start_ts="1663319359">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1663320292" xil_pn:in_ck="-1783515845203993122" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1663320292">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="EntityA.vhd"/>
+      <outfile xil_pn:name="EntityB.vhd"/>
+      <outfile xil_pn:name="Handshaking_TB.vhd"/>
+      <outfile xil_pn:name="Handshaking_system.vhd"/>
+      <outfile xil_pn:name="RAM.vhd"/>
+      <outfile xil_pn:name="ROM.vhd"/>
+      <outfile xil_pn:name="counter_mod8.vhd"/>
+      <outfile xil_pn:name="ucA.vhd"/>
+      <outfile xil_pn:name="ucB.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1663320296" xil_pn:in_ck="-1783515845203993122" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4070479935499033896" xil_pn:start_ts="1663320292">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Handshaking_TB_beh.prj"/>
+      <outfile xil_pn:name="Handshaking_TB_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1663320297" xil_pn:in_ck="-5598686456290278844" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-8836299453556112059" xil_pn:start_ts="1663320296">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Handshaking_TB_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1663318980" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1663318980">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1663318980" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="1451504085026990341" xil_pn:start_ts="1663318980">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1663318980" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="4471156782339069338" xil_pn:start_ts="1663318980">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1663318980" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1663318980">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1663318980" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-7284962008703915069" xil_pn:start_ts="1663318980">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1663318980" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-5485052969259075108" xil_pn:start_ts="1663318980">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1663318980" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="8754754145401819620" xil_pn:start_ts="1663318980">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1663319339" xil_pn:in_ck="-5124967503364981863" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-5822104232818749301" xil_pn:start_ts="1663319321">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="Handshaking_system.lso"/>
+      <outfile xil_pn:name="Handshaking_system.ngc"/>
+      <outfile xil_pn:name="Handshaking_system.ngr"/>
+      <outfile xil_pn:name="Handshaking_system.prj"/>
+      <outfile xil_pn:name="Handshaking_system.stx"/>
+      <outfile xil_pn:name="Handshaking_system.syr"/>
+      <outfile xil_pn:name="Handshaking_system.xst"/>
+      <outfile xil_pn:name="Handshaking_system_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>

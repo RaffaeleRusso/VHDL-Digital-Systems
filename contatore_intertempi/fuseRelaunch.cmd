@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/sim_cron_int_tb_isim_beh.exe" -prj "/home/ise/vhdl/progetti_vhdl_ok/contatore_intertempi/sim_cron_int_tb_beh.prj" "work.sim_cron_int_tb" 

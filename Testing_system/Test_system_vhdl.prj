@@ -1,0 +1,6 @@
+vhdl work "/home/ise/vhdl/Testing_system/ROM.vhd"
+vhdl work "/home/ise/vhdl/Testing_system/RAM.vhd"
+vhdl work "/home/ise/vhdl/Testing_system/mux_2_1.vhd"
+vhdl work "/home/ise/vhdl/Testing_system/Counter_address.vhd"
+vhdl work "/home/ise/vhdl/Testing_system/clock_filter.vhd"
+vhdl work "/home/ise/vhdl/Testing_system/Test_system.vhd"

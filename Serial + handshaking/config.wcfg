@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/vincenzo/Scrivania/Progetti_Xilinx/Esercizi/Seriale_es_2/system_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="system_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/system_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_tb/uut/t0/fsm/rts" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rts</obj_property>
+      <obj_property name="ObjectShortName">rts</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_tb/uut/t0/fsm/cts" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cts</obj_property>
+      <obj_property name="ObjectShortName">cts</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_tb/uut/t0/fsm/wr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wr</obj_property>
+      <obj_property name="ObjectShortName">wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_tb/uut/t0/fsm/tbe" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tbe</obj_property>
+      <obj_property name="ObjectShortName">tbe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_tb/uut/t0/fsm/stato_corrente" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">stato_corrente</obj_property>
+      <obj_property name="ObjectShortName">stato_corrente</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_tb/uut/t0/cont/en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_tb/uut/t0/cont/cnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cnt[2:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_tb/uut/t0/rom_0/data_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_tb/uut/t0/seriale/txd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">txd</obj_property>
+      <obj_property name="ObjectShortName">txd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_tb/uut/r0/usart_0/rxd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rxd</obj_property>
+      <obj_property name="ObjectShortName">rxd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_tb/uut/r0/usart_0/rda" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rda</obj_property>
+      <obj_property name="ObjectShortName">rda</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_tb/uut/r0/usart_0/rd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rd</obj_property>
+      <obj_property name="ObjectShortName">rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_tb/uut/r0/C_0/en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_tb/uut/r0/C_0/cnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cnt[2:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_tb/uut/r0/fsm_rec/stato_corrente" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">stato_corrente</obj_property>
+      <obj_property name="ObjectShortName">stato_corrente</obj_property>
+   </wvobject>
+   <wvobject fp_name="/system_tb/uut/r0/RAM_0/ram" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram[0:7]</obj_property>
+      <obj_property name="ObjectShortName">ram[0:7]</obj_property>
+   </wvobject>
+</wave_config>

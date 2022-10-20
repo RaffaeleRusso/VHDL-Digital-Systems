@@ -1,0 +1,116 @@
+V3 63
+FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/adder_sub.vhd 2022/09/09.21:33:01 P.20131013
+EN work/adder_sub 1662609406 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/adder_sub.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/adder_sub/structural 1662609407 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/adder_sub.vhd \
+      EN work/adder_sub 1662609406 CP ripple_carry
+FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/Anodes_manager.vhd 2022/03/07.16:48:31 P.20131013
+EN work/Anodes_manager 1662609392 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/Anodes_manager.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Anodes_manager/Behavioral 1662609393 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/Anodes_manager.vhd \
+      EN work/Anodes_manager 1662609392
+FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/ButtonDebouncer.vhd 2021/11/10.08:22:19 P.20131013
+EN work/ButtonDebouncer 1662609410 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/ButtonDebouncer.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/ButtonDebouncer/Behavioral 1662609411 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/ButtonDebouncer.vhd \
+      EN work/ButtonDebouncer 1662609410
+FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/Cathodes_manager.vhd 2022/03/07.13:49:44 P.20131013
+EN work/Cathodes_manager 1662609394 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/Cathodes_manager.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Cathodes_manager/Behavioral 1662609395 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/Cathodes_manager.vhd \
+      EN work/Cathodes_manager 1662609394
+FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/Contatore_4.vhd 2022/03/07.14:59:36 P.20131013
+EN work/counter_mod4 1662609388 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/Contatore_4.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/counter_mod4/Behavioral 1662609389 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/Contatore_4.vhd \
+      EN work/counter_mod4 1662609388
+FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/cont_mod4.vhd 2022/09/10.15:16:53 P.20131013
+EN work/cont4 1662609396 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/cont_mod4.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/cont4/behavioural 1662609397 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/cont_mod4.vhd \
+      EN work/cont4 1662609396
+FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/Divisore.vhd 2022/09/11.08:11:45 P.20131013
+EN work/Divisore_NR 1662609408 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/Divisore.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Divisore_NR/Behavioral 1662609409 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/Divisore.vhd \
+      EN work/Divisore_NR 1662609408 CP cont4 CP FFD CP registroDivisore \
+      CP shift_register CP unita_controllo CP adder_sub
+FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/divisore_board.vhd 2022/09/11.08:22:59 P.20131013
+EN work/divisore_board 1662609414 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/divisore_board.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/divisore_board/structural 1662609415 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/divisore_board.vhd \
+      EN work/divisore_board 1662609414 CP Divisore_NR CP ButtonDebouncer \
+      CP Seven_segments_display
+FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/Divisore_freq.vhd 2022/03/06.11:47:48 P.20131013
+EN work/Divisore_freq 1662609390 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/Divisore_freq.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Divisore_freq/Behavioral 1662609391 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/Divisore_freq.vhd \
+      EN work/Divisore_freq 1662609390
+FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/FFD.vhd 2022/09/10.17:51:10 P.20131013
+EN work/FFD 1662609398 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/FFD.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/FFD/behavioural 1662609399 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/FFD.vhd \
+      EN work/FFD 1662609398
+FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/full_adder.vhd 2021/11/19.13:28:32 P.20131013
+EN work/full_adder 1662609384 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/full_adder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/full_adder/rtl 1662609385 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/full_adder.vhd \
+      EN work/full_adder 1662609384
+FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/registro4.vhd 2022/09/10.17:51:15 P.20131013
+EN work/registroDivisore 1662609400 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/registro4.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/registroDivisore/behavioural 1662609401 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/registro4.vhd \
+      EN work/registroDivisore 1662609400
+FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/ripple_carry.vhd 2022/09/09.21:24:34 P.20131013
+EN work/ripple_carry 1662609386 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/ripple_carry.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ripple_carry/structural 1662609387 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/ripple_carry.vhd \
+      EN work/ripple_carry 1662609386 CP full_adder
+FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/Seven_segments_display.vhd 2022/09/11.08:25:25 P.20131013
+EN work/Seven_segments_display 1662609412 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/Seven_segments_display.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Seven_segments_display/Structural 1662609413 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/Seven_segments_display.vhd \
+      EN work/Seven_segments_display 1662609412 CP counter_mod4 CP Divisore_freq \
+      CP Anodes_manager CP Cathodes_manager
+FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/shift_register.vhd 2022/09/10.17:41:18 P.20131013
+EN work/shift_register 1662609402 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/shift_register.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/shift_register/behavioural 1662609403 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/shift_register.vhd \
+      EN work/shift_register 1662609402
+FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/unita_controllo.vhd 2022/09/11.08:11:42 P.20131013
+EN work/unita_controllo 1662609404 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/unita_controllo.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/unita_controllo/structural 1662609405 \
+      FL /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/unita_controllo.vhd \
+      EN work/unita_controllo 1662609404

@@ -1,0 +1,7 @@
+vhdl work "RS232RefComp2.vhd"
+vhdl work "../Encoder_8_3.vhd"
+vhdl work "../Decoder_3_8.vhd"
+vhdl work "nodo_tx.vhd"
+vhdl work "Nodo_rx.vhd"
+vhdl work "ButtonDebouncer.vhd"
+vhdl work "sistema.vhd"

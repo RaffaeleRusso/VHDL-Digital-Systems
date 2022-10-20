@@ -1,0 +1,29 @@
+Command line:
+   rete_intercon_decoder_Tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  47429
+
+Sat Feb 26 06:25:32 2022
+
+
+ Elaboration Time: 0.05 sec
+
+ Current Memory Usage: 183.935 Meg
+
+ Total Signals          : 35
+ Total Nets             : 35
+ Total Signal Drivers   : 12
+ Total Blocks           : 16
+ Total Primitive Blocks : 8
+ Total Processes        : 11
+ Total Traceable Variables  : 12
+ Total Scalar Nets and Variables : 399
+Total Line Count : 41
+
+ Total Simulation Time: 0.13 sec
+
+ Current Memory Usage: 259.437 Meg
+
+Sat Feb 26 06:26:05 2022
+

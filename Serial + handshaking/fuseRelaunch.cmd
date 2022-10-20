@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/mnt/hgfs/Condivisa/Seriale_es_2/system_tb_isim_beh.exe" -prj "/mnt/hgfs/Condivisa/Seriale_es_2/system_tb_beh.prj" "work.system_tb" 

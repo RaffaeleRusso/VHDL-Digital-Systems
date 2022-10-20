@@ -1,0 +1,55 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/ale/Scrivania/Blow_Fish/BlowFish_Decr_TB_isim_beh.exe -prj /home/ale/Scrivania/Blow_Fish/BlowFish_Decr_TB_beh.prj work.BlowFish_Decr_TB 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ale/Scrivania/Blow_Fish/full_adder.vhd" into library work
+Parsing VHDL file "/home/ale/Scrivania/Blow_Fish/Sbox4.vhd" into library work
+Parsing VHDL file "/home/ale/Scrivania/Blow_Fish/Sbox3.vhd" into library work
+Parsing VHDL file "/home/ale/Scrivania/Blow_Fish/Sbox2.vhd" into library work
+Parsing VHDL file "/home/ale/Scrivania/Blow_Fish/Sbox1.vhd" into library work
+Parsing VHDL file "/home/ale/Scrivania/Blow_Fish/ripple_carry.vhd" into library work
+Parsing VHDL file "/home/ale/Scrivania/Blow_Fish/F.vhd" into library work
+Parsing VHDL file "/home/ale/Scrivania/Blow_Fish/Round.vhd" into library work
+Parsing VHDL file "/home/ale/Scrivania/Blow_Fish/ROM_P.vhd" into library work
+Parsing VHDL file "/home/ale/Scrivania/Blow_Fish/registro32.vhd" into library work
+Parsing VHDL file "/home/ale/Scrivania/Blow_Fish/Post_proc_register.vhd" into library work
+Parsing VHDL file "/home/ale/Scrivania/Blow_Fish/Post_processing.vhd" into library work
+Parsing VHDL file "/home/ale/Scrivania/Blow_Fish/Plain_register.vhd" into library work
+Parsing VHDL file "/home/ale/Scrivania/Blow_Fish/Counter_address.vhd" into library work
+Parsing VHDL file "/home/ale/Scrivania/Blow_Fish/control_unit.vhd" into library work
+Parsing VHDL file "/home/ale/Scrivania/Blow_Fish/Blowfish.vhd" into library work
+Parsing VHDL file "/home/ale/Scrivania/Blow_Fish/BlowFish_Decr_TB.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 88700 KB
+Fuse CPU Usage: 1760 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture rtl of entity full_adder [full_adder_default]
+Compiling architecture structural of entity ripple_carry [ripple_carry_default]
+Compiling architecture behavioral of entity Sbox1 [sbox1_default]
+Compiling architecture behavioral of entity Sbox2 [sbox2_default]
+Compiling architecture behavioral of entity Sbox3 [sbox3_default]
+Compiling architecture behavioral of entity Sbox4 [sbox4_default]
+Compiling architecture structural of entity F [f_default]
+Compiling architecture structural of entity Round [round_default]
+Compiling architecture behavioral of entity Counter_address [counter_address_default]
+Compiling architecture behavioural of entity Plain_register [\Plain_register(64)\]
+Compiling architecture behavioural of entity Post_proc_register [\Post_proc_register(32)\]
+Compiling architecture structural of entity Post_processing [post_processing_default]
+Compiling architecture behavioral of entity ROM_P [rom_p_default]
+Compiling architecture behavioral of entity control_unit [control_unit_default]
+Compiling architecture behavioural of entity registroChiave [\registroChiave(32)\]
+Compiling architecture structural of entity Blowfish [blowfish_default]
+Compiling architecture behavior of entity blowfish_decr_tb
+Time Resolution for simulation is 1ps.
+Waiting for 14 sub-compilation(s) to finish...
+Compiled 38 VHDL Units
+Built simulation executable /home/ale/Scrivania/Blow_Fish/BlowFish_Decr_TB_isim_beh.exe
+Fuse Memory Usage: 402616 KB
+Fuse CPU Usage: 1990 ms
+GCC CPU Usage: 1510 ms

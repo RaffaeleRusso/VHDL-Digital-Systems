@@ -1,0 +1,3 @@
+vhdl work "riconoscitore_sequenza.vhd"
+vhdl work "cnt_10.vhd"
+vhdl work "Nodo_B.vhd"

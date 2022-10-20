@@ -1,0 +1,7 @@
+vhdl work "/home/ise/vhdl/seriale_1/seriale/RS232RefComp2.vhd"
+vhdl work "/home/ise/vhdl/seriale_1/Encoder_8_3.vhd"
+vhdl work "/home/ise/vhdl/seriale_1/Decoder_3_8.vhd"
+vhdl work "/home/ise/vhdl/seriale_1/seriale/nodo_tx.vhd"
+vhdl work "/home/ise/vhdl/seriale_1/seriale/Nodo_rx.vhd"
+vhdl work "/home/ise/vhdl/seriale_1/seriale/ButtonDebouncer.vhd"
+vhdl work "/home/ise/vhdl/seriale_1/seriale/sistema.vhd"

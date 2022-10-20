@@ -1,0 +1,910 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> 
+Reading design: system.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "system.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "system"
+Output Format                      : NGC
+Target Device                      : xc3s1200e-5-fg320
+
+---- Source Options
+Top Module Name                    : system
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/ise/vhdl/seriale_1/seriale2_brd/fsm_ricevitore.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/vhdl/seriale_1/seriale2_brd/fsm_ricevitore.vhd" is newer than current system time.
+Architecture behavioral of Entity fsm_ricevitore is up to date.
+Compiling vhdl file "/home/ise/vhdl/seriale_1/seriale2_brd/RS232RefComp.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/vhdl/seriale_1/seriale2_brd/RS232RefComp.vhd" is newer than current system time.
+Entity <uartcomponent> compiled.
+Entity <uartcomponent> (Architecture <behavioral>) compiled.
+Compiling vhdl file "/home/ise/vhdl/seriale_1/seriale2_brd/counter_mod8.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/vhdl/seriale_1/seriale2_brd/counter_mod8.vhd" is newer than current system time.
+Architecture behavioral of Entity counter_mod8 is up to date.
+Compiling vhdl file "/home/ise/vhdl/seriale_1/seriale2_brd/Encoder_8_3.vhd" in Library work.
+Architecture dataflow of Entity encoder is up to date.
+Compiling vhdl file "/home/ise/vhdl/seriale_1/seriale2_brd/RAM.vhd" in Library work.
+Architecture behavioral of Entity ram is up to date.
+Compiling vhdl file "/home/ise/vhdl/seriale_1/seriale2_brd/fsm_transmettitore.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/vhdl/seriale_1/seriale2_brd/fsm_transmettitore.vhd" is newer than current system time.
+Architecture behavioral of Entity fsm_trasmettitore is up to date.
+Compiling vhdl file "/home/ise/vhdl/seriale_1/seriale2_brd/ROM.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/vhdl/seriale_1/seriale2_brd/ROM.vhd" is newer than current system time.
+Architecture behavioral of Entity rom is up to date.
+Compiling vhdl file "/home/ise/vhdl/seriale_1/seriale2_brd/ButtonDebouncer.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/vhdl/seriale_1/seriale2_brd/ButtonDebouncer.vhd" is newer than current system time.
+Architecture behavioral of Entity buttondebouncer is up to date.
+Compiling vhdl file "/home/ise/vhdl/seriale_1/seriale2_brd/Trasmettitore.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/vhdl/seriale_1/seriale2_brd/Trasmettitore.vhd" is newer than current system time.
+Architecture structural of Entity trasmettitore is up to date.
+Compiling vhdl file "/home/ise/vhdl/seriale_1/seriale2_brd/Ricevitore.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/vhdl/seriale_1/seriale2_brd/Ricevitore.vhd" is newer than current system time.
+Architecture structural of Entity ricevitore is up to date.
+Compiling vhdl file "/home/ise/vhdl/seriale_1/seriale2_brd/system.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/vhdl/seriale_1/seriale2_brd/system.vhd" is newer than current system time.
+Architecture structural of Entity system is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <system> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <ButtonDebouncer> in library <work> (architecture <behavioral>) with generics.
+	CLK_period = 20
+	btn_noise_time = 2000000000
+
+Analyzing hierarchy for entity <Trasmettitore> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <Ricevitore> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <fsm_trasmettitore> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ROM> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <counter_mod8> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <UARTcomponent> in library <work> (architecture <behavioral>) with generics.
+	BAUD_DIVIDE_G = 27
+	BAUD_RATE_G = 434
+
+Analyzing hierarchy for entity <fsm_ricevitore> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Encoder> in library <work> (architecture <dataflow>).
+
+Analyzing hierarchy for entity <RAM> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <system> in library <work> (Architecture <structural>).
+Entity <system> analyzed. Unit <system> generated.
+
+Analyzing generic Entity <ButtonDebouncer> in library <work> (Architecture <behavioral>).
+	CLK_period = 20
+	btn_noise_time = 2000000000
+Entity <ButtonDebouncer> analyzed. Unit <ButtonDebouncer> generated.
+
+Analyzing Entity <Trasmettitore> in library <work> (Architecture <structural>).
+WARNING:Xst:752 - "/home/ise/vhdl/seriale_1/seriale2_brd/Trasmettitore.vhd" line 158: Unconnected input port 'RXD' of component 'UARTcomponent' is tied to default value.
+WARNING:Xst:753 - "/home/ise/vhdl/seriale_1/seriale2_brd/Trasmettitore.vhd" line 158: Unconnected output port 'DBOUT' of component 'UARTcomponent'.
+WARNING:Xst:754 - "/home/ise/vhdl/seriale_1/seriale2_brd/Trasmettitore.vhd" line 158: Unconnected inout port 'RDA' of component 'UARTcomponent'.
+WARNING:Xst:752 - "/home/ise/vhdl/seriale_1/seriale2_brd/Trasmettitore.vhd" line 158: Unconnected input port 'RD' of component 'UARTcomponent' is tied to default value.
+WARNING:Xst:753 - "/home/ise/vhdl/seriale_1/seriale2_brd/Trasmettitore.vhd" line 158: Unconnected output port 'PE' of component 'UARTcomponent'.
+WARNING:Xst:753 - "/home/ise/vhdl/seriale_1/seriale2_brd/Trasmettitore.vhd" line 158: Unconnected output port 'FE' of component 'UARTcomponent'.
+WARNING:Xst:753 - "/home/ise/vhdl/seriale_1/seriale2_brd/Trasmettitore.vhd" line 158: Unconnected output port 'OE' of component 'UARTcomponent'.
+Entity <Trasmettitore> analyzed. Unit <Trasmettitore> generated.
+
+Analyzing Entity <fsm_trasmettitore> in library <work> (Architecture <behavioral>).
+INFO:Xst:2679 - Register <DTR> in unit <fsm_trasmettitore> has a constant value of 1 during circuit operation. The register is replaced by logic.
+Entity <fsm_trasmettitore> analyzed. Unit <fsm_trasmettitore> generated.
+
+Analyzing Entity <ROM> in library <work> (Architecture <behavioral>).
+    Set property "rom_style = block" for signal <ROM>.
+Entity <ROM> analyzed. Unit <ROM> generated.
+
+Analyzing Entity <counter_mod8> in library <work> (Architecture <behavioral>).
+Entity <counter_mod8> analyzed. Unit <counter_mod8> generated.
+
+Analyzing generic Entity <UARTcomponent> in library <work> (Architecture <behavioral>).
+	BAUD_DIVIDE_G = 27
+	BAUD_RATE_G = 434
+Entity <UARTcomponent> analyzed. Unit <UARTcomponent> generated.
+
+Analyzing Entity <Ricevitore> in library <work> (Architecture <structural>).
+WARNING:Xst:753 - "/home/ise/vhdl/seriale_1/seriale2_brd/Ricevitore.vhd" line 157: Unconnected output port 'TXD' of component 'UARTcomponent'.
+WARNING:Xst:752 - "/home/ise/vhdl/seriale_1/seriale2_brd/Ricevitore.vhd" line 157: Unconnected input port 'DBIN' of component 'UARTcomponent' is tied to default value.
+WARNING:Xst:753 - "/home/ise/vhdl/seriale_1/seriale2_brd/Ricevitore.vhd" line 157: Unconnected output port 'TBE' of component 'UARTcomponent'.
+WARNING:Xst:752 - "/home/ise/vhdl/seriale_1/seriale2_brd/Ricevitore.vhd" line 157: Unconnected input port 'WR' of component 'UARTcomponent' is tied to default value.
+WARNING:Xst:753 - "/home/ise/vhdl/seriale_1/seriale2_brd/Ricevitore.vhd" line 157: Unconnected output port 'OE' of component 'UARTcomponent'.
+WARNING:Xst:753 - "/home/ise/vhdl/seriale_1/seriale2_brd/Ricevitore.vhd" line 170: Unconnected output port 'DIV' of component 'counter_mod8'.
+WARNING:Xst:753 - "/home/ise/vhdl/seriale_1/seriale2_brd/Ricevitore.vhd" line 186: Unconnected output port 'do' of component 'RAM'.
+Entity <Ricevitore> analyzed. Unit <Ricevitore> generated.
+
+Analyzing Entity <fsm_ricevitore> in library <work> (Architecture <behavioral>).
+INFO:Xst:2679 - Register <DTR> in unit <fsm_ricevitore> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <ERROR> in unit <fsm_ricevitore> has a constant value of 1 during circuit operation. The register is replaced by logic.
+Entity <fsm_ricevitore> analyzed. Unit <fsm_ricevitore> generated.
+
+Analyzing Entity <Encoder> in library <work> (Architecture <dataflow>).
+Entity <Encoder> analyzed. Unit <Encoder> generated.
+
+Analyzing Entity <RAM> in library <work> (Architecture <behavioral>).
+Entity <RAM> analyzed. Unit <RAM> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <ButtonDebouncer>.
+    Related source file is "/home/ise/vhdl/seriale_1/seriale2_brd/ButtonDebouncer.vhd".
+    Found 1-bit register for signal <CLEARED_BTN>.
+    Found 1-bit register for signal <BTN_state<0>>.
+    Found 32-bit up counter for signal <count>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   2 D-type flip-flop(s).
+Unit <ButtonDebouncer> synthesized.
+
+
+Synthesizing Unit <fsm_trasmettitore>.
+    Related source file is "/home/ise/vhdl/seriale_1/seriale2_brd/fsm_transmettitore.vhd".
+WARNING:Xst:647 - Input <RST> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found finite state machine <FSM_0> for signal <stato_corrente>.
+    -----------------------------------------------------------------------
+    | States             | 8                                              |
+    | Transitions        | 14                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 6                                              |
+    | Clock              | CLK                       (rising_edge)        |
+    | Power Up State     | q0                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <fine>.
+    Found 1-bit register for signal <EN>.
+    Found 1-bit register for signal <RTS>.
+    Found 1-bit register for signal <R>.
+    Found 1-bit register for signal <WR>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   5 D-type flip-flop(s).
+Unit <fsm_trasmettitore> synthesized.
+
+
+Synthesizing Unit <ROM>.
+    Related source file is "/home/ise/vhdl/seriale_1/seriale2_brd/ROM.vhd".
+WARNING:Xst:1781 - Signal <ROM> is used but never assigned. Tied to default value.
+    Found 8-bit register for signal <DATA_OUT>.
+    Found 1-of-8 decoder for signal <$varindex0000> created at line 71.
+    Found 1-bit register for signal <EN>.
+    Summary:
+	inferred   9 D-type flip-flop(s).
+	inferred   1 Decoder(s).
+Unit <ROM> synthesized.
+
+
+Synthesizing Unit <counter_mod8>.
+    Related source file is "/home/ise/vhdl/seriale_1/seriale2_brd/counter_mod8.vhd".
+    Found 1-bit register for signal <DIV>.
+    Found 3-bit up counter for signal <c>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <counter_mod8> synthesized.
+
+
+Synthesizing Unit <UARTcomponent>.
+    Related source file is "/home/ise/vhdl/seriale_1/seriale2_brd/RS232RefComp.vhd".
+    Found finite state machine <FSM_1> for signal <sttCur>.
+    -----------------------------------------------------------------------
+    | States             | 5                                              |
+    | Transitions        | 9                                              |
+    | Inputs             | 3                                              |
+    | Outputs            | 4                                              |
+    | Clock              | CLK                       (rising_edge)        |
+    | Reset              | RST                       (positive)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | sttidle                                        |
+    | Power Up State     | sttidle                                        |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_2> for signal <strCur>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 11                                             |
+    | Inputs             | 4                                              |
+    | Outputs            | 4                                              |
+    | Clock              | CLK                       (rising_edge)        |
+    | Reset              | RST                       (positive)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | stridle                                        |
+    | Power Up State     | stridle                                        |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <FE>.
+    Found 1-bit register for signal <OE>.
+    Found 1-bit register for signal <PE>.
+    Found 1-bit register for signal <RDA>.
+    Found 10-bit up counter for signal <clkDiv>.
+    Found 4-bit up counter for signal <ctr>.
+    Found 4-bit up counter for signal <dataCtr>.
+    Found 1-bit xor8 for signal <par$xor0000> created at line 254.
+    Found 1-bit xor9 for signal <parError$xor0000> created at line 248.
+    Found 8-bit register for signal <rdReg>.
+    Found 10-bit register for signal <rdSReg>.
+    Found 13-bit up counter for signal <tDelayCtr>.
+    Found 4-bit up counter for signal <tfCtr>.
+    Found 11-bit register for signal <tfSReg>.
+    Summary:
+	inferred   2 Finite State Machine(s).
+	inferred   5 Counter(s).
+	inferred  33 D-type flip-flop(s).
+	inferred   2 Xor(s).
+Unit <UARTcomponent> synthesized.
+
+
+Synthesizing Unit <fsm_ricevitore>.
+    Related source file is "/home/ise/vhdl/seriale_1/seriale2_brd/fsm_ricevitore.vhd".
+WARNING:Xst:647 - Input <FE> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PE> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found finite state machine <FSM_3> for signal <stato_corrente>.
+    -----------------------------------------------------------------------
+    | States             | 5                                              |
+    | Transitions        | 11                                             |
+    | Inputs             | 4                                              |
+    | Outputs            | 3                                              |
+    | Clock              | CLK                       (rising_edge)        |
+    | Power Up State     | q0                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <EN>.
+    Found 1-bit register for signal <RTS>.
+    Found 1-bit register for signal <RD>.
+    Found 1-bit register for signal <W_RAM>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   4 D-type flip-flop(s).
+Unit <fsm_ricevitore> synthesized.
+
+
+Synthesizing Unit <Encoder>.
+    Related source file is "/home/ise/vhdl/seriale_1/seriale2_brd/Encoder_8_3.vhd".
+Unit <Encoder> synthesized.
+
+
+Synthesizing Unit <RAM>.
+    Related source file is "/home/ise/vhdl/seriale_1/seriale2_brd/RAM.vhd".
+    Found 8-bit register for signal <do>.
+    Found 8-bit 8-to-1 multiplexer for signal <$varindex0000> created at line 64.
+    Found 64-bit register for signal <RAM>.
+    Summary:
+	inferred  72 D-type flip-flop(s).
+	inferred   8 Multiplexer(s).
+Unit <RAM> synthesized.
+
+
+Synthesizing Unit <Trasmettitore>.
+    Related source file is "/home/ise/vhdl/seriale_1/seriale2_brd/Trasmettitore.vhd".
+Unit <Trasmettitore> synthesized.
+
+
+Synthesizing Unit <Ricevitore>.
+    Related source file is "/home/ise/vhdl/seriale_1/seriale2_brd/Ricevitore.vhd".
+Unit <Ricevitore> synthesized.
+
+
+Synthesizing Unit <system>.
+    Related source file is "/home/ise/vhdl/seriale_1/seriale2_brd/system.vhd".
+Unit <system> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 13
+ 10-bit up counter                                     : 2
+ 13-bit up counter                                     : 2
+ 3-bit up counter                                      : 2
+ 32-bit up counter                                     : 1
+ 4-bit up counter                                      : 6
+# Registers                                            : 38
+ 1-bit register                                        : 22
+ 10-bit register                                       : 2
+ 11-bit register                                       : 2
+ 8-bit register                                        : 12
+# Multiplexers                                         : 1
+ 8-bit 8-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-8 decoder                                        : 1
+# Xors                                                 : 4
+ 1-bit xor8                                            : 2
+ 1-bit xor9                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_3> for best encoding.
+Optimizing FSM <r0/fsm_rec/stato_corrente/FSM> on signal <stato_corrente[1:3]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ q0    | 000
+ q1    | 001
+ q2    | 010
+ q3    | 011
+ q4    | 100
+-------------------
+Analyzing FSM <FSM_2> for best encoding.
+Optimizing FSM <t0/seriale/strCur/FSM> on signal <strCur[1:3]> with gray encoding.
+Optimizing FSM <r0/usart_0/strCur/FSM> on signal <strCur[1:3]> with gray encoding.
+---------------------------
+ State         | Encoding
+---------------------------
+ stridle       | 000
+ streightdelay | 001
+ strgetdata    | 010
+ strwaitfor0   | 011
+ strwaitfor1   | 111
+ strcheckstop  | 110
+---------------------------
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <t0/seriale/sttCur/FSM> on signal <sttCur[1:3]> with gray encoding.
+Optimizing FSM <r0/usart_0/sttCur/FSM> on signal <sttCur[1:3]> with gray encoding.
+--------------------------
+ State        | Encoding
+--------------------------
+ sttidle      | 000
+ stttransfer  | 001
+ sttshift     | 110
+ sttdelay     | 011
+ sttwaitwrite | 010
+--------------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <t0/fsm/stato_corrente/FSM> on signal <stato_corrente[1:8]> with one-hot encoding.
+-------------------
+ State | Encoding
+-------------------
+ q0    | 00000001
+ q1    | 00000010
+ q2    | 00000100
+ q3    | 00001000
+ q4    | 00010000
+ q5    | 01000000
+ q6    | 10000000
+ q_w   | 00100000
+-------------------
+WARNING:Xst:1290 - Hierarchical block <C_0> is unconnected in block <r0>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <RAM_0> is unconnected in block <r0>.
+   It will be removed from the design.
+WARNING:Xst:1426 - The value init of the FF/Latch EN hinder the constant cleaning in the block rom_0.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch fine hinder the constant cleaning in the block fsm.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1293 - FF/Latch <tfSReg_10> has a constant value of 1 in block <seriale>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 4
+# Counters                                             : 13
+ 10-bit up counter                                     : 2
+ 13-bit up counter                                     : 2
+ 3-bit up counter                                      : 2
+ 32-bit up counter                                     : 1
+ 4-bit up counter                                      : 6
+# Registers                                            : 160
+ Flip-Flops                                            : 160
+# Multiplexers                                         : 1
+ 8-bit 8-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-8 decoder                                        : 1
+# Xors                                                 : 4
+ 1-bit xor8                                            : 2
+ 1-bit xor9                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1426 - The value init of the FF/Latch fine hinder the constant cleaning in the block fsm_trasmettitore.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch EN hinder the constant cleaning in the block ROM.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1293 - FF/Latch <tfSReg_10> has a constant value of 1 in block <UARTcomponent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <r0/C_0/DIV> of sequential type is unconnected in block <system>.
+
+Optimizing unit <system> ...
+
+Optimizing unit <ROM> ...
+
+Optimizing unit <UARTcomponent> ...
+
+Optimizing unit <RAM> ...
+WARNING:Xst:2677 - Node <r0/C_0/c_0> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/C_0/c_1> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/C_0/c_2> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/fsm_rec/W_RAM> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/fsm_rec/EN> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/usart_0/sttCur_FSM_FFd2> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/usart_0/sttCur_FSM_FFd1> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/usart_0/sttCur_FSM_FFd3> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/usart_0/tfCtr_3> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/usart_0/tfCtr_2> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/usart_0/tfCtr_1> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/usart_0/tfCtr_0> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/usart_0/tDelayCtr_12> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/usart_0/tDelayCtr_11> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/usart_0/tDelayCtr_10> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/usart_0/tDelayCtr_9> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/usart_0/tDelayCtr_8> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/usart_0/tDelayCtr_7> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/usart_0/tDelayCtr_6> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/usart_0/tDelayCtr_5> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/usart_0/tDelayCtr_4> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/usart_0/tDelayCtr_3> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/usart_0/tDelayCtr_2> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/usart_0/tDelayCtr_1> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/usart_0/tDelayCtr_0> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/usart_0/PE> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/usart_0/OE> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/usart_0/FE> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/usart_0/tfSReg_9> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/usart_0/tfSReg_8> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/usart_0/tfSReg_7> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/usart_0/tfSReg_6> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/usart_0/tfSReg_5> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/usart_0/tfSReg_4> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/usart_0/tfSReg_3> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/usart_0/tfSReg_2> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/usart_0/tfSReg_1> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/usart_0/tfSReg_0> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/strCur_FSM_FFd2> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/strCur_FSM_FFd1> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/strCur_FSM_FFd3> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/dataCtr_3> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/dataCtr_2> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/dataCtr_1> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/dataCtr_0> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/ctr_3> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/ctr_2> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/ctr_1> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/ctr_0> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/clkDiv_9> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/clkDiv_8> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/clkDiv_7> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/clkDiv_6> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/clkDiv_5> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/clkDiv_4> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/clkDiv_3> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/clkDiv_2> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/clkDiv_1> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/clkDiv_0> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/rdReg_7> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/rdReg_6> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/rdReg_5> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/rdReg_4> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/rdReg_3> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/rdReg_2> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/rdReg_1> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/rdReg_0> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/PE> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/OE> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/rdSReg_9> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/rdSReg_8> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/rdSReg_7> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/rdSReg_6> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/rdSReg_5> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/rdSReg_4> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/rdSReg_3> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/rdSReg_2> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/rdSReg_1> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/rdSReg_0> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/FE> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <t0/seriale/RDA> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/do_7> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/do_6> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/do_5> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/do_4> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/do_3> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/do_2> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/do_1> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/do_0> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_7_7> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_7_6> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_7_5> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_7_4> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_7_3> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_7_2> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_7_1> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_7_0> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_5_7> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_5_6> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_5_5> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_5_4> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_5_3> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_5_2> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_5_1> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_5_0> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_4_7> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_4_6> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_4_5> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_4_4> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_4_3> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_4_2> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_4_1> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_4_0> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_6_7> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_6_6> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_6_5> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_6_4> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_6_3> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_6_2> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_6_1> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_6_0> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_3_7> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_3_6> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_3_5> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_3_4> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_3_3> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_3_2> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_3_1> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_3_0> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_2_7> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_2_6> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_2_5> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_2_4> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_2_3> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_2_2> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_2_1> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_2_0> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_0_7> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_0_6> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_0_5> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_0_4> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_0_3> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_0_2> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_0_1> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_0_0> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_1_7> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_1_6> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_1_5> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_1_4> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_1_3> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_1_2> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_1_1> of sequential type is unconnected in block <system>.
+WARNING:Xst:2677 - Node <r0/RAM_0/RAM_1_0> of sequential type is unconnected in block <system>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block system, actual ratio is 1.
+
+Final Macro Processing ...
+
+Processing Unit <system> :
+	Found 3-bit shift register for signal <r0/usart_0/rdSReg_7>.
+Unit <system> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 132
+ Flip-Flops                                            : 132
+# Shift Registers                                      : 1
+ 3-bit shift register                                  : 1
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : system.ngr
+Top Level Output File Name         : system
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 8
+
+Cell Usage :
+# BELS                             : 281
+#      GND                         : 1
+#      INV                         : 9
+#      LUT1                        : 52
+#      LUT2                        : 20
+#      LUT2_L                      : 1
+#      LUT3                        : 22
+#      LUT4                        : 55
+#      LUT4_D                      : 1
+#      LUT4_L                      : 1
+#      MUXCY                       : 60
+#      MUXF5                       : 3
+#      VCC                         : 1
+#      XORCY                       : 55
+# FlipFlops/Latches                : 133
+#      FD                          : 10
+#      FDCE                        : 1
+#      FDE                         : 37
+#      FDR                         : 27
+#      FDRE                        : 48
+#      FDRS                        : 2
+#      FDS                         : 4
+#      FDSE                        : 4
+# Shift Registers                  : 1
+#      SRL16E                      : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 7
+#      IBUF                        : 2
+#      OBUF                        : 5
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1200efg320-5 
+
+ Number of Slices:                       85  out of   8672     0%  
+ Number of Slice Flip Flops:            133  out of  17344     0%  
+ Number of 4 input LUTs:                162  out of  17344     0%  
+    Number used as logic:               161
+    Number used as Shift registers:       1
+ Number of IOs:                           8
+ Number of bonded IOBs:                   8  out of    250     3%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 134   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+---------------------------------------------+------------------------+-------+
+Control Signal                               | Buffer(FF name)        | Load  |
+---------------------------------------------+------------------------+-------+
+r0/usart_0/FE_or0000(r0/usart_0/FE_or00001:O)| NONE(r0/usart_0/RDA)   | 1     |
+---------------------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 5.660ns (Maximum Frequency: 176.688MHz)
+   Minimum input arrival time before clock: 4.061ns
+   Maximum output required time after clock: 6.376ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 5.660ns (frequency: 176.688MHz)
+  Total number of paths / destination ports: 2566 / 295
+-------------------------------------------------------------------------
+Delay:               5.660ns (Levels of Logic = 10)
+  Source:            btn/count_8 (FF)
+  Destination:       btn/count_0 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: btn/count_8 to btn/count_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             2   0.514   0.532  btn/count_8 (btn/count_8)
+     LUT4:I0->O            1   0.612   0.000  btn/CLEARED_BTN_cmp_eq0000_wg_lut<0> (btn/CLEARED_BTN_cmp_eq0000_wg_lut<0>)
+     MUXCY:S->O            1   0.404   0.000  btn/CLEARED_BTN_cmp_eq0000_wg_cy<0> (btn/CLEARED_BTN_cmp_eq0000_wg_cy<0>)
+     MUXCY:CI->O           1   0.052   0.000  btn/CLEARED_BTN_cmp_eq0000_wg_cy<1> (btn/CLEARED_BTN_cmp_eq0000_wg_cy<1>)
+     MUXCY:CI->O           1   0.052   0.000  btn/CLEARED_BTN_cmp_eq0000_wg_cy<2> (btn/CLEARED_BTN_cmp_eq0000_wg_cy<2>)
+     MUXCY:CI->O           1   0.052   0.000  btn/CLEARED_BTN_cmp_eq0000_wg_cy<3> (btn/CLEARED_BTN_cmp_eq0000_wg_cy<3>)
+     MUXCY:CI->O           1   0.052   0.000  btn/CLEARED_BTN_cmp_eq0000_wg_cy<4> (btn/CLEARED_BTN_cmp_eq0000_wg_cy<4>)
+     MUXCY:CI->O           1   0.052   0.000  btn/CLEARED_BTN_cmp_eq0000_wg_cy<5> (btn/CLEARED_BTN_cmp_eq0000_wg_cy<5>)
+     MUXCY:CI->O           1   0.052   0.000  btn/CLEARED_BTN_cmp_eq0000_wg_cy<6> (btn/CLEARED_BTN_cmp_eq0000_wg_cy<6>)
+     MUXCY:CI->O           3   0.289   0.520  btn/CLEARED_BTN_cmp_eq0000_wg_cy<7> (btn/CLEARED_BTN_cmp_eq0000)
+     LUT2:I1->O           32   0.612   1.073  btn/count_and00001 (btn/count_and0000)
+     FDRE:R                    0.795          btn/count_0
+    ----------------------------------------
+    Total                      5.660ns (3.535ns logic, 2.125ns route)
+                                       (62.5% logic, 37.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 38 / 38
+-------------------------------------------------------------------------
+Offset:              4.061ns (Levels of Logic = 2)
+  Source:            RST (PAD)
+  Destination:       r0/usart_0/rdReg_7 (FF)
+  Destination Clock: CLK rising
+
+  Data Path: RST to r0/usart_0/rdReg_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            24   1.106   1.216  RST_IBUF (RST_IBUF)
+     LUT4:I0->O            8   0.612   0.643  r0/usart_0/rdReg_and00001 (r0/usart_0/rdReg_and0000)
+     FDE:CE                    0.483          r0/usart_0/rdReg_0
+    ----------------------------------------
+    Total                      4.061ns (2.201ns logic, 1.860ns route)
+                                       (54.2% logic, 45.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 25 / 4
+-------------------------------------------------------------------------
+Offset:              6.376ns (Levels of Logic = 3)
+  Source:            r0/usart_0/rdReg_6 (FF)
+  Destination:       out_enc<2> (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: r0/usart_0/rdReg_6 to out_enc<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              3   0.514   0.603  r0/usart_0/rdReg_6 (r0/usart_0/rdReg_6)
+     LUT4:I0->O            1   0.612   0.509  r0/enc/Y<2>62 (r0/enc/Y<2>62)
+     LUT2:I0->O            1   0.612   0.357  r0/enc/Y<2>76 (out_enc_2_OBUF)
+     OBUF:I->O                 3.169          out_enc_2_OBUF (out_enc<2>)
+    ----------------------------------------
+    Total                      6.376ns (4.907ns logic, 1.469ns route)
+                                       (77.0% logic, 23.0% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 6.61 secs
+ 
+--> 
+
+
+Total memory usage is 620188 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  189 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

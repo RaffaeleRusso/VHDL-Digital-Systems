@@ -1,0 +1,4 @@
+vhdl work "encoder_10_4.vhd"
+vhdl work "Arbitro.vhd"
+vhdl work "Encoder_prioritario.vhd"
+vhdl work "Encoder_prioritario_tb.vhd"

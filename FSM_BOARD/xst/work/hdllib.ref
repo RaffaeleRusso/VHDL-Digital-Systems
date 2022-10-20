@@ -1,0 +1,6 @@
+AR riconoscitore_sequenza behavioral /home/ise/vhdl/progetti_vhdl_ok/esercizio3.2/riconoscitore_sequenza.vhd sub00/vhpl01 1646394121
+EN riconoscitore_sequenza_temp NULL /home/ise/vhdl/progetti_vhdl_ok/esercizio3.2/riconoscitore_sequenza_temp.vhd sub00/vhpl04 1646394124
+EN buttondebouncer NULL /home/ise/vhdl/progetti_vhdl_ok/esercizio3.2/ButtonDebouncer.vhd sub00/vhpl02 1646394122
+AR buttondebouncer behavioral /home/ise/vhdl/progetti_vhdl_ok/esercizio3.2/ButtonDebouncer.vhd sub00/vhpl03 1646394123
+AR riconoscitore_sequenza_temp structural /home/ise/vhdl/progetti_vhdl_ok/esercizio3.2/riconoscitore_sequenza_temp.vhd sub00/vhpl05 1646394125
+EN riconoscitore_sequenza NULL /home/ise/vhdl/progetti_vhdl_ok/esercizio3.2/riconoscitore_sequenza.vhd sub00/vhpl00 1646394120

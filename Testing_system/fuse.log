@@ -1,0 +1,36 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/ise/vhdl/Testing_system/Test_system_tb_isim_beh.exe -prj /home/ise/vhdl/Testing_system/Test_system_tb_beh.prj work.Test_system_tb 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/vhdl/Testing_system/ROM.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/Testing_system/RAM.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/Testing_system/mux_2_1.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/Testing_system/Macchina_combinatoria.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/Testing_system/Counter_address.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/Testing_system/clock_filter.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/Testing_system/Test_system.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/Testing_system/Test_system_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 98464 KB
+Fuse CPU Usage: 1040 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling architecture behavioral of entity ROM [rom_default]
+Compiling architecture behavioral of entity Macchina_combinatoria [macchina_combinatoria_default]
+Compiling architecture dataflow of entity mux_2_1 [mux_2_1_default]
+Compiling architecture behavioral of entity clock_filter [\clock_filter(50000000,10000000,...]
+Compiling architecture behavioral of entity RAM [ram_default]
+Compiling architecture behavioral of entity Counter_address [counter_address_default]
+Compiling architecture behavioral of entity Test_system [test_system_default]
+Compiling architecture behavior of entity test_system_tb
+Time Resolution for simulation is 1ps.
+Compiled 20 VHDL Units
+Built simulation executable /home/ise/vhdl/Testing_system/Test_system_tb_isim_beh.exe
+Fuse Memory Usage: 117296 KB
+Fuse CPU Usage: 1380 ms
+GCC CPU Usage: 1010 ms

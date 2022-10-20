@@ -1,0 +1,38 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/tb_divisore_isim_beh.exe -prj /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/tb_divisore_beh.prj work.tb_divisore 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/full_adder.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/ripple_carry.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/unita_controllo.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/shift_register.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/registro4.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/FFD.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/cont_mod4.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/adder_sub.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/Divisore.vhd" into library work
+Parsing VHDL file "/home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/tb_divisore.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 97140 KB
+Fuse CPU Usage: 1270 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioural of entity cont4 [cont4_default]
+Compiling architecture behavioural of entity FFD [ffd_default]
+Compiling architecture behavioural of entity registroDivisore [\registroDivisore(4)\]
+Compiling architecture behavioural of entity shift_register [\shift_register(4)\]
+Compiling architecture structural of entity unita_controllo [\unita_controllo(4)\]
+Compiling architecture rtl of entity full_adder [full_adder_default]
+Compiling architecture structural of entity ripple_carry [\ripple_carry(4)\]
+Compiling architecture structural of entity adder_sub [\adder_sub(4)\]
+Compiling architecture behavioral of entity Divisore_NR [\Divisore_NR(4)\]
+Compiling architecture behavior of entity tb_divisore
+Time Resolution for simulation is 1ps.
+Compiled 22 VHDL Units
+Built simulation executable /home/ise/vhdl/progetti_vhdl_ok/divisore_nonrestoring/tb_divisore_isim_beh.exe
+Fuse Memory Usage: 111888 KB
+Fuse CPU Usage: 1620 ms
+GCC CPU Usage: 1260 ms

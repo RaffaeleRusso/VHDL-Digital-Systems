@@ -1,0 +1,6 @@
+vhdl work "FFT.vhd"
+vhdl work "Divisore_freq.vhd"
+vhdl work "Contatore_60.vhd"
+vhdl work "Contatore_24.vhd"
+vhdl work "Orologio_hh_mm_ss.vhd"
+vhdl work "Orologio_TB.vhd"
